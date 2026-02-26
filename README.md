@@ -3,7 +3,7 @@ Whenever you change a Niri setting or add a new config folder to your dotfiles, 
 ```
 git add . #(Stages your changes)
 
-git commit #-m "Updated niri keybinds" (Labels your changes)
+git commit -m "Updated niri keybinds" #(Labels your changes)
 
 git push #(Uploads them to GitHub)
 ```
