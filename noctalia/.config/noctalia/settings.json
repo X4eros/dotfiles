@@ -20,9 +20,9 @@
         "position": "center",
         "screenshotAnnotationTool": "",
         "showCategories": true,
-        "showIconBackground": false,
+        "showIconBackground": true,
         "sortByMostUsed": true,
-        "terminalCommand": "alacritty -e",
+        "terminalCommand": "kitty -e",
         "useApp2Unit": false,
         "viewMode": "list"
     },
@@ -163,6 +163,12 @@
             ],
             "right": [
                 {
+                    "colorName": "primary",
+                    "hideWhenIdle": true,
+                    "id": "AudioVisualizer",
+                    "width": 200
+                },
+                {
                     "blacklist": [
                     ],
                     "chevronColor": "none",
@@ -172,6 +178,9 @@
                     "id": "Tray",
                     "pinned": [
                     ]
+                },
+                {
+                    "id": "plugin:update-count"
                 },
                 {
                     "hideWhenZero": false,
@@ -221,7 +230,7 @@
     },
     "brightness": {
         "brightnessStep": 5,
-        "enableDdcSupport": false,
+        "enableDdcSupport": true,
         "enforceMinimum": true
     },
     "calendar": {
@@ -265,7 +274,7 @@
                 "id": "audio-card"
             },
             {
-                "enabled": false,
+                "enabled": true,
                 "id": "brightness-card"
             },
             {
