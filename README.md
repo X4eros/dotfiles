@@ -10,7 +10,7 @@ How to use this on a new computer?
 If you ever break your system or buy a new one, your "Recovery Plan" is now just 4 commands:
 
 Bash
-git clone https://github.com/X4eros/dotfiles.git ~/dotfiles
+```git clone https://github.com/X4eros/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 stow niri
-stow noctalia
+stow noctalia```
