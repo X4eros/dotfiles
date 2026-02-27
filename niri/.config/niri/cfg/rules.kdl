@@ -13,6 +13,11 @@
     opacity 0.85 // Adjust the opacity value (0.0 to 1.0) as desired
 }
 
+window-rule {
+    //exclude app-id="vivaldi-stable"
+    variable-refresh-rate true
+}
+
     layer-rule {
         match namespace="^noctalia-overview*"
         place-within-backdrop true
