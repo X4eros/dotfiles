@@ -208,7 +208,6 @@ usbutils
 vesktop-bin
 vim
 vivaldi
-vkbasalt-cli
 vlc
 vlc-plugins-all
 vulkan-icd-loader

@@ -33,6 +33,7 @@ binds {
     XF86AudioPause                      allow-when-locked=true { spawn-sh "qs -c noctalia-shell ipc call media playPause"; }
 
     Mod+M                               { spawn-sh "qs -c noctalia-shell ipc call volume muteInput"; }
+    Mod+Shift+M                         { spawn-sh "qs -c noctalia-shell ipc call volume togglePanel"; }
 
     // ─── Brightness Controls ───
     XF86MonBrightnessUp                 allow-when-locked=true { spawn-sh "qs -c noctalia-shell ipc call brightness increase"; }
