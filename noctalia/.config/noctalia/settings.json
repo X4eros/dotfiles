@@ -341,7 +341,18 @@
                     "id": "KeepAwake"
                 },
                 {
-                    "id": "NightLight"
+                    "defaultSettings": {
+                        "colorHistory": [
+                        ],
+                        "installedLangs": [
+                            "eng"
+                        ],
+                        "paletteColors": [
+                        ],
+                        "selectedOcrLang": "eng",
+                        "transAvailable": false
+                    },
+                    "id": "plugin:screen-toolkit"
                 }
             ]
         }

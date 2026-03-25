@@ -13,9 +13,11 @@ binds {
     Mod+B                               hotkey-overlay-title="Open Browser: vivaldi" { spawn "vivaldi"; }
     Mod+ALT+L                           hotkey-overlay-title="Lock Screen: noctalia lock" { spawn-sh "qs -c noctalia-shell ipc call lockScreen lock"; }
     Mod+Shift+Q                        hotkey-overlay-title="Session Menu: noctalia sessionMenu" { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
+
     Mod+S { spawn-sh "qs -c noctalia-shell ipc call controlCenter toggle"; }
     Mod+Comma { spawn-sh "qs -c noctalia-shell ipc call settings toggle"; }
     Mod+Period { spawn-sh "qs -c noctalia-shell ipc call launcher emoji"; }
+    Mod+Shift+S { spawn-sh "qs -c noctalia-shell ipc call plugin:screen-toolkit toggle"; }
 
     // Please choose your own file manager.
     Mod+E                               hotkey-overlay-title="File Manager: Thunar" { spawn "thunar"; }
@@ -29,6 +31,8 @@ binds {
     XF86AudioPrev                       allow-when-locked=true { spawn-sh "qs -c noctalia-shell ipc call media previous"; }
     XF86AudioPlay                       allow-when-locked=true { spawn-sh "qs -c noctalia-shell ipc call media playPause"; }
     XF86AudioPause                      allow-when-locked=true { spawn-sh "qs -c noctalia-shell ipc call media playPause"; }
+
+    Mod+M                               { spawn-sh "qs -c noctalia-shell ipc call volume muteInput"; }
 
     // ─── Brightness Controls ───
     XF86MonBrightnessUp                 allow-when-locked=true { spawn-sh "qs -c noctalia-shell ipc call brightness increase"; }

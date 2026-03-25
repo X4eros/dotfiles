@@ -187,8 +187,11 @@ steam
 stow
 sudo
 sysfsutils
+tesseract
+tesseract-data-eng
 texinfo
 thunar
+translate-shell
 ttf-bitstream-vera
 ttf-dejavu
 ttf-jetbrains-mono-nerd
@@ -205,9 +208,11 @@ usbutils
 vesktop-bin
 vim
 vivaldi
+vkbasalt-cli
 vlc
 vlc-plugins-all
 vulkan-icd-loader
+wf-recorder
 wget
 which
 wireplumber
