@@ -1,0 +1,10 @@
+apollo-git
+cylon
+hyprkcs-git
+millennium
+niri-wip-git
+pinta
+qt5ct-kde
+qt6ct-kde
+sddm-silent-theme
+zenpower3-dkms
