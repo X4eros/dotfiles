@@ -134,6 +134,7 @@ networkmanager
 networkmanager-openvpn
 nfs-utils
 nilfs-utils
+noctalia-qs
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -168,7 +169,6 @@ pv
 python
 python-defusedxml
 python-packaging
-quickshell
 rebuild-detector
 reflector
 ripgrep

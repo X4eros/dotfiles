@@ -1,6 +1,7 @@
 apollo-git
 cylon
-dms-shell-bin
+dms-shell-git
+dsearch-bin
 equibop-bin
 millennium
 niri-wip-git
