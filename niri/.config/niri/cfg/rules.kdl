@@ -18,6 +18,11 @@ layer-rule {
         place-within-backdrop true
 }
 
+layer-rule {
+    match namespace="dms:blurwallpaper"
+    place-within-backdrop true
+}
+
 debug {
   // Allows notification actions and window activation from Noctalia.
   honor-xdg-activation-with-invalid-serial
