@@ -1,10 +1,12 @@
 apollo-git
 cylon
-hyprkcs-git
+equibop-bin
 millennium
 niri-wip-git
+obs-cmd
 pinta
 qt5ct-kde
 qt6ct-kde
 sddm-silent-theme
+stremio
 zenpower3-dkms

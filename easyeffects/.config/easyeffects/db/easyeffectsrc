@@ -1,23 +1,19 @@
-[EffectsPipelines]
-processAllOutputs=false
-
 [StreamInputs]
 inputDevice=alsa_input.usb-KTMicro_USB-C_Audio_202406190940-00.mono-fallback
 plugins=rnnoise#0,autogain#0
-useDefaultInputDevice=false
 visiblePage=pluginsPage
 visiblePlugin=rnnoise#0
 
 [StreamOutputs]
-outputDevice=alsa_output.usb-KTMicro_USB-C_Audio_202406190940-00.analog-stereo
-useDefaultOutputDevice=false
+outputDevice=alsa_output.pci-0000_07_00.4.analog-stereo
 
 [Style]
 forceBreezeTheme=false
 
 [Window]
 autostartOnLogin=true
-height=1408
+height=1416
 visiblePage=inputPage
+visiblePipeWirePage=clientsPage
 visiblePresetSheetPage=autoloadingPage
-width=1238
+width=1245

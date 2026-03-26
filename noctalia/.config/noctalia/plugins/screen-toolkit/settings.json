@@ -2,29 +2,11 @@
   "stateIsRunning": false,
   "stateActiveTool": "",
   "transAvailable": true,
-  "stateMirrorVisible": false,
-  "resultHex": "#281F48",
-  "resultRgb": "rgb(40, 31, 72)",
-  "resultHsv": "hsv(253, 57%, 28%)",
-  "resultHsl": "hsl(253, 40%, 20%)",
-  "colorCapturePath": "/tmp/screen-toolkit-colorpicker.png",
-  "colorHistory": [
-    "#281F48"
-  ],
-  "paletteColors": [
-    "#16131B",
-    "#141030",
-    "#24182C",
-    "#2C1148",
-    "#231A4A",
-    "#544468",
-    "#7F64A4",
-    "#C2BEDA"
-  ],
-  "ocrResult": "thunar",
-  "ocrCapturePath": "/tmp/screen-toolkit-ocr.png",
-  "translateResult": "",
   "installedLangs": [
     "eng"
-  ]
+  ],
+  "stateMirrorVisible": false,
+  "qrResult": "https://discord.com/ra/BUHLhwVM6JXyLi43svLxQRTE7WZ4w9byOcjLDphZZ7Y",
+  "qrCapturePath": "/tmp/screen-toolkit-qr.png"
+}
 }

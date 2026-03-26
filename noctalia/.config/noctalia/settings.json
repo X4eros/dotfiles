@@ -217,15 +217,6 @@
                     "id": "plugin:update-count"
                 },
                 {
-                    "defaultSettings": {
-                        "enableTodoIntegration": false,
-                        "notecardsEnabled": true,
-                        "pincardsEnabled": true,
-                        "showCloseButton": true
-                    },
-                    "id": "plugin:clipper"
-                },
-                {
                     "deviceNativePath": "__default__",
                     "displayMode": "graphic-clean",
                     "hideIfIdle": false,
@@ -332,13 +323,19 @@
             ],
             "right": [
                 {
-                    "id": "Notifications"
-                },
-                {
                     "id": "PowerProfile"
                 },
                 {
                     "id": "KeepAwake"
+                },
+                {
+                    "defaultSettings": {
+                        "enableTodoIntegration": false,
+                        "notecardsEnabled": true,
+                        "pincardsEnabled": true,
+                        "showCloseButton": true
+                    },
+                    "id": "plugin:clipper"
                 },
                 {
                     "defaultSettings": {
@@ -366,7 +363,7 @@
                 "name": "DP-1",
                 "widgets": [
                     {
-                        "hideMode": "visible",
+                        "hideMode": "hidden",
                         "id": "MediaPlayer",
                         "roundedCorners": true,
                         "scale": 0.9998770359951749,
@@ -418,6 +415,16 @@
                         "showBackground": true,
                         "statType": "Memory",
                         "x": 360,
+                        "y": 160
+                    },
+                    {
+                        "diskPath": "/",
+                        "id": "SystemStat",
+                        "layout": "bottom",
+                        "roundedCorners": true,
+                        "showBackground": true,
+                        "statType": "Network",
+                        "x": 640,
                         "y": 160
                     }
                 ]
@@ -776,6 +783,10 @@
             {
                 "enabled": true,
                 "id": "alacritty"
+            },
+            {
+                "enabled": true,
+                "id": "yazi"
             }
         ],
         "enableUserTheming": false
@@ -834,12 +845,12 @@
         "useOriginalImages": false,
         "useSolidColor": false,
         "useWallhaven": false,
-        "viewMode": "browse",
+        "viewMode": "recursive",
         "wallhavenApiKey": "",
         "wallhavenCategories": "111",
         "wallhavenOrder": "desc",
         "wallhavenPurity": "100",
-        "wallhavenQuery": "",
+        "wallhavenQuery": "view purple",
         "wallhavenRatios": "",
         "wallhavenResolutionHeight": "",
         "wallhavenResolutionMode": "atleast",

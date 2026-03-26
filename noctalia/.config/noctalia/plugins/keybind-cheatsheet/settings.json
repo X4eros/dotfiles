@@ -40,6 +40,10 @@
           "desc": "Run: qs -c noctalia-shell ipc call launcher emoji"
         },
         {
+          "keys": "Super + Shift + S",
+          "desc": "Run: qs -c noctalia-shell ipc call plugin:screen-toolkit toggle"
+        },
+        {
           "keys": "Super + E",
           "desc": "File Manager: Thunar"
         },
@@ -74,6 +78,14 @@
         {
           "keys": "Pause",
           "desc": "Run: qs -c noctalia-shell ipc call media playPause"
+        },
+        {
+          "keys": "Super + M",
+          "desc": "Run: qs -c noctalia-shell ipc call volume muteInput"
+        },
+        {
+          "keys": "Super + Shift + M",
+          "desc": "Run: qs -c noctalia-shell ipc call volume togglePanel"
         },
         {
           "keys": "Bright Up",

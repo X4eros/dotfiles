@@ -76,6 +76,7 @@ grim
 gst-libav
 gst-plugin-pipewire
 gst-plugins-bad
+gst-plugins-good
 gst-plugins-ugly
 hdparm
 heroic-games-launcher
@@ -93,6 +94,7 @@ kvantum
 kvantum-qt5
 lact
 less
+lib32-libpulse
 lib32-mangohud
 lib32-nvidia-utils
 lib32-opencl-nvidia
@@ -205,7 +207,6 @@ unzip
 upower
 usb_modeswitch
 usbutils
-vesktop-bin
 vim
 vivaldi
 vlc

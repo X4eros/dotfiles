@@ -18,6 +18,13 @@ binds {
     Mod+Comma { spawn-sh "qs -c noctalia-shell ipc call settings toggle"; }
     Mod+Period { spawn-sh "qs -c noctalia-shell ipc call launcher emoji"; }
     Mod+Shift+S { spawn-sh "qs -c noctalia-shell ipc call plugin:screen-toolkit toggle"; }
+    Mod+Shift+V { spawn-sh "qs -c noctalia-shell ipc call plugin:clipper toggle"; }
+
+    Mod+Prior { spawn "obs-cmd" "replay" "toggle"; }
+    Mod+Page_Down { spawn "obs-cmd" "replay" "save"; }
+    Mod+Shift+Prior { spawn "obs-cmd" "recording" "toggle"; }
+
+    Mod+Minus { spawn "equibop" "--toggle-mic"; }
 
     // Please choose your own file manager.
     Mod+E                               hotkey-overlay-title="File Manager: Thunar" { spawn "thunar"; }
@@ -119,8 +126,8 @@ binds {
     Mod+F                               { maximize-column; }
     Mod+C                               { center-column; }
     Mod+CTRL+C                          { center-visible-columns; }
-    Mod+Minus                           { set-column-width "-10%"; }
-    Mod+Equal                           { set-column-width "+10%"; }
+    //Mod+Minus                           { set-column-width "-10%"; }
+    //Mod+Equal                           { set-column-width "+10%"; }
     Mod+Shift+Minus                     { set-window-height "-10%"; }
     Mod+Shift+Equal                     { set-window-height "+10%"; }
 
