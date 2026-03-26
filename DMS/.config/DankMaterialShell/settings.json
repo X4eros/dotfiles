@@ -377,7 +377,7 @@
   "notificationHistorySaveCritical": true,
   "notificationRules": [],
   "notificationFocusedMonitor": false,
-  "osdAlwaysShowValue": false,
+  "osdAlwaysShowValue": true,
   "osdPosition": 5,
   "osdVolumeEnabled": true,
   "osdMediaVolumeEnabled": true,
@@ -520,7 +520,7 @@
       "autoHide": false,
       "autoHideDelay": 250,
       "showOnWindowsOpen": false,
-      "openOnOverview": true,
+      "openOnOverview": false,
       "visible": true,
       "popupGapsAuto": true,
       "popupGapsManual": 4,
@@ -715,7 +715,7 @@
       },
       "positions": {
         "DP-1": {
-          "width": 200,
+          "width": 280,
           "height": 200,
           "x": 1160,
           "y": 120

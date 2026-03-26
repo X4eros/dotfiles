@@ -5,6 +5,7 @@ alsa-firmware
 alsa-plugins
 alsa-utils
 amd-ucode
+apollo-git
 ark
 awesome-terminal-fonts
 base
@@ -40,6 +41,8 @@ cachyos-zsh-config
 cantarell-fonts
 capitaine-cursors
 cava
+chaotic-keyring
+chaotic-mirrorlist
 chwd
 cliphist
 cpupower
@@ -49,6 +52,7 @@ device-mapper
 diffutils
 dmidecode
 dmraid
+dms-shell-git
 dnscrypt-proxy
 dnsmasq
 dosfstools
@@ -82,7 +86,6 @@ hdparm
 heroic-games-launcher
 hwdetect
 hwinfo
-hyprland
 hyprpolkitagent
 inetutils
 iptables-nft
@@ -134,7 +137,6 @@ networkmanager
 networkmanager-openvpn
 nfs-utils
 nilfs-utils
-noctalia-qs
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -153,6 +155,7 @@ pamac-aur
 paru
 pavucontrol
 perl
+pinta
 pipewire-alsa
 pipewire-pulse
 pkgfile
@@ -169,6 +172,8 @@ pv
 python
 python-defusedxml
 python-packaging
+qt6ct-kde
+quickshell-git
 rebuild-detector
 reflector
 ripgrep
@@ -207,6 +212,7 @@ usb_modeswitch
 usbutils
 vim
 vivaldi
+vkbasalt
 vlc
 vlc-plugins-all
 vulkan-icd-loader
@@ -223,3 +229,4 @@ xl2tpd
 xwayland-satellite
 yazi
 zed
+zenpower3-dkms
