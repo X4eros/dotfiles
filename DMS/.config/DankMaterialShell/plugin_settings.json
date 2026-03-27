@@ -1,5 +1,54 @@
 {
   "grimblast": {
     "enabled": true
+  },
+  "calculator": {
+    "enabled": true,
+    "trigger": "",
+    "noTrigger": true
+  },
+  "clipboardPlus": {
+    "enabled": true,
+    "listenClipboardWhileOpen": true,
+    "tabOrder": "clipboard,search,category,pinned,todo",
+    "tabOrderEnabled": "clipboard,search,category,pinned,todo"
+  },
+  "emojiLauncher": {
+    "enabled": true,
+    "recentEmojis": ""
+  },
+  "simpleAudioControl": {
+    "enabled": true
+  },
+  "webSearch": {
+    "enabled": true,
+    "searchEngines": [],
+    "disabledEngines": [
+      "brave",
+      "bing",
+      "duckduckgo",
+      "kagi",
+      "stackoverflow",
+      "amazon",
+      "ebay",
+      "wikipedia",
+      "twitter",
+      "linkedin",
+      "imdb",
+      "nixpkgs",
+      "nixopts",
+      "npmjs",
+      "pypi",
+      "mdn"
+    ]
+  },
+  "screenRecorder": {
+    "enabled": true
+  },
+  "commandRunner": {
+    "enabled": true,
+    "history": [
+      "paru"
+    ]
   }
 }

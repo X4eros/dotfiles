@@ -76,6 +76,8 @@ git
 glances
 goverlay
 gparted
+gpu-screen-recorder
+gpu-screen-recorder-ui
 grim
 gst-libav
 gst-plugin-pipewire
@@ -86,7 +88,6 @@ hdparm
 heroic-games-launcher
 hwdetect
 hwinfo
-hyprpolkitagent
 inetutils
 iptables-nft
 iwd
@@ -137,6 +138,7 @@ networkmanager
 networkmanager-openvpn
 nfs-utils
 nilfs-utils
+normcap
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
