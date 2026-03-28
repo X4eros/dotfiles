@@ -87,6 +87,7 @@ gst-plugins-ugly
 hdparm
 hwdetect
 hwinfo
+hyprland-git
 inetutils
 iptables-nft
 iwd
@@ -147,7 +148,6 @@ nvidia-settings
 nvidia-utils
 nwg-look
 obs-studio
-octopi
 opencl-nvidia
 openssh
 os-prober
@@ -184,6 +184,7 @@ sbctl
 scdoc
 sddm
 sg3_utils
+shelly
 slurp
 smartmontools
 snapper
