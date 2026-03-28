@@ -85,7 +85,6 @@ gst-plugins-bad
 gst-plugins-good
 gst-plugins-ugly
 hdparm
-heroic-games-launcher
 hwdetect
 hwinfo
 inetutils

@@ -1,6 +1,7 @@
 cylon
 dsearch-bin
 equibop-bin
+heroic-games-launcher
 millennium
 niri-wip-git
 obs-cmd
