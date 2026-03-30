@@ -16,7 +16,7 @@
   "cornerRadius": 12,
   "niriLayoutGapsOverride": 12,
   "niriLayoutRadiusOverride": 16,
-  "niriLayoutBorderSize": -1,
+  "niriLayoutBorderSize": 6,
   "hyprlandLayoutGapsOverride": 6,
   "hyprlandLayoutRadiusOverride": 20,
   "hyprlandLayoutBorderSize": 3,
@@ -48,6 +48,10 @@
   "modalElevationEnabled": true,
   "popoutElevationEnabled": true,
   "barElevationEnabled": true,
+  "blurEnabled": false,
+  "blurBorderColor": "outline",
+  "blurBorderCustomColor": "#ffffff",
+  "blurBorderOpacity": 1,
   "wallpaperFillMode": "Fill",
   "blurredWallpaperLayer": true,
   "blurWallpaperOnOverview": false,
@@ -127,9 +131,9 @@
       "width": 50
     }
   ],
-  "showWorkspaceIndex": false,
+  "showWorkspaceIndex": true,
   "showWorkspaceName": false,
-  "showWorkspacePadding": true,
+  "showWorkspacePadding": false,
   "workspaceScrolling": false,
   "showWorkspaceApps": true,
   "workspaceDragReorder": true,
@@ -195,6 +199,7 @@
   "sortAppsAlphabetically": false,
   "appLauncherGridColumns": 4,
   "spotlightCloseNiriOverview": true,
+  "rememberLastQuery": false,
   "spotlightSectionViewModes": {},
   "appDrawerSectionViewModes": {},
   "niriOverviewOverlayEnabled": true,
@@ -416,15 +421,20 @@
   "niriOutputSettings": {},
   "hyprlandOutputSettings": {
     "DP-1": {
-      "bitdepth": 10,
       "colorManagement": "auto",
-      "sdrBrightness": 1.4
+      "sdrBrightness": 2,
+      "bitdepth": 10
+    },
+    "desc:Dell Inc. DELL G2724D C3D16Y3": {
+      "bitdepth": 10,
+      "colorManagement": "hdr",
+      "sdrBrightness": 1.5
     }
   },
   "displayProfiles": {},
   "activeDisplayProfile": {},
   "displayProfileAutoSelect": false,
-  "displayShowDisconnected": false,
+  "displayShowDisconnected": true,
   "displaySnapToEdge": true,
   "barConfigs": [
     {
@@ -684,6 +694,24 @@
           "height": 480,
           "x": 2200,
           "y": 40
+        },
+        "DELL G2724D": {
+          "width": 320,
+          "height": 480,
+          "x": 1120,
+          "y": 480
+        },
+        "": {
+          "width": 160,
+          "height": 180,
+          "x": 0,
+          "y": 0
+        },
+        "WAYLAND-1": {
+          "width": 320,
+          "height": 480,
+          "x": 150,
+          "y": 114
         }
       },
       "group": null
@@ -712,7 +740,25 @@
           "width": 360,
           "height": 160,
           "x": 1120,
+          "y": 40
+        },
+        "DELL G2724D": {
+          "width": 160,
+          "height": 70,
+          "x": 1200,
+          "y": 685
+        },
+        "": {
+          "width": 100,
+          "height": 45,
+          "x": 0,
           "y": 0
+        },
+        "WAYLAND-1": {
+          "width": 160,
+          "height": 70,
+          "x": 230,
+          "y": 319
         }
       },
       "group": "dwg_1774536714950_ownnh4wgc"
@@ -734,6 +780,24 @@
           "height": 200,
           "x": 80,
           "y": 40
+        },
+        "DELL G2724D": {
+          "width": 320,
+          "height": 200,
+          "x": 1120,
+          "y": 620
+        },
+        "": {
+          "width": 320,
+          "height": 160,
+          "x": 0,
+          "y": 0
+        },
+        "WAYLAND-1": {
+          "width": 320,
+          "height": 200,
+          "x": 150,
+          "y": 254
         }
       }
     },
@@ -755,7 +819,25 @@
           "width": 280,
           "height": 200,
           "x": 1160,
-          "y": 120
+          "y": 160
+        },
+        "DELL G2724D": {
+          "width": 200,
+          "height": 200,
+          "x": 1180,
+          "y": 620
+        },
+        "": {
+          "width": 140,
+          "height": 100,
+          "x": 0,
+          "y": 0
+        },
+        "WAYLAND-1": {
+          "width": 200,
+          "height": 200,
+          "x": 210,
+          "y": 254
         }
       },
       "group": "dwg_1774536714950_ownnh4wgc"

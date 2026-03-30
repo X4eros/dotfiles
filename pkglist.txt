@@ -70,6 +70,7 @@ fastfetch
 faugus-launcher
 ffmpegthumbnailer
 filelight
+freedownloadmanager
 fsarchiver
 gamemode
 git
@@ -92,7 +93,6 @@ inetutils
 iptables-nft
 iwd
 jfsutils
-kate
 kitty
 kvantum
 kvantum-qt5
@@ -215,7 +215,6 @@ usbutils
 vim
 vivaldi
 vkbasalt
-vlc
 vlc-plugins-all
 vulkan-icd-loader
 wf-recorder
