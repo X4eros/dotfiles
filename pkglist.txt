@@ -229,5 +229,6 @@ xfsprogs
 xl2tpd
 xwayland-satellite
 yazi
+zapzap
 zed
 zenpower3-dkms

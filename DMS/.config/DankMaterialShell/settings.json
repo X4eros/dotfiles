@@ -33,7 +33,7 @@
   "nightModeEnabled": false,
   "animationSpeed": 1,
   "customAnimationDuration": 200,
-  "syncComponentAnimationSpeeds": false,
+  "syncComponentAnimationSpeeds": true,
   "popoutAnimationSpeed": 1,
   "popoutCustomAnimationDuration": 150,
   "modalAnimationSpeed": 4,
@@ -251,8 +251,8 @@
   "soundNewNotification": true,
   "soundVolumeChanged": true,
   "soundPluggedIn": true,
-  "acMonitorTimeout": 600,
-  "acLockTimeout": 300,
+  "acMonitorTimeout": 900,
+  "acLockTimeout": 600,
   "acSuspendTimeout": 0,
   "acSuspendBehavior": 0,
   "acProfileName": "",
@@ -411,7 +411,7 @@
   "customPowerActionHibernate": "",
   "customPowerActionReboot": "",
   "customPowerActionPowerOff": "",
-  "updaterHideWidget": false,
+  "updaterHideWidget": true,
   "updaterUseCustomCommand": false,
   "updaterCustomCommand": "",
   "updaterTerminalAdditionalParams": "",
@@ -422,20 +422,19 @@
   "hyprlandOutputSettings": {
     "DP-1": {
       "colorManagement": "auto",
-      "sdrBrightness": 2,
-      "bitdepth": 10
+      "bitdepth": 10,
+      "sdrBrightness": 2
     },
     "desc:Dell Inc. DELL G2724D C3D16Y3": {
       "bitdepth": 10,
-      "colorManagement": "hdr",
-      "sdrBrightness": 1.5
+      "colorManagement": "auto"
     }
   },
   "displayProfiles": {},
   "activeDisplayProfile": {},
   "displayProfileAutoSelect": false,
   "displayShowDisconnected": true,
-  "displaySnapToEdge": true,
+  "displaySnapToEdge": false,
   "barConfigs": [
     {
       "id": "default",
@@ -691,7 +690,7 @@
       "positions": {
         "DP-1": {
           "width": 320,
-          "height": 480,
+          "height": 600,
           "x": 2200,
           "y": 40
         },
@@ -712,6 +711,12 @@
           "height": 480,
           "x": 150,
           "y": 114
+        },
+        "winit": {
+          "width": 320,
+          "height": 480,
+          "x": 460,
+          "y": 111
         }
       },
       "group": null
@@ -759,6 +764,12 @@
           "height": 70,
           "x": 230,
           "y": 319
+        },
+        "winit": {
+          "width": 160,
+          "height": 70,
+          "x": 540,
+          "y": 316
         }
       },
       "group": "dwg_1774536714950_ownnh4wgc"
@@ -798,6 +809,12 @@
           "height": 200,
           "x": 150,
           "y": 254
+        },
+        "winit": {
+          "width": 320,
+          "height": 200,
+          "x": 460,
+          "y": 251
         }
       }
     },
@@ -838,6 +855,12 @@
           "height": 200,
           "x": 210,
           "y": 254
+        },
+        "winit": {
+          "width": 200,
+          "height": 200,
+          "x": 520,
+          "y": 251
         }
       },
       "group": "dwg_1774536714950_ownnh4wgc"
