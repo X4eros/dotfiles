@@ -464,9 +464,8 @@
           "runningAppsCurrentMonitor": false
         },
         {
-          "id": "focusedWindow",
-          "enabled": true,
-          "focusedWindowCompactMode": false
+          "id": "wallpaperDiscovery",
+          "enabled": true
         }
       ],
       "centerWidgets": [

@@ -113,6 +113,9 @@ limine-snapper-sync
 linux-cachyos
 linux-cachyos-headers
 linux-cachyos-nvidia-open
+linux-cachyos-rc
+linux-cachyos-rc-headers
+linux-cachyos-rc-nvidia-open
 linux-firmware
 logrotate
 loupe
@@ -203,6 +206,7 @@ ttf-bitstream-vera
 ttf-dejavu
 ttf-jetbrains-mono-nerd
 ttf-liberation
+ttf-material-symbols-variable-git
 ttf-meslo-nerd
 ttf-opensans
 tumbler
@@ -228,6 +232,7 @@ xdg-user-dirs
 xfsprogs
 xl2tpd
 xwayland-satellite
+yay
 yazi
 zapzap
 zed

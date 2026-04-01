@@ -50,5 +50,8 @@
     "history": [
       "paru"
     ]
+  },
+  "wallpaperDiscovery": {
+    "enabled": true
   }
 }

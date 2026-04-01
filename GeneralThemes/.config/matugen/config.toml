@@ -24,7 +24,8 @@ output_path = '/windrive/Users/Yakup/Documents/Vivaldi/vivaldi.css'
 [templates.spotify]
 input_path = '~/.config/matugen/templates/spicetify.ini'
 output_path = '~/.config/spicetify/Themes/Sleek/color.ini'
-post_hook = 'spicetify watch -s 2>&1 | sed "/Reloaded Spotify/q"'
+post_hook = 'spicetify refresh'
+#post_hook = 'spicetify watch -s 2>&1 | sed "/Reloaded Spotify/q"'
 # ...
 [templates.kvantum_kvconfig]
 input_path = '~/.config/matugen/templates/kvantum-colors.kvconfig'
@@ -34,3 +35,8 @@ output_path = '~/.config/Kvantum/matugen/matugen.kvconfig'
 input_path = '~/.config/matugen/templates/kvantum-colors.svg'
 output_path = '~/.config/Kvantum/matugen/matugen.svg'
 # ...
+
+[templates.iisddmtheme]
+input_path = '~/.config/ii-sddm-theme/SddmColors.qml'
+output_path = '~/.config/ii-sddm-theme/Colors.qml'
+post_hook = 'sudo ~/.config/ii-sddm-theme/sddm-theme-apply.sh &'
