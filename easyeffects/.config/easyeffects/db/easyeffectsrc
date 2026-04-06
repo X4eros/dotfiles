@@ -12,7 +12,7 @@ forceBreezeTheme=false
 
 [Window]
 autostartOnLogin=true
-height=702
+height=1416
 visiblePage=inputPage
 visiblePipeWirePage=clientsPage
 visiblePresetSheetPage=autoloadingPage

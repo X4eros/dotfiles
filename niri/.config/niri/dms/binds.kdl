@@ -94,7 +94,8 @@ binds {
     Mod+WheelScrollRight { focus-column-right; }
     Mod+Shift+P { power-off-monitors; }
     CTRL+Shift+1 { screenshot; }
-    CTRL+Shift+2 { screenshot-screen; }
+    CTRL+Shift+2 hotkey-overlay-title="Screenshot Screen" { screenshot-screen write-to-disk=true; }
+    Print hotkey-overlay-title="Screenshot Screen" { screenshot-screen; }
     Mod+B hotkey-overlay-title="Open Browser: vivaldi" { spawn "vivaldi"; }
     Mod+E hotkey-overlay-title="File Manager: Thunar" { spawn "thunar"; }
     Mod+Minus { spawn "equibop" "--toggle-mic"; }

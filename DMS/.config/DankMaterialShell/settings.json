@@ -423,7 +423,8 @@
     "DP-1": {
       "colorManagement": "auto",
       "bitdepth": 10,
-      "sdrBrightness": 2
+      "sdrBrightness": 1.4,
+      "sdrSaturation": 1.1
     },
     "desc:Dell Inc. DELL G2724D C3D16Y3": {
       "bitdepth": 10,
@@ -465,6 +466,10 @@
         },
         {
           "id": "wallpaperDiscovery",
+          "enabled": true
+        },
+        {
+          "id": "clipboardPlus",
           "enabled": true
         }
       ],

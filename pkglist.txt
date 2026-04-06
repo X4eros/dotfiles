@@ -12,6 +12,7 @@ base
 base-devel
 bash-completion
 bind
+blocky
 bluez
 bluez-hid2hci
 bluez-libs
@@ -53,7 +54,6 @@ diffutils
 dmidecode
 dmraid
 dms-shell-git
-dnscrypt-proxy
 dnsmasq
 dosfstools
 duf
@@ -70,6 +70,7 @@ fastfetch
 faugus-launcher
 ffmpegthumbnailer
 filelight
+flatseal
 freedownloadmanager
 fsarchiver
 gamemode
@@ -88,9 +89,9 @@ gst-plugins-ugly
 hdparm
 hwdetect
 hwinfo
-hyprland-git
+hyprland
 inetutils
-iptables-nft
+iptables
 iwd
 jfsutils
 kitty
@@ -219,7 +220,6 @@ usbutils
 vim
 vivaldi
 vkbasalt
-vlc-plugins-all
 vulkan-icd-loader
 wf-recorder
 wget
