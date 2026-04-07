@@ -94,6 +94,7 @@ inetutils
 iptables
 iwd
 jfsutils
+kdeconnect
 kitty
 kvantum
 kvantum-qt5
@@ -156,7 +157,6 @@ opencl-nvidia
 openssh
 os-prober
 pacman-contrib
-pamac-aur
 paru
 pavucontrol
 perl
