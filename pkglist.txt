@@ -70,7 +70,6 @@ fastfetch
 faugus-launcher
 ffmpegthumbnailer
 filelight
-flatseal
 freedownloadmanager
 fsarchiver
 gamemode
@@ -80,7 +79,6 @@ goverlay
 gparted
 gpu-screen-recorder
 gpu-screen-recorder-ui
-grim
 gst-libav
 gst-plugin-pipewire
 gst-plugins-bad
@@ -131,6 +129,7 @@ mdadm
 meld
 mesa-utils
 micro
+mission-center
 mkinitcpio
 modemmanager
 mpv
@@ -157,6 +156,7 @@ opencl-nvidia
 openssh
 os-prober
 pacman-contrib
+papirus-icon-theme
 paru
 pavucontrol
 perl
@@ -164,7 +164,6 @@ pinta
 pipewire-alsa
 pipewire-pulse
 pkgfile
-plasma-systemmonitor
 plocate
 plymouth
 polkit-gnome
@@ -172,7 +171,6 @@ poppler-glib
 power-profiles-daemon
 prismlauncher
 protonplus
-protonup-qt
 pv
 python
 python-defusedxml
@@ -189,11 +187,11 @@ scdoc
 sddm
 sg3_utils
 shelly
-slurp
 smartmontools
 snapper
 sof-firmware
 spotify-launcher
+starship
 steam
 stow
 sudo

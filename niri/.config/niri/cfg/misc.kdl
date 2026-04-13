@@ -9,6 +9,7 @@
         XDG_CURRENT_DESKTOP "niri"
         QT_QPA_PLATFORMTHEME "qt5ct"
         QT_QPA_PLATFORMTHEME_QT6 "qt6ct"
+        DMS_MODAL_LAYER "overlay"
     }
 
     debug {

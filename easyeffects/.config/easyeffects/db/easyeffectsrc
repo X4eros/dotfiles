@@ -5,15 +5,15 @@ visiblePage=pluginsPage
 visiblePlugin=rnnoise#0
 
 [StreamOutputs]
-outputDevice=alsa_output.pci-0000_07_00.4.analog-stereo
+outputDevice=alsa_output.pci-0000_07_00.4.analog-stereo.6
 
 [Style]
 forceBreezeTheme=false
 
 [Window]
 autostartOnLogin=true
-height=1416
+height=1424
 visiblePage=inputPage
 visiblePipeWirePage=clientsPage
 visiblePresetSheetPage=autoloadingPage
-width=1240
+width=1246
