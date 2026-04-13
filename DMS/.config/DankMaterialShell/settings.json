@@ -17,7 +17,7 @@
   "niriLayoutGapsOverride": 8,
   "niriLayoutRadiusOverride": 12,
   "niriLayoutBorderSize": 4,
-  "hyprlandLayoutGapsOverride": 6,
+  "hyprlandLayoutGapsOverride": 4,
   "hyprlandLayoutRadiusOverride": 20,
   "hyprlandLayoutBorderSize": 3,
   "mangoLayoutGapsOverride": -1,

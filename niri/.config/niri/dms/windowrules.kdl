@@ -1,8 +1,2 @@
 // DMS Window Rules - Managed by DankMaterialShell
 // Do not edit manually - changes may be overwritten
-
-// @id=wr_1775573636845924240 @name=gsr-ui
-window-rule {
-    match app-id="^gsr-ui$"
-    opacity 0.10
-}

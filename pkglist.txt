@@ -18,6 +18,7 @@ bluez-hid2hci
 bluez-libs
 bluez-obex
 bluez-utils
+bpftune-git
 btop
 btrfs-assistant
 btrfs-progs
@@ -226,6 +227,7 @@ wireplumber
 wlsunset
 wpa_supplicant
 wqy-zenhei
+xdg-desktop-portal-hyprland-git
 xdg-user-dirs
 xfsprogs
 xl2tpd
