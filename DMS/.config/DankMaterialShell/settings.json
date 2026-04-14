@@ -719,6 +719,12 @@
           "height": 480,
           "x": 460,
           "y": 111
+        },
+        "WL-1": {
+          "width": 320,
+          "height": 480,
+          "x": 480,
+          "y": 120
         }
       },
       "group": null
@@ -772,6 +778,12 @@
           "height": 70,
           "x": 540,
           "y": 316
+        },
+        "WL-1": {
+          "width": 160,
+          "height": 70,
+          "x": 560,
+          "y": 325
         }
       },
       "group": "dwg_1774536714950_ownnh4wgc"
@@ -817,6 +829,12 @@
           "height": 200,
           "x": 460,
           "y": 251
+        },
+        "WL-1": {
+          "width": 320,
+          "height": 200,
+          "x": 480,
+          "y": 260
         }
       }
     },
@@ -863,6 +881,12 @@
           "height": 200,
           "x": 520,
           "y": 251
+        },
+        "WL-1": {
+          "width": 200,
+          "height": 200,
+          "x": 540,
+          "y": 260
         }
       },
       "group": "dwg_1774536714950_ownnh4wgc"
@@ -878,6 +902,14 @@
   "builtInPluginSettings": {
     "dms_settings_search": {
       "trigger": "?"
+    },
+    "dankNotepadModule": {
+      "previewActive": false,
+      "currentFilePath": "notepad-files/untitled-1774530759210.txt",
+      "currentFileExtension": "txt",
+      "sourceContent": "hi there (seks)",
+      "updatedAt": 1776124176466,
+      "highlightedHtml": "<pre style=\"white-space:pre-wrap;word-break:break-word;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;\"><code><span style=\"display:flex;\"><span>hi there (seks)</span></span></code></pre>"
     }
   },
   "clipboardEnterToPaste": false,

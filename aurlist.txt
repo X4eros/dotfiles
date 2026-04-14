@@ -7,4 +7,3 @@ niri-wip-git
 obs-cmd
 qt5ct-kde
 sddm-conf-git
-sddm-silent-theme

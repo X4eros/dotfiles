@@ -15,7 +15,7 @@
   },
   "emojiLauncher": {
     "enabled": true,
-    "recentEmojis": ""
+    "recentEmojis": "🤓,"
   },
   "simpleAudioControl": {
     "enabled": true
@@ -52,6 +52,12 @@
     ]
   },
   "wallpaperDiscovery": {
+    "enabled": true
+  },
+  "dankNotepadModule": {
+    "enabled": true
+  },
+  "discordVoice": {
     "enabled": true
   }
 }

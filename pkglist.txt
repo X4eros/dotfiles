@@ -71,6 +71,7 @@ fastfetch
 faugus-launcher
 ffmpegthumbnailer
 filelight
+flatpak
 freedownloadmanager
 fsarchiver
 gamemode
@@ -85,6 +86,7 @@ gst-plugin-pipewire
 gst-plugins-bad
 gst-plugins-good
 gst-plugins-ugly
+gvfs
 hdparm
 hwdetect
 hwinfo
@@ -125,6 +127,7 @@ lsscsi
 lvm2
 man-db
 man-pages
+mangowm
 matugen
 mdadm
 meld
@@ -227,6 +230,7 @@ wireplumber
 wlsunset
 wpa_supplicant
 wqy-zenhei
+xdg-desktop-portal-gtk
 xdg-desktop-portal-hyprland-git
 xdg-user-dirs
 xfsprogs
