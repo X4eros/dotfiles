@@ -48,6 +48,7 @@
   "commandRunner": {
     "enabled": true,
     "history": [
+      "opencode",
       "paru"
     ]
   },

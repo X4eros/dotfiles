@@ -1,5 +1,6 @@
 accountsservice
 adw-gtk-theme
+adwsteamgtk
 alacritty
 alsa-firmware
 alsa-plugins
@@ -24,7 +25,6 @@ btrfs-assistant
 btrfs-progs
 cachyos-alacritty-config
 cachyos-fish-config
-cachyos-gaming-meta
 cachyos-hello
 cachyos-hooks
 cachyos-kernel-manager
@@ -51,6 +51,7 @@ cpupower
 cryptsetup
 ddcutil
 device-mapper
+dex
 diffutils
 dmidecode
 dmraid
@@ -77,6 +78,7 @@ fsarchiver
 gamemode
 git
 glances
+glfw
 goverlay
 gparted
 gpu-screen-recorder
@@ -88,6 +90,7 @@ gst-plugins-good
 gst-plugins-ugly
 gvfs
 hdparm
+helium-browser-bin
 hwdetect
 hwinfo
 hyprland
@@ -114,15 +117,16 @@ limine
 limine-mkinitcpio-hook
 limine-snapper-sync
 linux-cachyos
+linux-cachyos-bore-lto
+linux-cachyos-bore-lto-headers
+linux-cachyos-bore-lto-nvidia-open
 linux-cachyos-headers
 linux-cachyos-nvidia-open
-linux-cachyos-rc
-linux-cachyos-rc-headers
-linux-cachyos-rc-nvidia-open
 linux-firmware
 logrotate
 loupe
 lsb-release
+lsp-plugins
 lsscsi
 lvm2
 man-db
@@ -145,6 +149,7 @@ networkmanager
 networkmanager-openvpn
 nfs-utils
 nilfs-utils
+niri-git
 normcap
 noto-fonts
 noto-fonts-cjk
@@ -156,6 +161,7 @@ nvidia-utils
 nwg-look
 obs-studio
 opencl-nvidia
+opencode
 openssh
 os-prober
 pacman-contrib
@@ -174,6 +180,7 @@ poppler-glib
 power-profiles-daemon
 prismlauncher
 protonplus
+protontricks
 pv
 python
 python-defusedxml
@@ -214,18 +221,19 @@ ttf-meslo-nerd
 ttf-opensans
 tumbler
 ufw
+umu-launcher
 unrar
 unzip
 upower
 usb_modeswitch
 usbutils
 vim
-vivaldi
 vkbasalt
 vulkan-icd-loader
 wf-recorder
 wget
 which
+wine
 wireplumber
 wlsunset
 wpa_supplicant

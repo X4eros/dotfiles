@@ -1,3 +1,6 @@
+[Presets]
+lastLoadedOutputPreset=Perfect EQ
+
 [StreamInputs]
 inputDevice=alsa_input.usb-KTMicro_USB-C_Audio_202406190940-00.mono-fallback
 plugins=rnnoise#0,autogain#0
@@ -5,15 +8,19 @@ visiblePage=pluginsPage
 visiblePlugin=rnnoise#0
 
 [StreamOutputs]
-outputDevice=alsa_output.pci-0000_07_00.4.analog-stereo.6
+mostUsedPresets=Perfect EQ
+outputDevice=alsa_output.pci-0000_07_00.4.analog-stereo
+plugins=equalizer#0
+usedPresets=Perfect EQ:2
+visiblePage=pluginsPage
+visiblePlugin=equalizer#0
 
 [Style]
 forceBreezeTheme=false
 
 [Window]
 autostartOnLogin=true
-height=1424
-visiblePage=inputPage
+height=1430
 visiblePipeWirePage=clientsPage
 visiblePresetSheetPage=autoloadingPage
-width=1246
+width=1248

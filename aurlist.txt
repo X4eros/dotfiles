@@ -2,8 +2,6 @@ cylon
 dsearch-bin
 equibop-bin
 heroic-games-launcher
-millennium
-niri-wip-git
 obs-cmd
 qt5ct-kde
 sddm-conf-git
