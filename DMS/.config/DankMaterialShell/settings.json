@@ -9,7 +9,7 @@
   "matugenTargetMonitor": "",
   "popupTransparency": 1,
   "dockTransparency": 1,
-  "widgetBackgroundColor": "sch",
+  "widgetBackgroundColor": "sth",
   "widgetColorMode": "colorful",
   "controlCenterTileColorMode": "primary",
   "buttonColorMode": "primary",
@@ -489,7 +489,8 @@
       "rightWidgets": [
         {
           "id": "systemTray",
-          "enabled": true
+          "enabled": true,
+          "trayUseInlineExpansion": false
         },
         {
           "id": "notificationButton",
@@ -497,7 +498,8 @@
         },
         {
           "id": "music",
-          "enabled": true
+          "enabled": true,
+          "mediaSize": 1
         },
         {
           "id": "systemUpdate",
@@ -512,6 +514,7 @@
           "id": "memUsage",
           "enabled": true,
           "minimumWidth": true,
+          "showSwap": false,
           "showInGb": false
         },
         {
@@ -549,7 +552,7 @@
       "spacing": 4,
       "innerPadding": 4,
       "bottomGap": 0,
-      "transparency": 0.8,
+      "transparency": 0.75,
       "widgetTransparency": 1,
       "squareCorners": false,
       "noBackground": false,
@@ -564,7 +567,7 @@
       "borderColor": "surfaceText",
       "borderOpacity": 1,
       "borderThickness": 1,
-      "widgetOutlineEnabled": true,
+      "widgetOutlineEnabled": false,
       "widgetOutlineColor": "primary",
       "widgetOutlineOpacity": 0.5,
       "widgetOutlineThickness": 2,

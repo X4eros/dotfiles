@@ -1,12 +1,16 @@
 {
-  "stateIsRunning": false,
-  "stateActiveTool": "",
-  "transAvailable": true,
+  "colorHistory": [],
+  "paletteColors": [],
   "installedLangs": [
     "eng"
   ],
-  "stateMirrorVisible": false,
-  "qrResult": "https://discord.com/ra/BUHLhwVM6JXyLi43svLxQRTE7WZ4w9byOcjLDphZZ7Y",
-  "qrCapturePath": "/tmp/screen-toolkit-qr.png"
-}
+  "transAvailable": true,
+  "selectedOcrLang": "eng",
+  "screenshotPath": "",
+  "videoPath": "",
+  "filenameFormat": "",
+  "detectedRecorder": "wl-screenrec",
+  "detectedCompositor": "hyprland",
+  "stateIsRunning": false,
+  "stateActiveTool": ""
 }

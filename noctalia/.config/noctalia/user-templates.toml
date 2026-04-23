@@ -1,17 +1,54 @@
 [config]
+# ...
+[templates.obs]
+input_path = '~/.config/matugen/templates/matugen.obt'
+output_path = '~/.config/obs-studio/themes/matugen.obt'
+# ...
+[templates.millennium]
+input_path = '~/.config/matugen/templates/steammat.css'
+output_path = '~/.steam/steam/steamui/skins/Material-Theme/css/main/colors/matugen.css'
+# ...
+[templates.yazi]
+input_path = '~/.config/matugen/templates/yazi-theme.toml'
+output_path = '~/.config/yazi/theme.toml'
+# ...
+[templates.cava]
+input_path = '~/.config/matugen/templates/cava-colors.ini'
+output_path = '~/.config/cava/themes/your-theme'
+post_hook = 'pkill -USR1 cava'
+# ...
+[templates.spotify]
+input_path = '~/.config/matugen/templates/spicetify.ini'
+output_path = '~/.config/spicetify/Themes/Sleek/color.ini'
+post_hook = 'spicetify refresh'
+# ...
+[templates.kvantum_kvconfig]
+input_path = '~/.config/matugen/templates/kvantum-colors.kvconfig'
+output_path = '~/.config/Kvantum/matugen/matugen.kvconfig'
 
-[templates]
-
-# User-defined templates
-# Add your custom templates below
-# Example:
-# [templates.myapp]
-# input_path = "~/.config/noctalia/templates/myapp.css"
-# output_path = "~/.config/myapp/theme.css"
-# post_hook = "myapp --reload-theme"
-
-# Remove this section and add your own templates
-#[templates.placeholder]
-#input_path = "/etc/xdg/quickshell/noctalia-shell/Assets/Templates/noctalia.json"
-#output_path = "/home/x4eros/.cache/noctalia/placeholder.json"
-
+[templates.kvantum_svg]
+input_path = '~/.config/matugen/templates/kvantum-colors.svg'
+output_path = '~/.config/Kvantum/matugen/matugen.svg'
+# ...
+[templates.iisddmtheme]
+input_path = '~/.config/ii-sddm-theme/SddmColors.qml'
+output_path = '~/.config/ii-sddm-theme/Colors.qml'
+post_hook = 'sudo ~/.config/ii-sddm-theme/sddm-theme-apply.sh &'
+# ...
+[templates.starship]
+input_path = '~/.config/matugen/templates/starship-colors.toml'
+output_path = '~/.config/starship.toml'
+# ...
+[templates.opencode]
+input_path = '~/.config/matugen/templates/opencode-colors.json'
+output_path = '~/.config/opencode/themes/matugen.json'
+# ...
+[templates.prismlauncher]
+input_path = '~/.config/matugen/templates/prismlauncher.json'
+output_path = '~/.local/share/PrismLauncher/themes/Matugen/theme.json'
+# ...
+[templates.steam]
+input_path = '~/.config/matugen/templates/steam.css'
+output_path = '~/.config/AdwSteamGtk/custom.css'
+post_hook =  'adwaita-steam-gtk -i'
+# ...

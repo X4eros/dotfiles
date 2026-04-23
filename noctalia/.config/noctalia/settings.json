@@ -16,7 +16,7 @@
         "enableWindowsSearch": true,
         "iconMode": "tabler",
         "ignoreMouseInput": false,
-        "overviewLayer": false,
+        "overviewLayer": true,
         "pinnedApps": [
         ],
         "position": "center",
@@ -42,8 +42,8 @@
     "bar": {
         "autoHideDelay": 500,
         "autoShowDelay": 150,
-        "backgroundOpacity": 0.93,
-        "barType": "simple",
+        "backgroundOpacity": 0.8,
+        "barType": "floating",
         "capsuleColorKey": "none",
         "capsuleOpacity": 1,
         "contentPadding": 2,
@@ -102,15 +102,6 @@
             ],
             "left": [
                 {
-                    "colorizeSystemIcon": "none",
-                    "customIconPath": "",
-                    "enableColorization": false,
-                    "icon": "rocket",
-                    "iconColor": "none",
-                    "id": "Launcher",
-                    "useDistroLogo": false
-                },
-                {
                     "clockColor": "none",
                     "customFont": "DejaVu Sans",
                     "formatHorizontal": "HH:mm dd MM",
@@ -161,6 +152,7 @@
                     "maxWidth": 145,
                     "scrollingMode": "hover",
                     "showIcon": true,
+                    "showText": true,
                     "textColor": "none",
                     "useFixedWidth": false
                 },
@@ -193,7 +185,7 @@
                     ],
                     "chevronColor": "none",
                     "colorizeIcons": false,
-                    "drawerEnabled": true,
+                    "drawerEnabled": false,
                     "hidePassive": false,
                     "id": "Tray",
                     "pinned": [
@@ -235,6 +227,7 @@
                 {
                     "colorizeDistroLogo": false,
                     "colorizeSystemIcon": "none",
+                    "colorizeSystemText": "none",
                     "customIconPath": "",
                     "enableColorization": false,
                     "icon": "noctalia",
@@ -275,6 +268,7 @@
         "monitorForColors": "",
         "predefinedScheme": "Catppuccin",
         "schedulingMode": "off",
+        "syncGsettings": true,
         "useWallpaperColors": true
     },
     "controlCenter": {
@@ -363,7 +357,7 @@
                 "name": "DP-1",
                 "widgets": [
                     {
-                        "hideMode": "hidden",
+                        "hideMode": "visible",
                         "id": "MediaPlayer",
                         "roundedCorners": true,
                         "scale": 0.9998770359951749,
@@ -373,7 +367,7 @@
                         "showVisualizer": true,
                         "visualizerType": "linear",
                         "x": 80,
-                        "y": 320
+                        "y": 160
                     },
                     {
                         "diskPath": "/",
@@ -384,7 +378,7 @@
                         "showBackground": true,
                         "statType": "CPU",
                         "x": 80,
-                        "y": 160
+                        "y": 280
                     },
                     {
                         "clockColor": "none",
@@ -414,18 +408,19 @@
                         "scale": 1,
                         "showBackground": true,
                         "statType": "Memory",
-                        "x": 360,
-                        "y": 160
+                        "x": 80,
+                        "y": 440
                     },
                     {
                         "diskPath": "/",
                         "id": "SystemStat",
                         "layout": "bottom",
                         "roundedCorners": true,
+                        "scale": 1,
                         "showBackground": true,
                         "statType": "Network",
-                        "x": 640,
-                        "y": 160
+                        "x": 80,
+                        "y": 600
                     }
                 ]
             }
@@ -438,7 +433,7 @@
         "colorizeIcons": false,
         "deadOpacity": 0.6,
         "displayMode": "auto_hide",
-        "dockType": "floating",
+        "dockType": "attached",
         "enabled": true,
         "floatingRatio": 1,
         "groupApps": true,
@@ -451,8 +446,8 @@
         "indicatorThickness": 3,
         "launcherIcon": "",
         "launcherIconColor": "none",
-        "launcherPosition": "end",
-        "launcherUseDistroLogo": false,
+        "launcherPosition": "start",
+        "launcherUseDistroLogo": true,
         "monitors": [
         ],
         "onlySameOutput": true,
@@ -461,7 +456,7 @@
         "pinnedStatic": true,
         "position": "bottom",
         "showDockIndicator": true,
-        "showLauncherIcon": false,
+        "showLauncherIcon": true,
         "sitOnFrame": false,
         "size": 1
     },
@@ -527,6 +522,7 @@
         "showHibernateOnLockScreen": false,
         "showScreenCorners": false,
         "showSessionButtonsOnLockScreen": true,
+        "smoothScrollEnabled": true,
         "telemetryEnabled": false
     },
     "hooks": {
@@ -557,20 +553,21 @@
     },
     "location": {
         "analogClockInCalendar": false,
+        "autoLocate": false,
         "firstDayOfWeek": -1,
         "hideWeatherCityName": false,
         "hideWeatherTimezone": false,
-        "name": "başakşehir",
+        "name": "Istanbul",
         "showCalendarEvents": true,
         "showCalendarWeather": true,
         "showWeekNumberInCalendar": false,
         "use12hourFormat": false,
         "useFahrenheit": false,
         "weatherEnabled": true,
-        "weatherShowEffects": true
+        "weatherShowEffects": true,
+        "weatherTaliaMascotAlways": false
     },
     "network": {
-        "airplaneModeEnabled": false,
         "bluetoothAutoConnect": true,
         "bluetoothDetailsViewMode": "grid",
         "bluetoothHideUnnamedDevices": false,
@@ -632,9 +629,10 @@
         "enabledTypes": [
             0,
             1,
-            2
+            2,
+            3
         ],
-        "location": "top_right",
+        "location": "bottom",
         "monitors": [
         ],
         "overlayLayer": true
@@ -742,10 +740,6 @@
             },
             {
                 "enabled": true,
-                "id": "cava"
-            },
-            {
-                "enabled": true,
                 "id": "kitty"
             },
             {
@@ -758,15 +752,7 @@
             },
             {
                 "enabled": true,
-                "id": "steam"
-            },
-            {
-                "enabled": true,
                 "id": "zed"
-            },
-            {
-                "enabled": true,
-                "id": "spicetify"
             },
             {
                 "enabled": true,
@@ -786,10 +772,14 @@
             },
             {
                 "enabled": true,
-                "id": "yazi"
+                "id": "btop"
+            },
+            {
+                "enabled": true,
+                "id": "starship"
             }
         ],
-        "enableUserTheming": false
+        "enableUserTheming": true
     },
     "ui": {
         "boxBorderEnabled": false,
@@ -797,13 +787,13 @@
         "fontDefaultScale": 1,
         "fontFixed": "monospace",
         "fontFixedScale": 1,
-        "panelBackgroundOpacity": 0.93,
+        "panelBackgroundOpacity": 0.9,
         "panelsAttachedToBar": true,
         "scrollbarAlwaysVisible": true,
         "settingsPanelMode": "attached",
-        "settingsPanelSideBarCardStyle": false,
+        "settingsPanelSideBarCardStyle": true,
         "tooltipsEnabled": true,
-        "translucentWidgets": false
+        "translucentWidgets": true
     },
     "wallpaper": {
         "automationEnabled": false,
@@ -815,6 +805,7 @@
         "fillColor": "#000000",
         "fillMode": "crop",
         "hideWallpaperFilenames": false,
+        "linkLightAndDarkWallpapers": true,
         "monitorDirectories": [
             {
                 "directory": "/home/x4eros/Pictures/Wallpapers",

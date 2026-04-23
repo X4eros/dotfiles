@@ -48,8 +48,8 @@
   "commandRunner": {
     "enabled": true,
     "history": [
-      "opencode",
-      "paru"
+      "paru",
+      "opencode"
     ]
   },
   "wallpaperDiscovery": {

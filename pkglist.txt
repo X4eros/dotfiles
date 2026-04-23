@@ -150,7 +150,7 @@ networkmanager-openvpn
 nfs-utils
 nilfs-utils
 niri-git
-normcap
+noctalia-shell
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -187,7 +187,6 @@ python-defusedxml
 python-packaging
 qt6-virtualkeyboard
 qt6ct-kde
-quickshell-git
 rebuild-detector
 reflector
 ripgrep
@@ -214,7 +213,6 @@ thunar
 translate-shell
 ttf-bitstream-vera
 ttf-dejavu
-ttf-jetbrains-mono-nerd
 ttf-liberation
 ttf-material-symbols-variable-git
 ttf-meslo-nerd
