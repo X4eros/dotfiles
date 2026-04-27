@@ -56,3 +56,7 @@ input_path = '~/.config/matugen/templates/steam.css'
 output_path = '~/.config/AdwSteamGtk/custom.css'
 post_hook =  'adwaita-steam-gtk -i'
 # ...
+[templates.heroic]
+input_path = '~/.config/matugen/templates/heroic.css'
+output_path = '~/.config/heroic/themes/matugen.css'
+# ...

@@ -55,7 +55,7 @@ dex
 diffutils
 dmidecode
 dmraid
-dms-shell-git
+dms-shell
 dnsmasq
 dosfstools
 duf
@@ -72,6 +72,7 @@ fastfetch
 faugus-launcher
 ffmpegthumbnailer
 filelight
+flameshot
 flatpak
 freedownloadmanager
 fsarchiver
@@ -83,6 +84,7 @@ goverlay
 gparted
 gpu-screen-recorder
 gpu-screen-recorder-ui
+grim
 gst-libav
 gst-plugin-pipewire
 gst-plugins-bad
@@ -91,6 +93,7 @@ gst-plugins-ugly
 gvfs
 hdparm
 helium-browser-bin
+heroic-games-launcher-bin
 hwdetect
 hwinfo
 hyprland
@@ -117,9 +120,6 @@ limine
 limine-mkinitcpio-hook
 limine-snapper-sync
 linux-cachyos
-linux-cachyos-bore-lto
-linux-cachyos-bore-lto-headers
-linux-cachyos-bore-lto-nvidia-open
 linux-cachyos-headers
 linux-cachyos-nvidia-open
 linux-firmware
@@ -179,6 +179,7 @@ polkit-gnome
 poppler-glib
 power-profiles-daemon
 prismlauncher
+proton-vpn-gtk-app
 protonplus
 protontricks
 pv
@@ -237,13 +238,11 @@ wlsunset
 wpa_supplicant
 wqy-zenhei
 xdg-desktop-portal-gtk
-xdg-desktop-portal-hyprland-git
+xdg-desktop-portal-hyprland
 xdg-user-dirs
 xfsprogs
 xl2tpd
 xwayland-satellite
 yay
-yazi
-zapzap
 zed
 zenpower3-dkms

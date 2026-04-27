@@ -48,6 +48,8 @@
   "commandRunner": {
     "enabled": true,
     "history": [
+      "sudo pacman -S krita",
+      "sudo pacman -S krite",
       "paru",
       "opencode"
     ]

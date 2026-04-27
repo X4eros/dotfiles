@@ -1,7 +1,6 @@
 cylon
 dsearch-bin
 equibop-bin
-heroic-games-launcher
 obs-cmd
 qt5ct-kde
-sddm-conf-git
+stremio-enhanced-bin
