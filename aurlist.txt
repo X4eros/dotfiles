@@ -3,4 +3,3 @@ dsearch-bin
 equibop-bin
 obs-cmd
 qt5ct-kde
-stremio-enhanced-bin
