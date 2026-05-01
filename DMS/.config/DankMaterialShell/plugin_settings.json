@@ -48,6 +48,8 @@
   "commandRunner": {
     "enabled": true,
     "history": [
+      "dms ipc call clipboardPlus togglePanel",
+      "bg",
       "sudo pacman -S krita",
       "sudo pacman -S krite",
       "paru",
