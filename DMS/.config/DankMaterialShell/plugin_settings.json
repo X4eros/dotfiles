@@ -48,12 +48,12 @@
   "commandRunner": {
     "enabled": true,
     "history": [
+      "opencode",
       "dms ipc call clipboardPlus togglePanel",
       "bg",
       "sudo pacman -S krita",
       "sudo pacman -S krite",
-      "paru",
-      "opencode"
+      "paru"
     ]
   },
   "wallpaperDiscovery": {
