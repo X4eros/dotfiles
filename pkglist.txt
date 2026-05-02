@@ -1,6 +1,5 @@
 accountsservice
 adw-gtk-theme
-adwsteamgtk
 alacritty
 alsa-firmware
 alsa-plugins

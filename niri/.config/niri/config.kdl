@@ -13,6 +13,4 @@ include "dms/layout.kdl"
 include "dms/alttab.kdl"
 include "dms/windowrules.kdl"
 include "dms/cursor.kdl"
-
-include "./noctalia.kdl"
-
+include "dms/layoutextra.kdl"

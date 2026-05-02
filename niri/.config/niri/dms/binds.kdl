@@ -45,7 +45,6 @@ binds {
     Mod+CTRL+9 { move-column-to-workspace 9; }
     Mod+CTRL+WheelScrollDown cooldown-ms=150 { move-column-to-workspace-down; }
     Mod+CTRL+WheelScrollUp cooldown-ms=150 { move-column-to-workspace-up; }
-    Mod+TAB { focus-workspace-previous; }
     Mod+WheelScrollDown cooldown-ms=150 { focus-workspace-down; }
     Mod+WheelScrollUp cooldown-ms=150 { focus-workspace-up; }
     CTRL+Shift+3 { screenshot-window; }
@@ -96,13 +95,14 @@ binds {
     CTRL+Shift+1 { screenshot; }
     CTRL+Shift+2 hotkey-overlay-title="Screenshot Screen" { screenshot-screen write-to-disk=true; }
     Print hotkey-overlay-title="Screenshot Screen" { screenshot-screen; }
-    Mod+B hotkey-overlay-title="Open Browser: vivaldi" { spawn "vivaldi"; }
+    Mod+B hotkey-overlay-title="Open Browser: Helium" { spawn "helium-browser"; }
     Mod+E hotkey-overlay-title="File Manager: Thunar" { spawn "thunar"; }
     Mod+Minus { spawn "equibop" "--toggle-mic"; }
     Mod+Page_Down { spawn "obs-cmd" "replay" "save"; }
     Mod+Prior { spawn "obs-cmd" "replay" "toggle"; }
     Mod+Return hotkey-overlay-title="Open Terminal: Kitty" { spawn "kitty"; }
     Mod+Shift+Prior { spawn "obs-cmd" "recording" "toggle"; }
-    Super+Shift+S { spawn "normcap"; }
-    Mod+O repeat=false { toggle-overview; }
+    Super+R { spawn "flameshot" "gui"; }
+    Super+Shift+S { spawn "sh" "-c" "flameshot gui --raw | tesseract stdin stdout | wl-copy"; }
+    Super+Tab repeat=false { toggle-overview; }
 }
