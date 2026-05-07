@@ -7,14 +7,14 @@
   "matugenContrast": 0,
   "runUserMatugenTemplates": true,
   "matugenTargetMonitor": "",
-  "popupTransparency": 0.85,
-  "dockTransparency": 1,
+  "popupTransparency": 0.95,
+  "dockTransparency": 0.9,
   "widgetBackgroundColor": "sth",
   "widgetColorMode": "colorful",
   "controlCenterTileColorMode": "primary",
   "buttonColorMode": "primary",
   "cornerRadius": 12,
-  "niriLayoutGapsOverride": 6,
+  "niriLayoutGapsOverride": 4,
   "niriLayoutRadiusOverride": 12,
   "niriLayoutBorderSize": 0,
   "hyprlandLayoutGapsOverride": 2,
@@ -39,6 +39,8 @@
   "modalAnimationSpeed": 4,
   "modalCustomAnimationDuration": 150,
   "enableRippleEffects": true,
+  "animationVariant": 0,
+  "motionEffect": 0,
   "m3ElevationEnabled": true,
   "m3ElevationIntensity": 12,
   "m3ElevationOpacity": 30,
@@ -47,7 +49,7 @@
   "m3ElevationCustomColor": "#000000",
   "modalElevationEnabled": true,
   "popoutElevationEnabled": true,
-  "barElevationEnabled": true,
+  "barElevationEnabled": false,
   "blurEnabled": true,
   "blurForegroundLayers": true,
   "blurLayerOutlineOpacity": 0.12,
@@ -149,7 +151,7 @@
   "showOccupiedWorkspacesOnly": false,
   "reverseScrolling": false,
   "dwlShowAllTags": false,
-  "workspaceActiveAppHighlightEnabled": true,
+  "workspaceActiveAppHighlightEnabled": false,
   "workspaceColorMode": "default",
   "workspaceOccupiedColorMode": "none",
   "workspaceUnfocusedColorMode": "default",
@@ -206,12 +208,14 @@
   "appLauncherGridColumns": 4,
   "spotlightCloseNiriOverview": true,
   "rememberLastQuery": false,
-  "spotlightSectionViewModes": {},
+  "spotlightSectionViewModes": {
+    "apps": "list"
+  },
   "appDrawerSectionViewModes": {},
   "niriOverviewOverlayEnabled": true,
-  "dankLauncherV2Size": "medium",
+  "dankLauncherV2Size": "compact",
   "dankLauncherV2BorderEnabled": true,
-  "dankLauncherV2BorderThickness": 2,
+  "dankLauncherV2BorderThickness": 3,
   "dankLauncherV2BorderColor": "primary",
   "dankLauncherV2ShowFooter": true,
   "dankLauncherV2UnloadOnClose": true,
@@ -329,22 +333,23 @@
   },
   "matugenTemplateNeovimSetBackground": true,
   "showDock": true,
-  "dockAutoHide": true,
-  "dockSmartAutoHide": false,
+  "dockAutoHide": false,
+  "dockSmartAutoHide": true,
+  "dockHideOnFullscreen": true,
   "dockGroupByApp": false,
   "dockRestoreSpecialWorkspaceOnClick": false,
   "dockOpenOnOverview": true,
   "dockPosition": 1,
   "dockSpacing": 8,
   "dockBottomGap": 0,
-  "dockMargin": 10,
+  "dockMargin": 15,
   "dockIconSize": 40,
-  "dockIndicatorStyle": "circle",
+  "dockIndicatorStyle": "line",
   "dockBorderEnabled": true,
-  "dockBorderColor": "surfaceText",
+  "dockBorderColor": "primary",
   "dockBorderOpacity": 1,
-  "dockBorderThickness": 1,
-  "dockIsolateDisplays": false,
+  "dockBorderThickness": 3,
+  "dockIsolateDisplays": true,
   "dockLauncherEnabled": true,
   "dockLauncherLogoMode": "os",
   "dockLauncherLogoCustomPath": "",
@@ -355,8 +360,8 @@
   "dockMaxVisibleApps": 0,
   "dockMaxVisibleRunningApps": 0,
   "dockShowOverflowBadge": true,
-  "dockShowTrash": false,
-  "dockTrashFileManager": "default",
+  "dockShowTrash": true,
+  "dockTrashFileManager": "thunar",
   "dockTrashCustomCommand": "",
   "notificationOverlayEnabled": true,
   "notificationPopupShadowEnabled": true,
@@ -434,7 +439,11 @@
   "updaterIncludeFlatpak": true,
   "updaterAllowAUR": true,
   "displayNameMode": "system",
-  "screenPreferences": {},
+  "screenPreferences": {
+    "wallpaper": [
+      "all"
+    ]
+  },
   "showOnLastDisplay": {},
   "niriOutputSettings": {},
   "hyprlandOutputSettings": {
@@ -454,6 +463,8 @@
   "displayProfileAutoSelect": false,
   "displayShowDisconnected": true,
   "displaySnapToEdge": false,
+  "connectedFrameBarStyleBackups": {},
+  "connectedFrameModalDarkenBackup": null,
   "barConfigs": [
     {
       "id": "default",
@@ -514,7 +525,8 @@
         },
         {
           "id": "systemUpdate",
-          "enabled": true
+          "enabled": true,
+          "hideWhenIdle": true
         },
         {
           "id": "cpuUsage",
@@ -564,7 +576,7 @@
       "innerPadding": 4,
       "bottomGap": 0,
       "transparency": 0.8,
-      "widgetTransparency": 1,
+      "widgetTransparency": 0.9,
       "squareCorners": false,
       "noBackground": false,
       "maximizeWidgetIcons": false,
@@ -581,13 +593,13 @@
       "widgetOutlineEnabled": false,
       "widgetOutlineColor": "primary",
       "widgetOutlineOpacity": 0.5,
-      "widgetOutlineThickness": 2,
+      "widgetOutlineThickness": 1,
       "fontScale": 1,
       "iconScale": 1,
       "autoHide": false,
       "autoHideDelay": 250,
       "showOnWindowsOpen": false,
-      "openOnOverview": false,
+      "openOnOverview": true,
       "visible": true,
       "popupGapsAuto": true,
       "popupGapsManual": 4,
@@ -672,7 +684,8 @@
   "desktopWidgetPositions": {},
   "desktopWidgetGridSettings": {
     "DP-1": {
-      "enabled": true
+      "enabled": true,
+      "size": 40
     }
   },
   "desktopWidgetInstances": [
@@ -934,5 +947,20 @@
   "clipboardEnterToPaste": false,
   "launcherPluginVisibility": {},
   "launcherPluginOrder": [],
-  "configVersion": 5
+  "frameEnabled": false,
+  "frameThickness": 16,
+  "frameRounding": 23,
+  "frameColor": "",
+  "frameOpacity": 1,
+  "frameScreenPreferences": [
+    "all"
+  ],
+  "frameBarSize": 40,
+  "frameShowOnOverview": false,
+  "frameBlurEnabled": true,
+  "frameCloseGaps": true,
+  "frameLauncherEmergeSide": "bottom",
+  "frameLauncherArcExtender": false,
+  "frameMode": "separate",
+  "configVersion": 11
 }

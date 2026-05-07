@@ -1,65 +1,66 @@
 // DMS Window Rules - Managed by DankMaterialShell
 // Do not edit manually - changes may be overwritten
 
+// @id=dms_rule_0 @name=
 window-rule {
-    // This regular expression is intentionally made as specific as possible,
-    // since this is the default config, and we want no false positives.
-    // You can get away with just app-id="wezterm" if you want.
-    match app-id=r#"^org\.wezfurlong\.wezterm$"#
-    default-column-width {}
+    match app-id="^org\\.wezfurlong\\.wezterm$"
 }
+
+// @id=dms_rule_1 @name=
 window-rule {
-    match app-id=r#"^org\.gnome\."#
-    draw-border-with-background false
+    match app-id="^org\\.gnome\\."
     geometry-corner-radius 12
     clip-to-geometry true
+    draw-border-with-background false
 }
+
+// @id=dms_rule_2 @name=
 window-rule {
-    match app-id=r#"^gnome-control-center$"#
-    match app-id=r#"^pavucontrol$"#
-    match app-id=r#"^nm-connection-editor$"#
+    match app-id="^nm-connection-editor$"
     default-column-width { proportion 0.5; }
-    open-floating false
 }
+
+// @id=dms_rule_3 @name=
 window-rule {
-    match app-id=r#"^gnome-calculator$"#
-    match app-id=r#"^galculator$"#
-    match app-id=r#"^blueman-manager$"#
-    match app-id=r#"^org\.gnome\.Nautilus$"#
-    match app-id=r#"^xdg-desktop-portal$"#
+    match app-id="^xdg-desktop-portal$"
     open-floating true
 }
+
+// @id=dms_rule_4 @name=
 window-rule {
-    match app-id=r#"^steam$"# title=r#"^notificationtoasts_\d+_desktop$"#
-    default-floating-position x=10 y=10 relative-to="bottom-right"
+    match app-id="^steam$" title="^notificationtoasts_\\d+_desktop$"
     open-focused false
 }
+
+// @id=dms_rule_5 @name=
 window-rule {
-    match app-id=r#"^org\.wezfurlong\.wezterm$"#
-    match app-id="Alacritty"
-    match app-id="zen"
-    match app-id="com.mitchellh.ghostty"
     match app-id="kitty"
     draw-border-with-background false
 }
+
+// @id=dms_rule_6 @name=
 window-rule {
-    match app-id=r#"firefox$"# title="^Picture-in-Picture$"
-    match app-id="zoom"
-    open-floating true
-}
-// Open dms windows as floating by default
-window-rule {
-    match app-id=r#"org.quickshell$"#
-    match app-id=r#"com.danklinux.dms$"#
+    match app-id="zoom" title="^Picture-in-Picture$"
     open-floating true
 }
 
-layer-rule {
-        match namespace="^noctalia-overview*"
-        place-within-backdrop true
+// @id=dms_rule_7 @name=
+window-rule {
+    match app-id="com.danklinux.dms$"
+    open-floating true
 }
 
-debug {
-  // Allows notification actions and window activation from Noctalia.
-  honor-xdg-activation-with-invalid-serial
+// @id=wr_1777929803507393860 @name=DesktopEditors
+window-rule {
+    match app-id="^DesktopEditors$"
+    default-column-width { fixed 960; }
+    default-window-height { fixed 720; }
+}
+
+// @id=wr_1778194581310937216 @name=flameshot
+window-rule {
+    match app-id="^flameshot$"
+    open-floating true
+    open-maximized true
+    open-fullscreen true
 }

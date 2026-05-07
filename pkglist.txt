@@ -47,6 +47,7 @@ chaotic-keyring
 chaotic-mirrorlist
 chwd
 cliphist
+compsize
 cpupower
 cryptsetup
 ddcutil
@@ -76,7 +77,6 @@ flameshot
 flatpak
 freedownloadmanager
 fsarchiver
-gamemode
 git
 glances
 glfw
@@ -151,7 +151,6 @@ networkmanager-openvpn
 nfs-utils
 nilfs-utils
 niri-git
-noctalia-shell
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -161,15 +160,17 @@ nvidia-settings
 nvidia-utils
 nwg-look
 obs-studio
+onlyoffice-bin
 opencl-nvidia
 opencode
 openssh
 os-prober
 pacman-contrib
 papirus-icon-theme
-paru
+paru-git
 pavucontrol
 perl
+perl-image-exiftool
 pinta
 pipewire-alsa
 pipewire-pulse
@@ -228,6 +229,7 @@ unzip
 upower
 usb_modeswitch
 usbutils
+ventoy-bin
 vim
 vkbasalt
 vulkan-icd-loader
@@ -239,11 +241,12 @@ wireplumber
 wlsunset
 wpa_supplicant
 wqy-zenhei
+xdg-desktop-portal-gnome
 xdg-desktop-portal-gtk
-xdg-desktop-portal-hyprland
 xdg-user-dirs
 xfsprogs
 xl2tpd
+xorg-xhost
 xwayland-satellite
 yay
 zed

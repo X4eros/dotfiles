@@ -4,3 +4,4 @@ equibop-bin
 millennium
 obs-cmd
 qt5ct-kde
+stremio-linux-shell
