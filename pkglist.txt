@@ -1,13 +1,12 @@
 accountsservice
 adw-gtk-theme
-alacritty
 alsa-firmware
 alsa-plugins
 alsa-utils
 amd-ucode
 android-tools
 apollo-git
-ark
+arch-update
 awesome-terminal-fonts
 base
 base-devel
@@ -23,7 +22,6 @@ bpftune-git
 btop
 btrfs-assistant
 btrfs-progs
-cachyos-alacritty-config
 cachyos-fish-config
 cachyos-hello
 cachyos-hooks
@@ -38,8 +36,6 @@ cachyos-settings
 cachyos-snapper-support
 cachyos-v3-mirrorlist
 cachyos-v4-mirrorlist
-cachyos-wallpapers
-cachyos-zsh-config
 cantarell-fonts
 capitaine-cursors
 cava
@@ -65,6 +61,7 @@ easyeffects
 efibootmgr
 efitools
 egl-wayland
+electron40
 ethtool
 evolution-data-server
 exfatprogs
@@ -80,7 +77,6 @@ fsarchiver
 git
 glances
 glfw
-goverlay
 gparted
 gpu-screen-recorder
 gpu-screen-recorder-ui
@@ -92,9 +88,9 @@ gst-plugins-good
 gst-plugins-ugly
 gvfs
 gvfs-mtp
+gvfs-smb
 hdparm
 helium-browser-bin
-heroic-games-launcher-bin
 hwdetect
 hwinfo
 hyprland
@@ -132,6 +128,7 @@ lsscsi
 lvm2
 man-db
 man-pages
+mangojuice
 matugen
 mdadm
 meld
@@ -150,9 +147,8 @@ networkmanager
 networkmanager-openvpn
 nfs-utils
 nilfs-utils
-niri-git
+niri
 noto-fonts
-noto-fonts-cjk
 noto-fonts-emoji
 nss-mdns
 ntfs-3g
@@ -241,6 +237,7 @@ wireplumber
 wlsunset
 wpa_supplicant
 wqy-zenhei
+xarchiver
 xdg-desktop-portal-gnome
 xdg-desktop-portal-gtk
 xdg-user-dirs
@@ -251,3 +248,4 @@ xwayland-satellite
 yay
 zed
 zenpower3-dkms
+zip

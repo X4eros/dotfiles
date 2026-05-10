@@ -138,7 +138,7 @@
       "width": 50
     }
   ],
-  "showWorkspaceIndex": true,
+  "showWorkspaceIndex": false,
   "showWorkspaceName": false,
   "showWorkspacePadding": false,
   "workspaceScrolling": false,
@@ -264,8 +264,8 @@
   "soundNewNotification": true,
   "soundVolumeChanged": true,
   "soundPluggedIn": true,
-  "acMonitorTimeout": 900,
-  "acLockTimeout": 600,
+  "acMonitorTimeout": 600,
+  "acLockTimeout": 900,
   "acSuspendTimeout": 0,
   "acSuspendBehavior": 0,
   "acProfileName": "",
@@ -336,19 +336,19 @@
   "dockAutoHide": false,
   "dockSmartAutoHide": true,
   "dockHideOnFullscreen": true,
-  "dockGroupByApp": false,
+  "dockGroupByApp": true,
   "dockRestoreSpecialWorkspaceOnClick": false,
   "dockOpenOnOverview": true,
   "dockPosition": 1,
   "dockSpacing": 8,
   "dockBottomGap": 0,
-  "dockMargin": 15,
+  "dockMargin": 4,
   "dockIconSize": 40,
-  "dockIndicatorStyle": "line",
+  "dockIndicatorStyle": "circle",
   "dockBorderEnabled": true,
   "dockBorderColor": "primary",
   "dockBorderOpacity": 1,
-  "dockBorderThickness": 3,
+  "dockBorderThickness": 2,
   "dockIsolateDisplays": true,
   "dockLauncherEnabled": true,
   "dockLauncherLogoMode": "os",
@@ -360,8 +360,8 @@
   "dockMaxVisibleApps": 0,
   "dockMaxVisibleRunningApps": 0,
   "dockShowOverflowBadge": true,
-  "dockShowTrash": true,
-  "dockTrashFileManager": "thunar",
+  "dockShowTrash": false,
+  "dockTrashFileManager": "default",
   "dockTrashCustomCommand": "",
   "notificationOverlayEnabled": true,
   "notificationPopupShadowEnabled": true,
@@ -403,7 +403,7 @@
   "notificationRules": [],
   "notificationFocusedMonitor": false,
   "osdAlwaysShowValue": true,
-  "osdPosition": 5,
+  "osdPosition": 1,
   "osdVolumeEnabled": true,
   "osdMediaVolumeEnabled": true,
   "osdMediaPlaybackEnabled": false,
@@ -432,8 +432,8 @@
   "customPowerActionReboot": "",
   "customPowerActionPowerOff": "",
   "updaterHideWidget": true,
-  "updaterUseCustomCommand": false,
-  "updaterCustomCommand": "",
+  "updaterUseCustomCommand": true,
+  "updaterCustomCommand": "arch-update",
   "updaterTerminalAdditionalParams": "",
   "updaterIntervalSeconds": 1800,
   "updaterIncludeFlatpak": true,
@@ -464,7 +464,6 @@
   "displayShowDisconnected": true,
   "displaySnapToEdge": false,
   "connectedFrameBarStyleBackups": {},
-  "connectedFrameModalDarkenBackup": null,
   "barConfigs": [
     {
       "id": "default",
@@ -486,20 +485,23 @@
           "enabled": true
         },
         {
+          "id": "cpuUsage",
+          "enabled": true,
+          "minimumWidth": true
+        },
+        {
+          "id": "memUsage",
+          "enabled": true,
+          "minimumWidth": true,
+          "showInGb": false
+        },
+        {
           "id": "runningApps",
           "enabled": true,
           "runningAppsCompactMode": true,
           "runningAppsGroupByApp": false,
           "runningAppsCurrentWorkspace": true,
           "runningAppsCurrentMonitor": false
-        },
-        {
-          "id": "wallpaperDiscovery",
-          "enabled": true
-        },
-        {
-          "id": "clipboardPlus",
-          "enabled": true
         }
       ],
       "centerWidgets": [
@@ -529,22 +531,14 @@
           "hideWhenIdle": true
         },
         {
-          "id": "cpuUsage",
-          "enabled": true,
-          "minimumWidth": true
-        },
-        {
-          "id": "memUsage",
-          "enabled": true,
-          "minimumWidth": true,
-          "showSwap": false,
-          "showInGb": false
+          "id": "dankKDEConnect",
+          "enabled": true
         },
         {
           "id": "controlCenterButton",
           "enabled": true,
           "showNetworkIcon": false,
-          "showBluetoothIcon": true,
+          "showBluetoothIcon": false,
           "showAudioIcon": true,
           "showAudioPercent": true,
           "showVpnIcon": true,
@@ -566,10 +560,6 @@
             "printer",
             "screenSharing"
           ]
-        },
-        {
-          "id": "screenRecorder",
-          "enabled": true
         }
       ],
       "spacing": 4,
