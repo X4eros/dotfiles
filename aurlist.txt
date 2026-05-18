@@ -1,6 +1,5 @@
 cylon
 dsearch-bin
-equibop-bin
 millennium
 obs-cmd
 qt5ct-kde

@@ -48,6 +48,7 @@
   "commandRunner": {
     "enabled": true,
     "history": [
+      "xeyes",
       "sudo limine-snapper-sync",
       "opencode",
       "dms ipc call clipboardPlus togglePanel",
@@ -69,5 +70,8 @@
   "dankKDEConnect": {
     "enabled": true,
     "selectedDeviceId": "6c731e45a8c647e0b41210674b70d4ca"
+  },
+  "audioInhibit": {
+    "enabled": true
   }
 }

@@ -6,7 +6,6 @@ alsa-utils
 amd-ucode
 android-tools
 apollo-git
-arch-update
 awesome-terminal-fonts
 base
 base-devel
@@ -62,6 +61,7 @@ efibootmgr
 efitools
 egl-wayland
 electron40
+equibop
 ethtool
 evolution-data-server
 exfatprogs
@@ -151,7 +151,6 @@ niri
 noto-fonts
 noto-fonts-emoji
 nss-mdns
-ntfs-3g
 nvidia-settings
 nvidia-utils
 nwg-look
