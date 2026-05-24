@@ -6,3 +6,4 @@
     spawn-sh-at-startup "dms run"
     spawn-sh-at-startup "dsearch serve"
     spawn-sh-at-startup "xhost +si:localuser:root"
+    spawn-at-startup "joystickwake"

@@ -5,7 +5,6 @@ alsa-plugins
 alsa-utils
 amd-ucode
 android-tools
-apollo-git
 awesome-terminal-fonts
 base
 base-devel
@@ -74,6 +73,7 @@ flameshot
 flatpak
 freedownloadmanager
 fsarchiver
+fuse2
 git
 glances
 glfw
@@ -98,6 +98,7 @@ inetutils
 iptables
 iwd
 jfsutils
+joystickwake
 kdeconnect
 kitty
 kvantum
