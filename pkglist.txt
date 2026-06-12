@@ -135,6 +135,7 @@ mdadm
 meld
 mesa-utils
 micro
+millennium
 mission-center
 mkinitcpio
 modemmanager
@@ -148,7 +149,7 @@ networkmanager
 networkmanager-openvpn
 nfs-utils
 nilfs-utils
-niri
+niri-git
 noto-fonts
 noto-fonts-emoji
 nss-mdns
@@ -204,6 +205,7 @@ starship
 steam
 stow
 sudo
+sunshine
 sysfsutils
 tesseract
 tesseract-data-eng

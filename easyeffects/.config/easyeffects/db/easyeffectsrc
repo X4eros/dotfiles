@@ -9,9 +9,9 @@ visiblePlugin=autogain#0
 
 [StreamOutputs]
 mostUsedPresets=Perfect EQ
-outputDevice=alsa_output.pci-0000_07_00.4.analog-stereo
+outputDevice=alsa_output.usb-KTMicro_USB-C_Audio_202406190940-00.analog-stereo
 plugins=equalizer#0
-usedPresets=Perfect EQ:55
+usedPresets=Perfect EQ:76
 visiblePage=pluginsPage
 visiblePlugin=equalizer#0
 
