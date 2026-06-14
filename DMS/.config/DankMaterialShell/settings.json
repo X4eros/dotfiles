@@ -17,7 +17,7 @@
   "niriLayoutGapsOverride": 4,
   "niriLayoutRadiusOverride": 12,
   "niriLayoutBorderSize": 0,
-  "hyprlandLayoutGapsOverride": 2,
+  "hyprlandLayoutGapsOverride": 3,
   "hyprlandLayoutRadiusOverride": 12,
   "hyprlandLayoutBorderSize": 3,
   "hyprlandResizeOnBorder": false,
@@ -142,7 +142,7 @@
       "width": 50
     }
   ],
-  "showWorkspaceIndex": false,
+  "showWorkspaceIndex": true,
   "showWorkspaceName": false,
   "showWorkspacePadding": false,
   "workspaceScrolling": false,
@@ -308,7 +308,7 @@
   "soundPluggedIn": true,
   "acMonitorTimeout": 600,
   "acLockTimeout": 900,
-  "acSuspendTimeout": 3600,
+  "acSuspendTimeout": 0,
   "acSuspendBehavior": 0,
   "acProfileName": "",
   "acPostLockMonitorTimeout": 0,
@@ -481,7 +481,7 @@
   "updaterCustomCommand": "",
   "updaterTerminalAdditionalParams": "",
   "updaterIntervalSeconds": 1800,
-  "updaterIncludeFlatpak": true,
+  "updaterIncludeFlatpak": false,
   "updaterAllowAUR": true,
   "displayNameMode": "system",
   "screenPreferences": {
@@ -981,6 +981,11 @@
     }
   },
   "clipboardEnterToPaste": false,
+  "clipboardVisibleEntryActions": [
+    "pin",
+    "edit",
+    "delete"
+  ],
   "launcherPluginVisibility": {},
   "launcherPluginOrder": [],
   "frameEnabled": false,

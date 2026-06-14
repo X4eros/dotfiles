@@ -70,7 +70,6 @@ faugus-launcher
 ffmpegthumbnailer
 filelight
 flameshot
-flatpak
 freedownloadmanager
 fsarchiver
 fuse2
@@ -120,6 +119,9 @@ limine-snapper-sync
 linux-cachyos
 linux-cachyos-headers
 linux-cachyos-nvidia-open
+linux-cachyos-rc
+linux-cachyos-rc-headers
+linux-cachyos-rc-nvidia-open
 linux-firmware
 logrotate
 loupe
@@ -159,7 +161,6 @@ nwg-look
 obs-studio
 onlyoffice-bin
 opencl-nvidia
-opencode
 openssh
 os-prober
 pacman-contrib
@@ -185,6 +186,7 @@ pv
 python
 python-defusedxml
 python-packaging
+python-pipx
 qt6-virtualkeyboard
 qt6ct-kde
 rebuild-detector
