@@ -134,12 +134,12 @@ hl.config({
     },
 })
 
-hl.curve("rubber", { type = "spring", mass = 1, stiffness = 60, dampening = 12 })
+hl.curve("rubber", { type = "spring", mass = 1, stiffness = 50, dampening = 12 })
 hl.curve("overshoot", { type = "bezier", points = { { 0.5, 0.9 }, { 0.1, 1.1 } } })
 
 hl.animation({ leaf = "workspaces", enabled = true, speed = 10, spring = "rubber", style = "slidevert" })
 hl.animation({ leaf = "windows", enabled = true, speed = 10, spring = "rubber", style = "popin" })
-hl.animation({ leaf = "fade", enabled = 0 })
+hl.animation({ leaf = "fade", enabled = true, speed = 10, spring = "rubber" })
 
 -- ==================
 
