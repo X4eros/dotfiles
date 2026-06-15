@@ -30,7 +30,11 @@ hl.monitor({
 
 -- ==================
 
-
+-- Autostart
+hl.on("hyprland.start", function()
+    hl.exec_cmd("dms run")
+    hl.exec_cmd("dex -a")
+end)
 
 hl.env("QT_QPA_PLATFORM", "wayland;xcb")
 
@@ -193,9 +197,3 @@ require("dms/binds-user")
 require("dms.outputs")
 
 require("dms.windowrules")
-
--- Autostart
-hl.on("hyprland.start", function()
-    hl.exec_cmd("dms run")
-    hl.exec_cmd("dex -a")
-end)
