@@ -48,6 +48,7 @@ ddcutil
 device-mapper
 dex
 diffutils
+discord
 dmidecode
 dmraid
 dms-shell-git
@@ -59,8 +60,6 @@ easyeffects
 efibootmgr
 efitools
 egl-wayland
-electron40
-equibop
 ethtool
 evolution-data-server
 exfatprogs
@@ -163,6 +162,7 @@ onlyoffice-bin
 opencl-nvidia
 openssh
 os-prober
+oxygen-sounds
 pacman-contrib
 papirus-icon-theme
 paru-git
