@@ -87,6 +87,7 @@ gst-plugins-ugly
 gvfs
 gvfs-mtp
 gvfs-smb
+handbrake
 hdparm
 helium-browser-bin
 hwdetect
@@ -236,7 +237,7 @@ vulkan-icd-loader
 wf-recorder
 wget
 which
-wine
+wine-cachyos
 wireplumber
 wlsunset
 wpa_supplicant
@@ -249,7 +250,6 @@ xfsprogs
 xl2tpd
 xorg-xhost
 xwayland-satellite
-yay
 zed
 zenpower3-dkms
 zip

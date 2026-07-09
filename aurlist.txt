@@ -1,3 +1,4 @@
+choir-overlay-git
 cylon
 dsearch-bin
 equicord-installer-bin
