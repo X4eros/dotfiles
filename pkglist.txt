@@ -87,7 +87,6 @@ gst-plugins-ugly
 gvfs
 gvfs-mtp
 gvfs-smb
-handbrake
 hdparm
 helium-browser-bin
 hwdetect
@@ -200,6 +199,7 @@ scdoc
 sddm
 sg3_utils
 shelly
+shotcut
 smartmontools
 snapper
 sof-firmware
