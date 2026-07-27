@@ -328,7 +328,7 @@
     },
     {
       "id": "media",
-      "enabled": true
+      "enabled": false
     },
     {
       "id": "wallpaper",
@@ -344,10 +344,10 @@
     }
   ],
   "networkPreference": "auto",
-  "iconThemeDark": "System Default",
+  "iconThemeDark": "Papirus",
   "iconThemeLight": "System Default",
   "iconThemePerMode": false,
-  "lastAppliedIconTheme": "",
+  "lastAppliedIconTheme": "Papirus",
   "cursorSettings": {
     "theme": "capitaine-cursors",
     "size": 32,
@@ -396,7 +396,7 @@
   "soundNewNotification": true,
   "soundVolumeChanged": true,
   "soundPluggedIn": true,
-  "muteSoundsWhenMediaPlaying": true,
+  "muteSoundsWhenMediaPlaying": false,
   "acMonitorTimeout": 600,
   "acLockTimeout": 900,
   "acSuspendTimeout": 0,
@@ -427,11 +427,6 @@
   "fadeToDpmsEnabled": true,
   "fadeToDpmsGracePeriod": 10,
   "launchPrefix": "",
-  "brightnessDevicePins": {},
-  "wifiNetworkPins": {},
-  "bluetoothDevicePins": {},
-  "audioInputDevicePins": {},
-  "audioOutputDevicePins": {},
   "gtkThemingEnabled": false,
   "qtThemingEnabled": false,
   "syncModeWithPortal": true,
@@ -682,6 +677,10 @@
           "id": "music",
           "enabled": true,
           "mediaSize": 1
+        },
+        {
+          "id": "clipboardPlus",
+          "enabled": true
         },
         {
           "id": "systemUpdate",
@@ -1126,5 +1125,5 @@
   "barInsetPaddingShared": -1,
   "barInsetPaddingSyncAll": false,
   "frameBarInsetPadding": -1,
-  "configVersion": 12
+  "configVersion": 13
 }

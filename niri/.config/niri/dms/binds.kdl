@@ -10,11 +10,12 @@ binds {
     Mod+Shift+N hotkey-overlay-title="Notepad" { spawn "dms" "ipc" "call" "notepad" "toggle"; }
     Mod+Shift+W hotkey-overlay-title="Create window rule" { spawn "dms" "ipc" "call" "window-rules" "toggle"; }
     Mod+Space hotkey-overlay-title="Application Launcher" { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
-    Mod+V hotkey-overlay-title="Clipboard: Toggle" { spawn "dms" "ipc" "call" "clipboard" "toggle"; }
+    Mod+V { spawn "dms" "ipc" "call" "clipboardPlus" "togglePanel"; }
     Mod+Y hotkey-overlay-title="Browse Wallpapers" { spawn "dms" "ipc" "call" "dankdash" "wallpaper"; }
     Super+Alt+space hotkey-overlay-title="Spotlight Bar: Open" { spawn "dms" "ipc" "call" "spotlight-bar" "open"; }
     Super+Escape hotkey-overlay-title="Keybinds Cheatsheet: Toggle" { spawn "dms" "ipc" "call" "keybinds" "toggle" "niri"; }
     Super+M allow-when-locked=true { spawn "dms" "ipc" "call" "audio" "micmute"; }
+    Super+R { spawn "dms" "ipc" "call" "quickCapture" "screenshot" "region" "edit"; }
     Super+S hotkey-overlay-title="Control Center: Toggle" { spawn "dms" "ipc" "call" "control-center" "toggle"; }
     Super+Shift+M hotkey-overlay-title="Audio Output: Cycle" { spawn "dms" "ipc" "call" "audio" "cycleoutput"; }
     Super+X hotkey-overlay-title="Power Menu: Toggle" { spawn "dms" "ipc" "call" "powermenu" "toggle"; }
@@ -104,7 +105,5 @@ binds {
     Mod+Prior { spawn "obs-cmd" "replay" "toggle"; }
     Mod+Return hotkey-overlay-title="Open Terminal: Kitty" { spawn "kitty"; }
     Mod+Shift+Prior { spawn "obs-cmd" "recording" "toggle"; }
-    Super+R { spawn "flameshot" "gui"; }
-    Super+Shift+S { spawn "sh" "-c" "flameshot gui --raw | tesseract stdin stdout | wl-copy"; }
     Super+Tab repeat=false { toggle-overview; }
 }

@@ -68,7 +68,6 @@ fastfetch
 faugus-launcher
 ffmpegthumbnailer
 filelight
-flameshot
 freedownloadmanager
 fsarchiver
 fuse2

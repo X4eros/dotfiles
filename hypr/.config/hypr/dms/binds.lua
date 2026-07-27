@@ -34,7 +34,7 @@ hl.bind("SUPER + SHIFT" .. " + " .. "W", hl.dsp.exec_cmd("dms ipc call window-ru
 
 hl.bind("SUPER" .. " + " .. "TAB", hl.dsp.exec_cmd("dms ipc call hypr toggleOverview"))
 
-hl.bind("SUPER" .. " + " .. "V", hl.dsp.exec_cmd("dms ipc call clipboard toggle"))
+hl.bind("SUPER" .. " + " .. "V", hl.dsp.exec_cmd("dms ipc call clipboardPlus togglePanel"))
 
 hl.bind("SUPER" .. " + " .. "X", hl.dsp.exec_cmd("dms ipc call powermenu toggle"))
 
@@ -178,15 +178,13 @@ hl.bind("SUPER" .. " + " .. "Return", hl.dsp.exec_cmd("kitty"))
 
 -- kitty
 
-hl.bind("SUPER + SHIFT" .. " + " .. "S", hl.dsp.exec_cmd("flameshot gui --raw| tesseract stdin stdout| wl-copy"))
-
 hl.bind("SUPER + SHIFT" .. " + " .. "E", hl.dsp.exit())
 
 hl.bind("SUPER + SHIFT" .. " + " .. "P", hl.dsp.dpms("toggle"))
 
 hl.bind("SUPER" .. " + " .. "Q", hl.dsp.window.close())
 
-hl.bind("SUPER" .. " + " .. "R", hl.dsp.layout("togglesplit"))
+hl.bind("SUPER" .. " + " .. "R", hl.dsp.exec_cmd("dms ipc call quickCapture screenshot region edit"))
 
 hl.bind("SUPER + SHIFT" .. " + " .. "F", hl.dsp.window.fullscreen())
 

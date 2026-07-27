@@ -10,8 +10,10 @@
   "clipboardPlus": {
     "enabled": true,
     "listenClipboardWhileOpen": true,
-    "tabOrder": "clipboard,search,category,pinned,todo",
-    "tabOrderEnabled": "clipboard,search,category,pinned,todo"
+    "tabOrder": "clipboard,search,category,pinned,todo,emoji",
+    "tabOrderEnabled": "clipboard,search,category,pinned,todo",
+    "backgroundOpacity": 25,
+    "noteCardScale": 140
   },
   "emojiLauncher": {
     "enabled": true,
@@ -73,5 +75,10 @@
   },
   "audioInhibit": {
     "enabled": true
+  },
+  "quickCapture": {
+    "enabled": true,
+    "color_palette_preset": "custom",
+    "toolbar_color_primary": "#0288D1"
   }
 }
