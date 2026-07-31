@@ -79,7 +79,7 @@
   "quickCapture": {
     "enabled": true,
     "color_palette_preset": "custom",
-    "toolbar_color_primary": "#0288D1",
+    "toolbar_color_primary": "#E91E63",
     "radialHoverTrigger": true,
     "show_shortcut_hints": true,
     "saveFilenamePattern": "Screenshot_%Y-%m-%d_%H-%M-%S"

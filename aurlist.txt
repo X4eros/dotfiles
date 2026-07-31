@@ -4,4 +4,3 @@ dsearch-bin
 equicord-installer-bin
 obs-cmd
 qt5ct-kde
-stremio-linux-shell
