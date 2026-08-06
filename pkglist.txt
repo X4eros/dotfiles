@@ -61,7 +61,6 @@ efibootmgr
 efitools
 egl-wayland
 ethtool
-evolution-data-server
 exfatprogs
 f2fs-tools
 fastfetch

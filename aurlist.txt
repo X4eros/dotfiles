@@ -1,6 +1,4 @@
 choir-overlay-git
-cylon
-dsearch-bin
 equicord-installer-bin
 obs-cmd
 qt5ct-kde
