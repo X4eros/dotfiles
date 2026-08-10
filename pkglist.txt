@@ -86,7 +86,6 @@ gvfs
 gvfs-mtp
 gvfs-smb
 hdparm
-helium-browser-bin
 hwdetect
 hwinfo
 hyprland
@@ -249,5 +248,6 @@ xl2tpd
 xorg-xhost
 xwayland-satellite
 zed
+zen-browser-bin
 zenpower3-dkms
 zip

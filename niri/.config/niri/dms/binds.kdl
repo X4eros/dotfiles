@@ -98,7 +98,7 @@ binds {
     CTRL+Shift+1 { screenshot; }
     CTRL+Shift+2 hotkey-overlay-title="Screenshot Screen" { screenshot-screen write-to-disk=true; }
     Print hotkey-overlay-title="Screenshot Screen" { screenshot-screen; }
-    Mod+B hotkey-overlay-title="Open Browser: Helium" { spawn "helium-browser"; }
+    Mod+B hotkey-overlay-title="Open Browser: Zen" { spawn "zen-browser"; }
     Mod+E hotkey-overlay-title="File Manager: Thunar" { spawn "thunar"; }
     Mod+Minus { spawn "equibop" "--toggle-mic"; }
     Mod+Page_Down { spawn "obs-cmd" "replay" "save"; }

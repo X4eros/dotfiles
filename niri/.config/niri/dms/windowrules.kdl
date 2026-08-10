@@ -56,3 +56,9 @@ window-rule {
     default-column-width { fixed 960; }
     default-window-height { fixed 720; }
 }
+
+// @id=dms-floating-windows @name=DMS Floating Windows
+window-rule {
+    match app-id="^com.danklinux.dms$"
+    open-floating true
+}
