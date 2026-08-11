@@ -27,6 +27,7 @@ hl.monitor({
 hl.on("hyprland.start", function()
     hl.exec_cmd("dms run")
     hl.exec_cmd("dex -a")
+    hl.exec_cmd("xhost +si:localuser:root")
 end)
 
 -- ==================
@@ -88,7 +89,7 @@ hl.config({
 
 hl.config({
     render = {
-        direct_scanout = 0,
+        direct_scanout = 1,
     },
 })
 
@@ -137,7 +138,7 @@ hl.config({
     },
 })
 
-hl.curve("rubber", { type = "spring", mass = 1, stiffness = 50, dampening = 12 })
+hl.curve("rubber", { type = "spring", mass = 1, stiffness = 700, dampening = 40 })
 hl.curve("overshoot", { type = "bezier", points = { { 0.5, 0.9 }, { 0.1, 1.1 } } })
 
 hl.animation({ leaf = "workspaces", enabled = true, speed = 10, spring = "rubber", style = "slidevert" })
@@ -182,6 +183,22 @@ hl.config({
         vrr = 1,
     },
 })
+
+-- Opacity for inactive windows
+hl.window_rule({ match = { float = false, focus = false }, opacity = "0.9 0.9" })
+
+-- GNOME apps
+hl.window_rule({ match = { class = "^(org\\.gnome\\.)" }, border_size = 0, rounding = 12 })
+
+-- Floating windows
+hl.window_rule({ match = { class = "^(gnome-calculator)$" }, float = true })
+
+hl.window_rule({ match = { class = "^(blueman-manager)$" }, float = true })
+
+hl.window_rule({ match = { class = "^(org\\.gnome\\.Nautilus)$" }, float = true })
+
+-- Open DMS windows as floating by default
+hl.window_rule({ match = { class = "^(org.quickshell)$" }, float = true })
 
 require("dms/colors")
 

@@ -164,15 +164,7 @@ hl.bind("CTRL + SHIFT" .. " + " .. 1, hl.dsp.exec_cmd("flameshot gui"))
 
 -- dms screenshot
 
-hl.bind("SUPER" .. " + " .. "B", hl.dsp.exec_cmd("helium-browser"))
-
--- vivaldi
-
 hl.bind("SUPER" .. " + " .. "E", hl.dsp.exec_cmd("thunar"))
-
-hl.bind("SUPER" .. " + " .. "Minus", hl.dsp.exec_cmd("equibop --toggle-mic"))
-
--- --toggle-mic
 
 hl.bind("SUPER" .. " + " .. "Return", hl.dsp.exec_cmd("kitty"))
 

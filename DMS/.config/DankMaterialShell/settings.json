@@ -617,8 +617,8 @@
   "hyprlandOutputSettings": {
     "DP-1": {
       "colorManagement": "auto",
-      "sdrBrightness": 1.5,
-      "sdrSaturation": 1.1,
+      "sdrBrightness": 3,
+      "sdrSaturation": 1,
       "bitdepth": 10
     },
     "desc:Dell Inc. DELL G2724D C3D16Y3": {
@@ -1110,11 +1110,15 @@
     },
     "dms_clipboard_search": {
       "trigger": "cb"
+    },
+    "dms_qr_generator": {
+      "trigger": "qrg"
     }
   },
   "clipboardClickToPaste": false,
   "clipboardEnterToPaste": false,
   "clipboardRememberTypeFilter": false,
+  "clipboardUseOverlayLayer": false,
   "clipboardTypeFilter": "all",
   "clipboardVisibleEntryActions": [
     "pin",
