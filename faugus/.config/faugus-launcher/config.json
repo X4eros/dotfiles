@@ -18,7 +18,7 @@
     "show-hidden": "False",
     "show-donate": "False",
     "donate-last": "2026-03",
-    "playtime": "231098",
+    "playtime": "231412",
     "gamepad-navigation": "False",
     "backup-auto-enabled": "False",
     "backup-frequency": "daily",
@@ -41,13 +41,14 @@
     "wow64-enabled": "False",
     "startup-window-size": "None",
     "splash-window-enabled": "True",
-    "automatic-updates": "True",
+    "automatic-updates": "False",
     "interface-theme": "system",
     "accent-color": "system",
     "steamgriddb-api-key": "bbd19828aa38bdeadfa85b210c2930a1",
     "background-mode": "default",
     "banner-enabled": "True",
     "steam-user": "all",
-    "header-bar": "True",
-    "theme-engine": "adwaita"
+    "header-bar": "False",
+    "theme-engine": "adwaita",
+    "zoom-enabled": "True"
 }

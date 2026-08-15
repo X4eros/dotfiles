@@ -1,6 +1,6 @@
 source /usr/share/cachyos-fish-config/cachyos-config.fish
 
-export EDITOR=nvim
+export EDITOR=zeditor
 export PATH="$HOME/.cargo/bin:$PATH"
 
 fish_add_path /home/x4eros/.spicetify

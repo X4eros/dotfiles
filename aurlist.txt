@@ -1,4 +1,4 @@
 choir-overlay-git
 equicord-installer-bin
+nuvio-linux-bin
 obs-cmd
-qt5ct-kde

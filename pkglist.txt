@@ -97,7 +97,6 @@ joystickwake
 kdeconnect
 kitty
 kvantum
-kvantum-qt5
 lact
 less
 lib32-libpulse
@@ -240,8 +239,8 @@ wlsunset
 wpa_supplicant
 wqy-zenhei
 xarchiver
-xdg-desktop-portal-gnome
 xdg-desktop-portal-gtk
+xdg-desktop-portal-hyprland
 xdg-user-dirs
 xfsprogs
 xl2tpd

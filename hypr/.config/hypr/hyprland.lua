@@ -40,7 +40,7 @@ hl.env("QT_QPA_PLATFORM", "wayland;xcb")
 
 hl.env("ELECTRON_OZONE_PLATFORM_HINT", "auto")
 
-hl.env("QT_QPA_PLATFORMTHEME", "qt5ct")
+hl.env("QT_QPA_PLATFORMTHEME", "qt6ct")
 
 hl.env("QT_QPA_PLATFORMTHEME_QT6", "qt6ct")
 
@@ -89,7 +89,7 @@ hl.config({
 
 hl.config({
     render = {
-        direct_scanout = 1,
+        direct_scanout = 0,
     },
 })
 
@@ -103,7 +103,7 @@ hl.config({
     decoration = {
         rounding = 12,
         active_opacity = 0.95,
-        inactive_opacity = 0.80,
+        inactive_opacity = 0.85,
         blur = {
             enabled = true,
             size = 10,
@@ -123,6 +123,9 @@ hl.config({
             offset = "0 5",
             color = "rgba(00000070)",
         },
+        motion_blur = {
+            enabled = true,
+        },
     },
 })
 
@@ -138,10 +141,11 @@ hl.config({
     },
 })
 
-hl.curve("rubber", { type = "spring", mass = 1, stiffness = 700, dampening = 40 })
+hl.curve("rubber", { type = "spring", mass = 1, stiffness = 400, dampening = 33 })
+hl.curve("rubberfast", { type = "spring", mass = 1, stiffness = 650, dampening = 40 })
 hl.curve("overshoot", { type = "bezier", points = { { 0.5, 0.9 }, { 0.1, 1.1 } } })
 
-hl.animation({ leaf = "workspaces", enabled = true, speed = 10, spring = "rubber", style = "slidevert" })
+hl.animation({ leaf = "workspaces", enabled = true, speed = 10, spring = "rubberfast", style = "slidevert" })
 hl.animation({ leaf = "windows", enabled = true, speed = 10, spring = "rubber", style = "popin" })
 hl.animation({ leaf = "fade", enabled = true, speed = 10, spring = "rubber" })
 
