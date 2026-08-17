@@ -84,6 +84,7 @@
   "fadeToDpmsGracePeriod": 10,
   "showDock": true,
   "dockSmartAutoHide": true,
+  "dockUseOverlayLayer": true,
   "dockGroupByApp": true,
   "dockOpenOnOverview": true,
   "dockSpacing": 8,
