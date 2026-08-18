@@ -1,0 +1,44 @@
+{
+  "lockfileVersion": 1,
+  "plugins": {
+    "calculator": {
+      "repo": "https://github.com/rochacbruno/DankCalculator",
+      "commit": "07d7c123a5aee9ac4fd4347bbae36d5957b021f9"
+    },
+    "clipboardPlus": {
+      "repo": "https://github.com/Dadangdut33/dms-plugins",
+      "path": "ClipboardPlus",
+      "commit": "67177bc72998420a8a402b88e285d45d0021fe40"
+    },
+    "commandRunner": {
+      "repo": "https://github.com/devnullvoid/dms-command-runner",
+      "commit": "a6252e8f397eeeb80e10b5a92713118221493dae"
+    },
+    "dankDesktopWeather": {
+      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "path": "DankDesktopWeather",
+      "commit": "9e2752586d79a6509b93c00c6fa4be0334ae4755"
+    },
+    "dankKDEConnect": {
+      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "path": "DankKDEConnect",
+      "commit": "9e2752586d79a6509b93c00c6fa4be0334ae4755"
+    },
+    "emojiLauncher": {
+      "repo": "https://github.com/devnullvoid/dms-emoji-launcher",
+      "commit": "18974e94d048ecedfa1c0acea76e21584b05196d"
+    },
+    "mediaPlayer": {
+      "repo": "https://github.com/arrifat346afs/mediaPlayer",
+      "commit": "56ec160ed3fe32ad55b920ff462727d918b6eb51"
+    },
+    "quickCapture": {
+      "repo": "https://github.com/hthienloc/dms-quick-capture",
+      "commit": "e72e105ca76071dd23721a12b250350f2f74f907"
+    },
+    "webSearch": {
+      "repo": "https://github.com/devnullvoid/dms-web-search",
+      "commit": "52f9ec482dc86d9c5ff0110a5d57401112191a38"
+    }
+  }
+}

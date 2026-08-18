@@ -1,3 +1,4 @@
+ab-download-manager
 accountsservice
 adw-gtk-theme
 alsa-firmware
@@ -51,7 +52,7 @@ diffutils
 discord
 dmidecode
 dmraid
-dms-shell-git
+dms-shell
 dnsmasq
 dosfstools
 duf
@@ -67,7 +68,6 @@ fastfetch
 faugus-launcher
 ffmpegthumbnailer
 filelight
-freedownloadmanager
 fsarchiver
 fuse2
 git
@@ -85,7 +85,9 @@ gst-plugins-ugly
 gvfs
 gvfs-mtp
 gvfs-smb
+handbrake
 hdparm
+helium-browser-bin
 hwdetect
 hwinfo
 hyprland
@@ -175,6 +177,7 @@ polkit-gnome
 poppler-glib
 power-profiles-daemon
 prismlauncher
+profile-sync-daemon
 proton-vpn-gtk-app
 protonplus
 protontricks
@@ -195,7 +198,6 @@ scdoc
 sddm
 sg3_utils
 shelly
-shotcut
 smartmontools
 snapper
 sof-firmware
@@ -230,6 +232,7 @@ ventoy-bin
 vim
 vkbasalt
 vulkan-icd-loader
+webkit2gtk-4.1
 wf-recorder
 wget
 which
@@ -247,6 +250,5 @@ xl2tpd
 xorg-xhost
 xwayland-satellite
 zed
-zen-browser-bin
 zenpower3-dkms
 zip

@@ -2,6 +2,8 @@
 
 hl.unbind("Print")
 hl.bind("Print", hl.dsp.exec_cmd("dms screenshot full --no-file"))
+hl.unbind("SUPER + SHIFT + Escape")
+hl.bind("SUPER + SHIFT + Escape", hl.dsp.exec_cmd("dms ipc call keybinds toggle hyprland"), { description = "dms ipc call keybinds toggle hyprland" })
 hl.unbind("XF86AudioLowerVolume")
 hl.bind("XF86AudioLowerVolume", hl.dsp.exec_cmd("dms ipc call audio decrement 5"), { locked = true })
 hl.unbind("XF86AudioMute")
@@ -23,4 +25,7 @@ hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd("dms ipc call brightness incremen
 hl.unbind("SUPER + C")
 hl.bind("SUPER + C", hl.dsp.window.center(), { description = "Center Window" })
 hl.unbind("SUPER + B")
-hl.bind("SUPER + B", hl.dsp.exec_cmd("zen-browser"), { description = "zen-browser" })
+hl.bind("SUPER + B", hl.dsp.exec_cmd("helium-browser"), { description = "helium-browser" })
+hl.unbind("SUPER + E")
+hl.bind("SUPER + E", hl.dsp.exec_cmd("thunar"), { description = "File Manager" })
+hl.unbind("SUPER + SHIFT + Slash")

@@ -77,6 +77,7 @@
 ; (gtk_accel_path "<Actions>/ThunarWindow/edit-menu" "")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/copy" "<Primary>c")
 ; (gtk_accel_path "<Actions>/ThunarWindow/bookmarks-menu" "")
+; (gtk_accel_path "<Actions>/ThunarBookmarks/170c8ce274ef8d1878b6ddab1e7f7f98" "")
 ; (gtk_accel_path "<Actions>/ThunarStandardView/forward-alt" "Forward")
 ; (gtk_accel_path "<Actions>/ThunarActionManager/move-to-trash" "")
 ; (gtk_accel_path "<Actions>/ThunarWindow/reload-alt-1" "F5")

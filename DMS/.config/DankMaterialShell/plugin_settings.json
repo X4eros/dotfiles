@@ -48,8 +48,9 @@
     "enabled": true
   },
   "commandRunner": {
-    "enabled": true,
+    "enabled": false,
     "history": [
+      "nemo",
       "xeyes",
       "sudo limine-snapper-sync",
       "opencode",
@@ -83,5 +84,11 @@
     "radialHoverTrigger": true,
     "show_shortcut_hints": true,
     "saveFilenamePattern": "Screenshot_%Y-%m-%d_%H-%M-%S"
+  },
+  "dankDesktopWeather": {
+    "enabled": true
+  },
+  "mediaPlayer": {
+    "enabled": true
   }
 }
