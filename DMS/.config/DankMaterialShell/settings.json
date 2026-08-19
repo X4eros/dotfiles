@@ -810,48 +810,6 @@
   },
   "desktopWidgetInstances": [
     {
-      "id": "dw_1774535530126_q5n7vkk89",
-      "widgetType": "systemMonitor",
-      "name": "System Monitor",
-      "enabled": false,
-      "config": {
-        "showHeader": true,
-        "transparency": 0.8,
-        "colorMode": "primary",
-        "customColor": "#ffffff",
-        "showCpu": true,
-        "showCpuGraph": true,
-        "showCpuTemp": true,
-        "showGpuTemp": true,
-        "gpuPciId": "10de:2489",
-        "showMemory": true,
-        "showMemoryGraph": true,
-        "showNetwork": true,
-        "showNetworkGraph": true,
-        "showDisk": true,
-        "showTopProcesses": false,
-        "topProcessCount": 5,
-        "topProcessSortBy": "memory",
-        "layoutMode": "list",
-        "graphInterval": 60,
-        "displayPreferences": [
-          "all"
-        ],
-        "showOnOverlay": false,
-        "showOnOverview": false,
-        "showOnOverviewOnly": false
-      },
-      "group": null,
-      "positions": {
-        "DP-1": {
-          "width": 320,
-          "height": 560,
-          "x": 2200,
-          "y": 40
-        }
-      }
-    },
-    {
       "id": "dw_1774535705356_brlzde1su",
       "widgetType": "desktopClock",
       "name": "Desktop Clock",
@@ -870,32 +828,12 @@
         "showOnOverlay": false,
         "showDigitalSeconds": true
       },
-      "group": "dwg_1774536714950_ownnh4wgc",
+      "group": null,
       "positions": {
         "DP-1": {
           "width": 360,
           "height": 160,
           "x": 1120,
-          "y": 40
-        }
-      }
-    },
-    {
-      "id": "dw_1774536074934_j6t9r8uh1",
-      "widgetType": "mediaPlayer",
-      "name": "Media Player",
-      "enabled": true,
-      "config": {
-        "displayPreferences": [
-          "all"
-        ],
-        "showOnOverlay": false
-      },
-      "positions": {
-        "DP-1": {
-          "width": 320,
-          "height": 200,
-          "x": 80,
           "y": 40
         }
       }
@@ -914,7 +852,7 @@
         "showHourlyForecast": false,
         "colorMode": "primary"
       },
-      "group": "dwg_1774536714950_ownnh4wgc",
+      "group": null,
       "positions": {
         "DP-1": {
           "width": 320,
@@ -925,13 +863,7 @@
       }
     }
   ],
-  "desktopWidgetGroups": [
-    {
-      "id": "dwg_1774536714950_ownnh4wgc",
-      "name": "Clock and Weather",
-      "collapsed": false
-    }
-  ],
+  "desktopWidgetGroups": [],
   "builtInPluginSettings": {
     "dms_settings_search": {
       "trigger": "?"
