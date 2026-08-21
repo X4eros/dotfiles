@@ -103,13 +103,11 @@ hl.config({
     decoration = {
         rounding = 12,
         active_opacity = 1,
-        inactive_opacity = 0.85,
+        inactive_opacity = 0.9,
         blur = {
             enabled = true,
             size = 10,
             passes = 4,
-            ignore_opacity = true,
-            new_optimizations = true,
             xray = true,
             noise = 0.02,
             contrast = 1.1,
@@ -187,9 +185,6 @@ hl.config({
         vrr = 1,
     },
 })
-
--- Opacity for inactive windows
-hl.window_rule({ match = { float = false, focus = false }, opacity = "0.9 0.9" })
 
 -- GNOME apps
 hl.window_rule({ match = { class = "^(org\\.gnome\\.)" }, border_size = 0, rounding = 12 })

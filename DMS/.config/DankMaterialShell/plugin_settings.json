@@ -90,5 +90,13 @@
   },
   "mediaPlayer": {
     "enabled": true
+  },
+  "systemMonitorPlus": {
+    "enabled": true,
+    "cpuTempEnabled": false,
+    "ramUsageEnabled": true,
+    "gpuTempEnabled": false,
+    "diskPartitionUsageEnabled": false,
+    "networkSpeedEnabled": true
   }
 }

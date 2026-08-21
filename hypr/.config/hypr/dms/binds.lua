@@ -158,17 +158,9 @@ hl.bind("SUPER" .. " + " .. "up", hl.dsp.focus({ direction = "up" }))
 
 hl.bind("SUPER" .. " + " .. "C", hl.dsp.window.center())
 
--- Center Window
-
-hl.bind("CTRL + SHIFT" .. " + " .. 1, hl.dsp.exec_cmd("flameshot gui"))
-
--- dms screenshot
-
 hl.bind("SUPER" .. " + " .. "E", hl.dsp.exec_cmd("thunar"))
 
 hl.bind("SUPER" .. " + " .. "Return", hl.dsp.exec_cmd("kitty"))
-
--- kitty
 
 hl.bind("SUPER + SHIFT" .. " + " .. "E", hl.dsp.exit())
 
@@ -187,5 +179,3 @@ hl.bind("SUPER" .. " + " .. "bracketleft", hl.dsp.layout("preselect l"))
 hl.bind("SUPER" .. " + " .. "bracketright", hl.dsp.layout("preselect r"))
 
 hl.bind("SUPER" .. " + " .. "T", hl.dsp.window.float())
-
--- Float/unfloat window

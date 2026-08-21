@@ -1,6 +1,6 @@
 source /usr/share/cachyos-fish-config/cachyos-config.fish
 
-export EDITOR=zeditor
+export EDITOR=nvim
 export PATH="$HOME/.cargo/bin:$PATH"
 
 fish_add_path /home/x4eros/.spicetify
@@ -12,7 +12,7 @@ set fzf_fd_opts --hidden
 function __dms_debug
     set -l file "$BASH_COMP_DEBUG_FILE"
     if test -n "$file"
-        echo "$argv" >> $file
+        echo "$argv" >>$file
     end
 end
 
@@ -116,7 +116,6 @@ function __dms_requires_order_preservation
     __dms_debug "This doesn't require order preservation"
     return 1
 end
-
 
 # This function does two things:
 # - Obtain the completions and store them in the global __dms_comp_results
@@ -224,18 +223,18 @@ end
 # so we can properly delete any completions provided by another script.
 # Only do this if the program can be found, or else fish may print some errors; besides,
 # the existing completions will only be loaded if the program can be found.
-if type -q "dms"
+if type -q dms
     # The space after the program name is essential to trigger completion for the program
     # and not completion of the program name itself.
     # Also, we use '> /dev/null 2>&1' since '&>' is not supported in older versions of fish.
-    complete --do-complete "dms " > /dev/null 2>&1
+    complete --do-complete "dms " >/dev/null 2>&1
 end
 
 # Remove any pre-existing completions for the program since we will be handling all of them.
 complete -c dms -e
 
 # this will get called after the two calls below and clear the $__dms_perform_completion_once_result global
-complete -c dms -n '__dms_clear_perform_completion_once_result'
+complete -c dms -n __dms_clear_perform_completion_once_result
 # The call to __dms_prepare_completions will setup __dms_comp_results
 # which provides the program's completion choices.
 # If this doesn't require order preservation, we don't use the -k flag

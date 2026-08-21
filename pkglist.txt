@@ -52,7 +52,7 @@ diffutils
 discord
 dmidecode
 dmraid
-dms-shell
+dms-shell-git
 dnsmasq
 dosfstools
 duf
@@ -173,7 +173,6 @@ pipewire-pulse
 pkgfile
 plocate
 plymouth
-polkit-gnome
 poppler-glib
 power-profiles-daemon
 prismlauncher
