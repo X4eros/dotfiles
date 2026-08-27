@@ -14,11 +14,6 @@
       "repo": "https://github.com/devnullvoid/dms-command-runner",
       "commit": "a6252e8f397eeeb80e10b5a92713118221493dae"
     },
-    "dankDesktopWeather": {
-      "repo": "https://github.com/AvengeMedia/dms-plugins",
-      "path": "DankDesktopWeather",
-      "commit": "9e2752586d79a6509b93c00c6fa4be0334ae4755"
-    },
     "dankKDEConnect": {
       "repo": "https://github.com/AvengeMedia/dms-plugins",
       "path": "DankKDEConnect",

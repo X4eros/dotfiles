@@ -74,9 +74,10 @@
   "dankLauncherV2BorderEnabled": true,
   "dankLauncherV2UnloadOnClose": true,
   "launcherUseOverlayLayer": true,
+  "launcherStyle": "spotlight",
   "spotlightBarShowModeChips": true,
   "useAutoLocation": true,
-  "iconThemeDark": "Papirus",
+  "iconThemeDark": "Papirus-Dark",
   "cursorSettings": {
     "theme": "capitaine-cursors",
     "size": 32,
@@ -93,6 +94,7 @@
       "cursorHideTimeout": 0
     }
   },
+  "launcherLogoMode": "os",
   "textRenderType": 1,
   "useSystemSoundTheme": true,
   "muteSoundsWhenMediaPlaying": false,
@@ -151,7 +153,8 @@
         {
           "id": "clock",
           "enabled": true,
-          "clockCompactMode": false
+          "clockCompactMode": false,
+          "clockDateOrder": "timeFirst"
         },
         {
           "id": "weather",
@@ -192,7 +195,7 @@
         {
           "id": "music",
           "enabled": true,
-          "mediaSize": 1
+          "mediaSize": 0
         },
         {
           "id": "clipboardPlus",
