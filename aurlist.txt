@@ -1,5 +1,5 @@
 appimagetool-bin
 choir-overlay-git
 equicord-installer-bin
-nuvio-linux-bin
+kora-icon-theme
 obs-cmd

@@ -161,7 +161,6 @@ openssh
 os-prober
 oxygen-sounds
 pacman-contrib
-papirus-icon-theme
 paru-git
 pavucontrol
 perl

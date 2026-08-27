@@ -66,6 +66,38 @@
   "showWorkspaceIndex": true,
   "showWorkspaceApps": true,
   "focusedWindowShowIcon": false,
+  "appIdSubstitutions": [
+    {
+      "pattern": "Spotify",
+      "replacement": "spotify",
+      "type": "exact"
+    },
+    {
+      "pattern": "beepertexts",
+      "replacement": "beeper",
+      "type": "exact"
+    },
+    {
+      "pattern": "home assistant desktop",
+      "replacement": "homeassistant-desktop",
+      "type": "exact"
+    },
+    {
+      "pattern": "com.transmissionbt.transmission",
+      "replacement": "transmission-gtk",
+      "type": "contains"
+    },
+    {
+      "pattern": "^steam_app_(\\d+)$",
+      "replacement": "steam_icon_$1",
+      "type": "regex"
+    },
+    {
+      "pattern": "com-nuvio-app-MainKt",
+      "replacement": "Nuvio",
+      "type": "exact"
+    }
+  ],
   "greeterRememberLastSession": false,
   "greeterRememberLastUser": false,
   "spotlightSectionViewModes": {
@@ -77,7 +109,7 @@
   "launcherStyle": "spotlight",
   "spotlightBarShowModeChips": true,
   "useAutoLocation": true,
-  "iconThemeDark": "Papirus-Dark",
+  "iconThemeDark": "kora",
   "cursorSettings": {
     "theme": "capitaine-cursors",
     "size": 32,

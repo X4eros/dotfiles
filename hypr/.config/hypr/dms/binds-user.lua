@@ -2,5 +2,13 @@
 
 hl.unbind("SUPER + SHIFT + Escape")
 hl.bind("SUPER + SHIFT + Escape", hl.dsp.exec_cmd("dms ipc call keybinds toggle hyprland"), { description = "dms ipc call keybinds toggle hyprland" })
+hl.unbind("SUPER + SHIFT + Left")
+hl.bind("SUPER + SHIFT + Left", hl.dsp.window.move({ direction = "l" }), { description = "Move Window Left" })
+hl.unbind("SUPER + SHIFT + Right")
+hl.bind("SUPER + SHIFT + Right", hl.dsp.window.move({ direction = "r" }), { description = "Move Window Right" })
+hl.unbind("SUPER + SHIFT + Up")
+hl.bind("SUPER + SHIFT + Up", hl.dsp.window.move({ direction = "u" }), { description = "Move Window Up" })
+hl.unbind("SUPER + SHIFT + Down")
+hl.bind("SUPER + SHIFT + Down", hl.dsp.window.move({ direction = "d" }), { description = "Move Window Down" })
 hl.unbind("SUPER + B")
 hl.bind("SUPER + B", hl.dsp.exec_cmd("helium-browser"), { description = "helium-browser" })
