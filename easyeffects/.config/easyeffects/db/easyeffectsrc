@@ -9,7 +9,7 @@ visiblePlugin=rnnoise#0
 
 [StreamOutputs]
 mostUsedPresets=Perfect EQ
-outputDevice=alsa_output.pci-0000_07_00.4.analog-stereo
+outputDevice=alsa_output.usb-KTMicro_USB-C_Audio_202406190940-00.analog-stereo
 plugins=equalizer#0
 usedPresets=Perfect EQ:139
 visiblePage=pluginsPage
@@ -28,4 +28,4 @@ height=1428
 visiblePage=inputPage
 visiblePipeWirePage=testSignalsPage
 visiblePresetSheetPage=communityPage
-width=1255
+width=1256

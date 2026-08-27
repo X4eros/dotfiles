@@ -17,10 +17,6 @@ input_path = '~/.config/matugen/templates/cava-colors.ini'
 output_path = '~/.config/cava/themes/your-theme'
 post_hook = 'pkill -USR1 cava'
 # ...
-[templates.vivaldi]
-input_path = '~/.config/matugen/templates/vivaldi.css'
-output_path = '/windrive/Users/Yakup/Documents/Vivaldi/vivaldi.css'
-# ...
 [templates.spotify]
 input_path = '~/.config/matugen/templates/spicetify.ini'
 output_path = '~/.config/spicetify/Themes/Sleek/color.ini'
@@ -50,11 +46,6 @@ output_path = '~/.config/opencode/themes/matugen.json'
 [templates.prismlauncher]
 input_path = '~/.config/matugen/templates/prismlauncher.json'
 output_path = '~/.local/share/PrismLauncher/themes/Matugen/theme.json'
-# ...
-[templates.steam]
-input_path = '~/.config/matugen/templates/steam.css'
-output_path = '~/.config/AdwSteamGtk/custom.css'
-post_hook =  'adwaita-steam-gtk -i'
 # ...
 [templates.heroic]
 input_path = '~/.config/matugen/templates/heroic.css'
