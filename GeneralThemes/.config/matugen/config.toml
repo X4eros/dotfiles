@@ -58,3 +58,12 @@ output_path = '~/Documents/obs_vault/.obsidian/snippets/matugen.css'
 [templates.vesktop]
 input_path = '~/.config/matugen/templates/midnight-discord.css'
 output_path = '~/.config/Equicord/themes/midnight-discord.css'
+# ...
+[templates.discord]
+input_path = '~/.config/matugen/templates/system24.css'
+output_path = '~/.config/Equicord/themes/system24.css'
+# ...
+[templates.btop]
+input_path = '~/.config/matugen/templates/btop.theme'
+output_path = '~/.config/btop/themes/matugen.theme'
+post_hook = 'pkill -USR2 btop || true'

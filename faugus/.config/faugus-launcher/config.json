@@ -18,7 +18,7 @@
     "show-hidden": "False",
     "show-donate": "False",
     "donate-last": "2026-03",
-    "playtime": "234946",
+    "playtime": "235032",
     "gamepad-navigation": "False",
     "backup-auto-enabled": "False",
     "backup-frequency": "daily",
@@ -37,7 +37,6 @@
     "logging-enabled": "False",
     "autostart-enabled": "False",
     "minimized-startup-enabled": "False",
-    "categories-and-sort-enabled": "False",
     "wow64-enabled": "False",
     "startup-window-size": "None",
     "splash-window-enabled": "True",
@@ -50,5 +49,8 @@
     "steam-user": "all",
     "header-bar": "False",
     "theme-engine": "adwaita",
-    "zoom-enabled": "True"
+    "zoom-enabled": "True",
+    "categories-enabled": "False",
+    "sort-enabled": "False",
+    "steamgriddb-enabled": "True"
 }

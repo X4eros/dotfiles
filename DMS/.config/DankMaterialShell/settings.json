@@ -8,8 +8,8 @@
   "widgetBackgroundColor": "secondaryContainer",
   "buttonColorMode": "primaryContainer",
   "cornerRadius": 8,
-  "niriLayoutGapsOverride": 4,
-  "niriLayoutRadiusOverride": 12,
+  "niriLayoutGapsOverride": 2,
+  "niriLayoutRadiusOverride": 8,
   "niriLayoutBorderSize": 0,
   "hyprlandLayoutGapsOverride": 2,
   "hyprlandLayoutGapsOutOverride": 4,
@@ -271,18 +271,18 @@
           ]
         }
       ],
-      "spacing": 0,
+      "spacing": 2,
       "innerPadding": 2,
-      "bottomGap": -5,
+      "bottomGap": 0,
       "transparency": 0.5,
       "widgetTransparency": 0.8,
-      "squareCorners": true,
+      "squareCorners": false,
       "noBackground": false,
       "maximizeWidgetIcons": false,
       "maximizeWidgetText": false,
       "removeWidgetPadding": false,
       "widgetPadding": 8,
-      "gothCornersEnabled": true,
+      "gothCornersEnabled": false,
       "gothCornerRadiusOverride": false,
       "gothCornerRadiusValue": 12,
       "borderEnabled": false,
@@ -313,7 +313,8 @@
       "clickThrough": false,
       "useOverlayLayer": false,
       "hoverPopouts": false,
-      "barInsetPadding": 4
+      "barInsetPadding": 4,
+      "attachToScreenEdge": false
     }
   ],
   "desktopClockCustomColor": {

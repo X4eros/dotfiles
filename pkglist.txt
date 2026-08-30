@@ -1,3 +1,4 @@
+7zip
 ab-download-manager
 accountsservice
 adw-gtk-theme
@@ -134,7 +135,6 @@ mdadm
 meld
 mesa-utils
 micro
-millennium
 mission-center
 mkinitcpio
 modemmanager
@@ -148,7 +148,7 @@ networkmanager
 networkmanager-openvpn
 nfs-utils
 nilfs-utils
-niri-git
+niri-spicy-git
 noto-fonts
 noto-fonts-emoji
 nss-mdns
@@ -239,8 +239,8 @@ wlsunset
 wpa_supplicant
 wqy-zenhei
 xarchiver
+xdg-desktop-portal-gnome
 xdg-desktop-portal-gtk
-xdg-desktop-portal-hyprland
 xdg-user-dirs
 xfsprogs
 xl2tpd
