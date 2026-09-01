@@ -154,7 +154,6 @@ noto-fonts-emoji
 nss-mdns
 nvidia-settings
 nvidia-utils
-obs-studio
 onlyoffice-bin
 opencl-nvidia
 openssh

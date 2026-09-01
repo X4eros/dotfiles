@@ -1,5 +1,3 @@
-appimagetool-bin
 choir-overlay-git
 equicord-installer-bin
 kora-icon-theme
-obs-cmd

@@ -4,7 +4,7 @@
 input {
     keyboard {
         xkb {
-            layout "tr" // Use the American keyboard layout
+            layout "tr(alt)" // Use the American keyboard layout
         }
         numlock // Enable numlock on startup
     }

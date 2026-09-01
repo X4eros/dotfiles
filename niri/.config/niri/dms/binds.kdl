@@ -12,7 +12,6 @@ binds {
     Mod+Space hotkey-overlay-title="Application Launcher" { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
     Mod+V { spawn "dms" "ipc" "call" "clipboardPlus" "togglePanel"; }
     Mod+Y hotkey-overlay-title="Browse Wallpapers" { spawn "dms" "ipc" "call" "dankdash" "wallpaper"; }
-    Super+Alt+space hotkey-overlay-title="Spotlight Bar: Open" { spawn "dms" "ipc" "call" "spotlight-bar" "open"; }
     Super+Escape hotkey-overlay-title="Keybinds Cheatsheet: Toggle" { spawn "dms" "ipc" "call" "keybinds" "toggle" "niri"; }
     Super+M allow-when-locked=true { spawn "dms" "ipc" "call" "audio" "micmute"; }
     Super+R { spawn "dms" "ipc" "call" "quickCapture" "screenshot" "region" "edit"; }
@@ -100,10 +99,6 @@ binds {
     Print hotkey-overlay-title="Screenshot Screen" { screenshot-screen; }
     Mod+B hotkey-overlay-title="Open Browser: Helium" { spawn "helium-browser"; }
     Mod+E hotkey-overlay-title="File Manager: Thunar" { spawn "thunar"; }
-    Mod+Minus { spawn "equibop" "--toggle-mic"; }
-    Mod+Page_Down { spawn "obs-cmd" "replay" "save"; }
-    Mod+Prior { spawn "obs-cmd" "replay" "toggle"; }
     Mod+Return hotkey-overlay-title="Open Terminal: Kitty" { spawn "kitty"; }
-    Mod+Shift+Prior { spawn "obs-cmd" "recording" "toggle"; }
     Super+Tab repeat=false { toggle-overview; }
 }
