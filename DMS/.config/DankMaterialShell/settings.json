@@ -158,7 +158,14 @@
   "dockTrashFileManager": "thunar",
   "notificationOverlayEnabled": true,
   "lockScreenNotificationMode": 2,
+  "dankIslandCompactHeight": 28,
+  "dankIslandOuterGap": 6,
+  "dankIslandTransparency": 0.85,
+  "dankIslandHomeMediaSlot": "hidden",
+  "dankIslandHomeWeatherSlot": "right",
+  "dankIslandSatellitePosition": "island",
   "osdAlwaysShowValue": true,
+  "osdPosition": 4,
   "osdPowerProfileEnabled": true,
   "powerMenuGridLayout": true,
   "updaterHideWidget": true,
@@ -193,6 +200,10 @@
           "enabled": true
         },
         {
+          "id": "separator",
+          "enabled": true
+        },
+        {
           "id": "cpuUsage",
           "enabled": true,
           "minimumWidth": true
@@ -221,13 +232,17 @@
           "trayUseInlineExpansion": true
         },
         {
+          "id": "separator",
+          "enabled": true
+        },
+        {
           "id": "notificationButton",
           "enabled": true
         },
         {
           "id": "music",
           "enabled": true,
-          "mediaSize": 0
+          "mediaSize": 1
         },
         {
           "id": "clipboardPlus",
@@ -274,7 +289,7 @@
       "spacing": 2,
       "innerPadding": 2,
       "bottomGap": 0,
-      "transparency": 0.5,
+      "transparency": 0.8,
       "widgetTransparency": 0.8,
       "squareCorners": false,
       "noBackground": false,
@@ -351,7 +366,7 @@
       "enabled": true,
       "config": {
         "style": "digital",
-        "transparency": 0,
+        "transparency": 0.5,
         "colorMode": "primary",
         "customColor": "#ffffff",
         "showDate": true,
@@ -376,7 +391,8 @@
         ],
         "shapeMode": "cookie",
         "showSourceFooter": false,
-        "cookieRotation": false
+        "cookieRotation": false,
+        "backgroundOpacity": 50
       }
     }
   ],
@@ -389,6 +405,9 @@
     },
     "dms_qr_generator": {
       "trigger": "qrg"
+    },
+    "dms_power": {
+      "trigger": "pw"
     }
   },
   "configVersion": 16

@@ -8,6 +8,7 @@
         XDG_CURRENT_DESKTOP "niri"
         QT_QPA_PLATFORMTHEME "qt6ct"
         QT_QPA_PLATFORMTHEME_QT6 "qt6ct"
+        _JAVA_AWT_WM_NONREPARENTING "1"
     }
 
     hotkey-overlay {

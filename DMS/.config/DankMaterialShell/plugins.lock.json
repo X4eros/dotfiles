@@ -19,10 +19,6 @@
       "path": "DankKDEConnect",
       "commit": "9e2752586d79a6509b93c00c6fa4be0334ae4755"
     },
-    "emojiLauncher": {
-      "repo": "https://github.com/devnullvoid/dms-emoji-launcher",
-      "commit": "18974e94d048ecedfa1c0acea76e21584b05196d"
-    },
     "materialWeather": {
       "repo": "https://github.com/notsopreety/materialWeather",
       "commit": "06d047c1f98c8f8248a440415eb9ff1d5fe1f49a"

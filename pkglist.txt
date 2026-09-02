@@ -93,6 +93,7 @@ hwdetect
 hwinfo
 hyprland
 inetutils
+inter-font
 iptables
 iwd
 jfsutils
@@ -149,9 +150,9 @@ networkmanager-openvpn
 nfs-utils
 nilfs-utils
 niri-spicy-git
-noto-fonts
 noto-fonts-emoji
 nss-mdns
+ntfsprogs-plus
 nvidia-settings
 nvidia-utils
 onlyoffice-bin
@@ -212,6 +213,7 @@ thunar-archive-plugin
 translate-shell
 ttf-bitstream-vera
 ttf-dejavu
+ttf-firacode-nerd
 ttf-liberation
 ttf-material-symbols-variable-git
 ttf-meslo-nerd

@@ -98,5 +98,11 @@
     "gpuTempEnabled": false,
     "diskPartitionUsageEnabled": false,
     "networkSpeedEnabled": true
+  },
+  "networkIndicator": {
+    "enabled": true,
+    "updateInterval": 3,
+    "displayUnit": "auto",
+    "displayMode": "separate"
   }
 }
