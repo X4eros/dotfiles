@@ -76,7 +76,6 @@ inetutils
 inter-font
 iwd
 jfsutils
-joystickwake
 kdeconnect
 kitty
 kvantum
@@ -127,7 +126,6 @@ plocate
 power-profiles-daemon
 prismlauncher
 profile-sync-daemon
-proton-vpn-gtk-app
 protonplus
 protontricks
 punktfunk-gamescope
@@ -164,6 +162,7 @@ umu-launcher
 unrar
 usb_modeswitch
 ventoy-bin
+wayland-pipewire-idle-inhibit
 wf-recorder
 wget
 wlsunset

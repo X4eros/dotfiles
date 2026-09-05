@@ -6,4 +6,5 @@ output "DP-1" {
     position x=0 y=0
     variable-refresh-rate
     max-bpc 10
+    hdr mode="auto"
 }

@@ -168,10 +168,6 @@
   "dockTrashFileManager": "thunar",
   "notificationOverlayEnabled": true,
   "lockScreenNotificationMode": 2,
-  "dankIslandCompactHeight": 28,
-  "dankIslandOuterGap": 6,
-  "dankIslandTransparency": 0.85,
-  "dankIslandSatellitePosition": "island",
   "osdAlwaysShowValue": true,
   "osdPosition": 4,
   "osdPowerProfileEnabled": true,
@@ -418,5 +414,5 @@
       "trigger": "pw"
     }
   },
-  "configVersion": 17
+  "configVersion": 18
 }
