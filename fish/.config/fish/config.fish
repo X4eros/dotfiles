@@ -11,6 +11,12 @@ source (/usr/bin/starship init fish --print-full-init | psub)
 fzf_configure_bindings --directory=ctrl-f --variables=ctrl-alt-v
 set fzf_fd_opts --hidden
 
+alias hypervisor='sudo modprobe -r kvm_amd kvm
+sudo modprobe cpuid_fault_emulation'
+
+alias start-stream="systemctl --user start punktfunk-host punktfunk-scripting.service punktfunk-web.service"
+alias stop-stream="systemctl --user stop punktfunk-host punktfunk-scripting.service punktfunk-web.service"
+
 function __dms_debug
     set -l file "$BASH_COMP_DEBUG_FILE"
     if test -n "$file"

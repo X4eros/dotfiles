@@ -1,8 +1,8 @@
 [
-    "VKD3D_CONFIG=descriptor_heap",
     "PROTON_USE_OPTISCALER=1",
     "game-performance",
     "WINEDLLOVERRIDES=\"OnlineFix64,SteamOverlay64,winmm,dnet,steam_api64,dinput8=n,b\"",
     "UMU_USE_STEAM=0",
-    "GAMEID=480"
+    "GAMEID=480",
+    "LD_PRELOAD=/home/x4eros/.local/lib/liblinuwux_runtime.so"
 ]

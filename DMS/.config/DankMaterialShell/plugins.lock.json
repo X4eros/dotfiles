@@ -3,7 +3,7 @@
   "plugins": {
     "calculator": {
       "repo": "https://github.com/rochacbruno/DankCalculator",
-      "commit": "07d7c123a5aee9ac4fd4347bbae36d5957b021f9"
+      "commit": "1db5865419a40a33171a475855a59e0b8bf7187f"
     },
     "clipboardPlus": {
       "repo": "https://github.com/Dadangdut33/dms-plugins",
@@ -17,7 +17,7 @@
     "dankKDEConnect": {
       "repo": "https://github.com/AvengeMedia/dms-plugins",
       "path": "DankKDEConnect",
-      "commit": "9e2752586d79a6509b93c00c6fa4be0334ae4755"
+      "commit": "cb66135b0af01eacb25f3a656dc86fb727fa02cf"
     },
     "materialWeather": {
       "repo": "https://github.com/notsopreety/materialWeather",
@@ -29,7 +29,7 @@
     },
     "quickCapture": {
       "repo": "https://github.com/hthienloc/dms-quick-capture",
-      "commit": "e72e105ca76071dd23721a12b250350f2f74f907"
+      "commit": "9a60165cbc040e3c8709ff8dd80e1a5d1fabad77"
     },
     "webSearch": {
       "repo": "https://github.com/devnullvoid/dms-web-search",

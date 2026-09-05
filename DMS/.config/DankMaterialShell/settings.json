@@ -61,6 +61,16 @@
       "id": "plugin_quickCapture",
       "enabled": true,
       "width": 50
+    },
+    {
+      "id": "builtin_vpn",
+      "enabled": true,
+      "width": 50
+    },
+    {
+      "id": "builtin_tailscale",
+      "enabled": true,
+      "width": 50
     }
   ],
   "showWorkspaceIndex": true,
@@ -161,8 +171,6 @@
   "dankIslandCompactHeight": 28,
   "dankIslandOuterGap": 6,
   "dankIslandTransparency": 0.85,
-  "dankIslandHomeMediaSlot": "hidden",
-  "dankIslandHomeWeatherSlot": "right",
   "dankIslandSatellitePosition": "island",
   "osdAlwaysShowValue": true,
   "osdPosition": 4,
@@ -410,5 +418,5 @@
       "trigger": "pw"
     }
   },
-  "configVersion": 16
+  "configVersion": 17
 }

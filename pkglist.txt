@@ -56,6 +56,7 @@ ffmpegthumbnailer
 filelight
 fsarchiver
 fuse2
+gamescope
 glances
 gparted
 gpu-screen-recorder-ui
@@ -129,6 +130,10 @@ profile-sync-daemon
 proton-vpn-gtk-app
 protonplus
 protontricks
+punktfunk-gamescope
+punktfunk-host
+punktfunk-scripting
+punktfunk-web
 pv
 python-pipx
 qt6-virtualkeyboard
@@ -147,7 +152,7 @@ spotify-launcher
 starship
 steam
 stow
-sunshine
+tailscale
 thunar-archive-plugin
 translate-shell
 ttf-firacode-nerd
@@ -159,7 +164,6 @@ umu-launcher
 unrar
 usb_modeswitch
 ventoy-bin
-webkit2gtk-4.1
 wf-recorder
 wget
 wlsunset
