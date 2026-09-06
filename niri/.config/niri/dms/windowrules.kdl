@@ -44,12 +44,6 @@ window-rule {
     open-floating true
 }
 
-// @id=dms_rule_7 @name=
-window-rule {
-    match app-id="com.danklinux.dms$"
-    open-floating true
-}
-
 // @id=wr_1777929803507393860 @name=DesktopEditors
 window-rule {
     match app-id="^DesktopEditors$"
