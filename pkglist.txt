@@ -5,6 +5,7 @@ alsa-firmware
 alsa-utils
 amd-ucode
 android-tools
+ark
 awesome-terminal-fonts
 base
 base-devel
@@ -45,6 +46,7 @@ discord
 dmraid
 dms-shell-git
 dnsmasq
+dolphin
 duf
 easyeffects
 efitools
@@ -57,6 +59,7 @@ filelight
 fsarchiver
 fuse2
 gamescope
+ghostty
 glances
 gparted
 gpu-screen-recorder-ui
@@ -77,7 +80,6 @@ inter-font
 iwd
 jfsutils
 kdeconnect
-kitty
 kvantum
 lact
 lib32-libpulse
@@ -110,6 +112,7 @@ networkmanager
 nfs-utils
 nilfs-utils
 niri-spicy-git
+noctalia-git
 noto-fonts-emoji
 nss-mdns
 ntfsprogs-plus
@@ -144,19 +147,19 @@ scdoc
 sddm
 sg3_utils
 shelly
+slurp
 smartmontools
 sof-firmware
 spotify-launcher
+sshfs
 starship
 steam
 stow
 tailscale
-thunar-archive-plugin
 translate-shell
 ttf-firacode-nerd
 ttf-material-symbols-variable-git
 ttf-opensans
-tumbler
 ufw
 umu-launcher
 unrar
@@ -167,7 +170,6 @@ wf-recorder
 wget
 wlsunset
 wqy-zenhei
-xarchiver
 xdg-desktop-portal-gnome
 xfsprogs
 xl2tpd

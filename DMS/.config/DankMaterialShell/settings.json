@@ -63,7 +63,7 @@
       "width": 50
     },
     {
-      "id": "builtin_vpn",
+      "id": "nightMode",
       "enabled": true,
       "width": 50
     },
@@ -165,7 +165,7 @@
   "dockLauncherLogoMode": "os",
   "dockLauncherLogoColorOverride": "primary",
   "dockShowTrash": true,
-  "dockTrashFileManager": "thunar",
+  "dockTrashFileManager": "dolphin",
   "notificationOverlayEnabled": true,
   "lockScreenNotificationMode": 2,
   "osdAlwaysShowValue": true,

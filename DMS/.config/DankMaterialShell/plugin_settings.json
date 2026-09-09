@@ -13,7 +13,12 @@
     "tabOrder": "clipboard,search,category,pinned,todo,emoji",
     "tabOrderEnabled": "clipboard,search,category,pinned,todo",
     "backgroundOpacity": 25,
-    "noteCardScale": 140
+    "noteCardScale": 140,
+    "autoPasteOnClick": true,
+    "autoPasteOnRightClick": true,
+    "autoPasteDelay": 300,
+    "maxPinnedImageMb": 5,
+    "maxPinnedTextMb": 1
   },
   "emojiLauncher": {
     "enabled": true,

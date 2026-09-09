@@ -1,56 +1,6 @@
 // DMS Window Rules - Managed by DankMaterialShell
 // Do not edit manually - changes may be overwritten
 
-// @id=dms_rule_0 @name=
-window-rule {
-    match app-id="^org\\.wezfurlong\\.wezterm$"
-}
-
-// @id=dms_rule_1 @name=
-window-rule {
-    match app-id="^org\\.gnome\\."
-    geometry-corner-radius 12
-    clip-to-geometry true
-    draw-border-with-background false
-}
-
-// @id=dms_rule_2 @name=
-window-rule {
-    match app-id="^nm-connection-editor$"
-    default-column-width { proportion 0.5; }
-}
-
-// @id=dms_rule_3 @name=
-window-rule {
-    match app-id="^xdg-desktop-portal$"
-    open-floating true
-}
-
-// @id=dms_rule_4 @name=
-window-rule {
-    match app-id="^steam$" title="^notificationtoasts_\\d+_desktop$"
-    open-focused false
-}
-
-// @id=dms_rule_5 @name=
-window-rule {
-    match app-id="kitty"
-    draw-border-with-background false
-}
-
-// @id=dms_rule_6 @name=
-window-rule {
-    match app-id="zoom" title="^Picture-in-Picture$"
-    open-floating true
-}
-
-// @id=wr_1777929803507393860 @name=DesktopEditors
-window-rule {
-    match app-id="^DesktopEditors$"
-    default-column-width { fixed 960; }
-    default-window-height { fixed 720; }
-}
-
 // @id=dms-floating-windows @name=DMS Floating Windows
 window-rule {
     match app-id="^com.danklinux.dms$"
