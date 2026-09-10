@@ -99,6 +99,6 @@ binds {
     Print hotkey-overlay-title="Screenshot Screen" { screenshot-screen; }
     Mod+B hotkey-overlay-title="Open Browser: Helium" { spawn "helium-browser"; }
     Mod+E hotkey-overlay-title="File Manager: Dolphin" { spawn "dolphin"; }
-    Mod+Return hotkey-overlay-title="Open Terminal: Kitty" { spawn "kitty"; }
+    Mod+Return hotkey-overlay-title="Open Terminal: Ghostty" { spawn "ghostty"; }
     Super+Tab repeat=false { toggle-overview; }
 }

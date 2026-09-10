@@ -5,7 +5,6 @@ alsa-firmware
 alsa-utils
 amd-ucode
 android-tools
-ark
 awesome-terminal-fonts
 base
 base-devel
@@ -46,7 +45,6 @@ discord
 dmraid
 dms-shell-git
 dnsmasq
-dolphin
 duf
 easyeffects
 efitools
@@ -156,10 +154,14 @@ starship
 steam
 stow
 tailscale
+thunar
+thunar-archive-plugin
+thunar-volman
 translate-shell
 ttf-firacode-nerd
 ttf-material-symbols-variable-git
 ttf-opensans
+tumbler
 ufw
 umu-launcher
 unrar
@@ -170,6 +172,7 @@ wf-recorder
 wget
 wlsunset
 wqy-zenhei
+xarchiver
 xdg-desktop-portal-gnome
 xfsprogs
 xl2tpd

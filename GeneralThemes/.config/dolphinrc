@@ -1,7 +1,6 @@
 MenuBar=Disabled
 
 [ContextMenu]
-ShowAddToPlaces=false
 ShowDuplicateHere=false
 ShowOpenInNewTab=false
 ShowOpenTerminal=false

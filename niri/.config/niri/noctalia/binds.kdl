@@ -1,6 +1,6 @@
 binds {
     Ctrl+Alt+Delete hotkey-overlay-title="Task Manager" { spawn "dms" "ipc" "call" "processlist" "focusOrToggle"; }
-    Ctrl+Shift+Escape hotkey-overlay-title="Task Manager" { spawn "mission-center"; }
+    Ctrl+Shift+Escape hotkey-overlay-title="Task Manager" { spawn "missioncenter"; }
     Ctrl+Shift+R hotkey-overlay-title="Rename Workspace" { spawn "dms" "ipc" "call" "workspace-rename" "open"; }
     Ctrl+XF86AudioLowerVolume allow-when-locked=true { spawn "dms" "ipc" "call" "mpris" "decrement" "5"; }
     Ctrl+XF86AudioRaiseVolume allow-when-locked=true { spawn "dms" "ipc" "call" "mpris" "increment" "5"; }
@@ -98,7 +98,7 @@ binds {
     CTRL+Shift+2 hotkey-overlay-title="Screenshot Screen" { screenshot-screen write-to-disk=true; }
     Print hotkey-overlay-title="Screenshot Screen" { screenshot-screen; }
     Mod+B hotkey-overlay-title="Open Browser: Helium" { spawn "helium-browser"; }
-    Mod+E hotkey-overlay-title="File Manager: Dolphin" { spawn "dolphin"; }
+    Mod+E hotkey-overlay-title="File Manager: Thunar" { spawn "thunar"; }
     Mod+Return hotkey-overlay-title="Open Terminal: Ghostty" { spawn "ghostty"; }
     Super+Tab repeat=false { toggle-overview; }
 }

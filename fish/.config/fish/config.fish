@@ -4,6 +4,7 @@ end
 
 export EDITOR=nvim
 export PATH="$HOME/.cargo/bin:$PATH"
+export TERMINAL="ghostty"
 
 fish_add_path /home/x4eros/.spicetify
 source (/usr/bin/starship init fish --print-full-init | psub)

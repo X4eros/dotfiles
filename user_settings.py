@@ -15,4 +15,5 @@ user_settings = {
     "DXVK_NVAPI_VKREFLEX" : "1",
     "PROTON_DISCORD_BRIDGE" : "1",
     "VKD3D_CONFIG" : "descriptor_heap",
+    "PROTON_ENABLE_WAYLAND" : "1",
 }
