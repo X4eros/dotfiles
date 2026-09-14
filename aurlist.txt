@@ -2,4 +2,5 @@ choir-overlay-git
 davinci-resolve-studio
 equicord-installer-bin
 kora-icon-theme
-nuvio-desktop-bin
+nuvio-linux-bin
+xwayland-satellite-git

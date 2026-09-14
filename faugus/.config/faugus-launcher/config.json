@@ -2,12 +2,12 @@
     "default-prefix": "/home/x4eros/.faugus",
     "mangohud": "True",
     "gamemode": "False",
-    "default-runner": "Proton-CachyOS Wineland Latest-x86_64_v3",
+    "default-runner": "Proton-CachyOS Latest",
     "lossless-location": "",
     "discrete-gpu": "False",
     "system-tray": "False",
     "mono-icon": "False",
-    "interface-mode": "List",
+    "interface-mode": "Covers",
     "start-maximized": "False",
     "start-fullscreen": "False",
     "smaller-banners": "False",
@@ -48,9 +48,10 @@
     "banner-enabled": "True",
     "steam-user": "all",
     "header-bar": "False",
-    "theme-engine": "adwaita",
+    "theme-engine": "adw-gtk3-dark",
     "zoom-enabled": "True",
     "categories-enabled": "False",
     "sort-enabled": "False",
-    "steamgriddb-enabled": "True"
+    "steamgriddb-enabled": "True",
+    "auto-create-shortcuts": "False"
 }

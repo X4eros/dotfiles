@@ -59,6 +59,8 @@ fuse2
 gamescope
 ghostty
 glances
+gnome-keyring
+godot
 gparted
 gpu-screen-recorder-ui
 grim
@@ -139,6 +141,7 @@ qt6-virtualkeyboard
 qt6ct-kde
 rebuild-detector
 reflector
+rust
 s-nail
 sbctl
 scdoc
@@ -177,7 +180,6 @@ xdg-desktop-portal-gnome
 xfsprogs
 xl2tpd
 xorg-xhost
-xwayland-satellite
 zed
 zenpower3-dkms
 zip

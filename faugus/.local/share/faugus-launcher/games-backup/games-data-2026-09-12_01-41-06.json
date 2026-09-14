@@ -1,7 +1,7 @@
 [
     {
         "gameid": "kcd2",
-        "title": "Kingdom Come: Deliverance II",
+        "title": "KCD2",
         "path": "/windrive/Games/Kingdom Come Deliverance II/Bin/Win64MasterMasterSteamPGO/KingdomCome.exe",
         "prefix": "/home/x4eros/.faugus/kcd2",
         "launch_arguments": "WINEDLLOVERRIDES=\"gameinput=n,b\"\nVKD3D_CONFIG=descriptor_heap",
@@ -10,7 +10,7 @@
         "gamemode": "",
         "sdl_enabled": "",
         "protonfix": "",
-        "runner": "Proton-CachyOS Latest",
+        "runner": "Proton-CachyOS Wineland Latest-x86_64_v3",
         "addapp_enabled": "",
         "addapp": "",
         "addapp_bat": "/windrive/Games/Kingdom Come Deliverance II/Bin/Win64MasterMasterSteamPGO/faugus-kcd2.bat",
@@ -28,7 +28,7 @@
         "no_sleep": false,
         "category": false,
         "icon": "/home/x4eros/.local/share/faugus-launcher/icons/kcd2.png",
-        "steamgriddb_id": 5449615,
+        "steamgriddb_id": "",
         "pre_launch": "",
         "post_launch": "",
         "steam_user": "",

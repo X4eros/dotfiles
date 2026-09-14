@@ -12,4 +12,15 @@
 	<startup-notify/>
 	<directories/>
 </action>
+<action>
+	<icon>zed</icon>
+	<name>Open Zed Here</name>
+	<submenu></submenu>
+	<unique-id>1789162406339657-1</unique-id>
+	<command>zeditor %f</command>
+	<description>Open Zed editor in this directory</description>
+	<range>*</range>
+	<patterns>*</patterns>
+	<directories/>
+</action>
 </actions>
