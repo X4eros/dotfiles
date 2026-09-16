@@ -1,26 +1,44 @@
 binds {
+    // ─── Applications ───────────────────────────────────────────
+    Mod+Return hotkey-overlay-title="Open Terminal: Ghostty" { spawn "ghostty"; }
+    Mod+B hotkey-overlay-title="Open Browser: Brave" { spawn "brave-origin"; }
+    Mod+E hotkey-overlay-title="File Manager: Thunar" { spawn "thunar"; }
     Ctrl+Shift+Escape hotkey-overlay-title="Task Manager" { spawn "missioncenter"; }
-    Mod+Comma hotkey-overlay-title="Settings" { spawn-sh "noctalia msg settings-toggle"; }
-    Mod+N hotkey-overlay-title="Notification Center" { spawn-sh "noctalia msg panel-toggle notification"; }
-    Mod+Shift+N hotkey-overlay-title="Notepad" { spawn-sh "noctalia msg panel-toggle noctalia/notes:panel"; }
+
+    // ─── Noctalia Panels / Shell ────────────────────────────────
     Mod+Space hotkey-overlay-title="Application Launcher" { spawn-sh "noctalia msg panel-toggle launcher"; }
-    Mod+V { spawn-sh "noctalia msg panel-toggle clipboard"; }
+    Mod+Comma hotkey-overlay-title="Settings" { spawn-sh "noctalia msg settings-toggle"; }
+    //Mod+N hotkey-overlay-title="Notification Center" { spawn-sh "noctalia msg panel-toggle notification"; }
+    Mod+Shift+N hotkey-overlay-title="Notepad" { spawn-sh "noctalia msg panel-toggle noctalia/notes:panel"; }
+    Mod+V hotkey-overlay-title="Clipboard" { spawn-sh "noctalia msg panel-toggle clipboard"; }
     Mod+Y hotkey-overlay-title="Browse Wallpapers" { spawn-sh "noctalia msg panel-toggle wallpaper"; }
-    Super+Escape hotkey-overlay-title="Keybinds Cheatsheet: Toggle" { show-hotkey-overlay; }
-    Super+M allow-when-locked=true { spawn-sh "noctalia msg mic-mute"; }
-    Super+R { spawn-sh "noctalia msg screenshot-annotate"; }
     Super+S hotkey-overlay-title="Control Center: Toggle" { spawn-sh "noctalia msg panel-toggle control-center"; }
-    //Super+Shift+M hotkey-overlay-title="Audio Output: Cycle" { spawn-sh "noctalia msg plugin blackbartblues/audio-switcher:service all cycle-output"; }
     Super+X hotkey-overlay-title="Power Menu: Toggle" { spawn-sh "noctalia msg panel-toggle session"; }
+
+    // ─── Overview / Cheatsheet ──────────────────────────────────
+    Super+Tab hotkey-overlay-title="Overview: Toggle" { toggle-overview; }
+    Super+Escape hotkey-overlay-title="Keybinds Cheatsheet: Toggle" { show-hotkey-overlay; }
+
+    // ─── Screenshots ────────────────────────────────────────────
+    Print hotkey-overlay-title="Copy Screen" { screenshot-screen; }
+    CTRL+Shift+1 hotkey-overlay-title="Screenshot Screen" { screenshot-screen write-to-disk=true; }
+    CTRL+Shift+2 hotkey-overlay-title="Screenshot Window" { screenshot-window write-to-disk=true; }
+    Super+R { spawn-sh "noctalia msg screenshot-annotate"; }
+
+    // ─── Media Keys ─────────────────────────────────────────────
     XF86AudioRaiseVolume { spawn-sh "noctalia msg volume-up"; }
     XF86AudioLowerVolume { spawn-sh "noctalia msg volume-down"; }
     XF86AudioMute { spawn-sh "noctalia msg volume-mute"; }
     XF86AudioNext allow-when-locked=true { spawn-sh "noctalia msg media next"; }
-    XF86AudioPause allow-when-locked=true { spawn-sh "noctalia msg media pause"; }
-    XF86AudioPlay allow-when-locked=true { spawn-sh "noctalia msg media play"; }
     XF86AudioPrev allow-when-locked=true { spawn-sh "noctalia msg media previous"; }
+    XF86AudioPlay allow-when-locked=true { spawn-sh "noctalia msg media play"; }
+    XF86AudioPause allow-when-locked=true { spawn-sh "noctalia msg media pause"; }
     XF86MonBrightnessUp { spawn-sh "noctalia msg brightness-up"; }
     XF86MonBrightnessDown { spawn-sh "noctalia msg brightness-down"; }
+    Super+M allow-when-locked=true { spawn-sh "noctalia msg mic-mute"; }
+    // Super+Shift+M hotkey-overlay-title="Audio Output: Cycle" { spawn-sh "noctalia msg plugin blackbartblues/audio-switcher:service all cycle-output"; }
+
+    // ─── Workspaces: Focus ──────────────────────────────────────
     Mod+1 { focus-workspace 1; }
     Mod+2 { focus-workspace 2; }
     Mod+3 { focus-workspace 3; }
@@ -30,6 +48,10 @@ binds {
     Mod+7 { focus-workspace 7; }
     Mod+8 { focus-workspace 8; }
     Mod+9 { focus-workspace 9; }
+    Mod+WheelScrollDown cooldown-ms=150 { focus-workspace-down; }
+    Mod+WheelScrollUp cooldown-ms=150 { focus-workspace-up; }
+
+    // ─── Workspaces: Move Column To ─────────────────────────────
     Mod+Shift+1 { move-column-to-workspace 1; }
     Mod+Shift+2 { move-column-to-workspace 2; }
     Mod+Shift+3 { move-column-to-workspace 3; }
@@ -41,37 +63,43 @@ binds {
     Mod+Shift+9 { move-column-to-workspace 9; }
     Mod+Shift+CTRL+WheelScrollDown cooldown-ms=150 { move-column-to-workspace-down; }
     Mod+Shift+CTRL+WheelScrollUp cooldown-ms=150 { move-column-to-workspace-up; }
-    Mod+WheelScrollDown cooldown-ms=150 { focus-workspace-down; }
-    Mod+WheelScrollUp cooldown-ms=150 { focus-workspace-up; }
+
+    // ─── Monitors: Move Column To ───────────────────────────────
+    Mod+Shift+CTRL+Left { move-column-to-monitor-left; }
+    Mod+Shift+CTRL+Right { move-column-to-monitor-right; }
+    Mod+Shift+CTRL+UP { move-column-to-monitor-up; }
+    Mod+Shift+CTRL+Down { move-column-to-monitor-down; }
+
+    // ─── Window/Column Focus ────────────────────────────────────
+    Mod+Left { focus-column-left; }
+    Mod+Right { focus-column-right; }
+    Mod+Up { focus-window-up; }
+    Mod+Down { focus-window-down; }
+    Mod+CTRL+WheelScrollUp { focus-column-left; }
+    Mod+CTRL+WheelScrollDown { focus-column-right; }
     Mod+C { center-column; }
+
+    // ─── Window/Column Move ─────────────────────────────────────
+    Mod+Shift+Left { consume-or-expel-window-left; }
+    Mod+Shift+Right { consume-or-expel-window-right; }
     Mod+Shift+UP { move-window-up; }
     Mod+Shift+DOWN { move-window-down; }
     Mod+Shift+WheelScrollUp { move-column-left; }
     Mod+Shift+WheelScrollDown { move-column-right; }
+
+    // ─── Window/Column Sizing & Display ─────────────────────────
     Mod+F { maximize-column; }
-    Mod+Left { focus-column-left; }
-    Mod+Q { close-window; }
-    Mod+Right { focus-column-right; }
-    Mod+Shift+CTRL+Down { move-column-to-monitor-down; }
-    Mod+Shift+CTRL+Left { move-column-to-monitor-left; }
-    Mod+Shift+CTRL+Right { move-column-to-monitor-right; }
-    Mod+Shift+CTRL+UP { move-column-to-monitor-up; }
-    Mod+Shift+Equal { set-window-height "+10%"; }
     Mod+Shift+F { fullscreen-window; }
-    Mod+Shift+Left { consume-or-expel-window-left; }
-    Mod+Shift+Minus { set-window-height "-10%"; }
-    Mod+Shift+Right { consume-or-expel-window-right; }
-    Mod+CTRL+WheelScrollDown { focus-column-right; }
-    Mod+CTRL+WheelScrollUp { focus-column-left; }
     Mod+T { toggle-window-floating; }
-    Mod+Up { focus-window-up; }
     Mod+W { toggle-column-tabbed-display; }
+    Mod+Shift+Equal { set-window-height "+10%"; }
+    Mod+Shift+Minus { set-window-height "-10%"; }
+    Mod+Equal { set-window-width "+10%"; }
+    Mod+Minus { set-window-width "-10%"; }
+
+    // ─── Window/Column Close ─────────────────────────────────────
+    Mod+Q { close-window; }
+
+    // ─── Power ───────────────────────────────────────────────────
     Mod+Shift+P { power-off-monitors; }
-    CTRL+Shift+1 { screenshot-screen write-to-disk=true; }
-    CTRL+Shift+2 hotkey-overlay-title="Screenshot Window" { screenshot-window write-to-disk=true; }
-    Print hotkey-overlay-title="Screenshot Screen" { screenshot-screen; }
-    Mod+B hotkey-overlay-title="Open Browser: Helium" { spawn "helium-browser"; }
-    Mod+E hotkey-overlay-title="File Manager: Thunar" { spawn "thunar"; }
-    Mod+Return hotkey-overlay-title="Open Terminal: Ghostty" { spawn "ghostty"; }
-    Super+Tab repeat=false { toggle-overview; }
 }

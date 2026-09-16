@@ -16,6 +16,7 @@ bluez-hid2hci
 bluez-obex
 bluez-utils
 bpftune-git
+brave-origin-bin
 btop
 btrfs-assistant
 cachyos-fish-config
@@ -43,7 +44,6 @@ ddcutil
 dex
 discord
 dmraid
-dms-shell-git
 dnsmasq
 duf
 easyeffects
@@ -72,9 +72,7 @@ gvfs-mtp
 gvfs-smb
 handbrake
 hdparm
-helium-browser-bin
 hwdetect
-hyprland
 inetutils
 inter-font
 iwd
@@ -113,10 +111,12 @@ nfs-utils
 nilfs-utils
 niri-spicy-git
 noctalia-git
+noctalia-greeter
 noto-fonts-emoji
 nss-mdns
 ntfsprogs-plus
 nvidia-settings
+nwg-look
 onlyoffice-bin
 os-prober
 oxygen-sounds
@@ -145,7 +145,6 @@ rust
 s-nail
 sbctl
 scdoc
-sddm
 sg3_utils
 shelly
 slurp
@@ -162,15 +161,13 @@ thunar-archive-plugin
 thunar-volman
 translate-shell
 ttf-firacode-nerd
-ttf-material-symbols-variable-git
-ttf-opensans
 tumbler
 ufw
 umu-launcher
 unrar
 usb_modeswitch
 ventoy-bin
-wayland-pipewire-idle-inhibit
+webkit2gtk-4.1
 wf-recorder
 wget
 wlsunset
