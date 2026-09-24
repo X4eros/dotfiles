@@ -5,7 +5,7 @@ input {
     keyboard {
         xkb {
             layout "us, tr" // Use the American keyboard layout
-            options "grp:lswitch"
+            options "grp:ctrl_space_toggle"
         }
         numlock // Enable numlock on startup
     }
