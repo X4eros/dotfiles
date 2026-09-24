@@ -4,7 +4,8 @@
 input {
     keyboard {
         xkb {
-            layout "tr(alt)" // Use the American keyboard layout
+            layout "us, tr" // Use the American keyboard layout
+            options "grp:lswitch"
         }
         numlock // Enable numlock on startup
     }
@@ -14,13 +15,17 @@ input {
         natural-scroll // Enable natural (macOS-style) scrolling
     }
 
-    focus-follows-mouse // Automatically focus windows under the mouse pointer
+    focus-follows-mouse max-scroll-amount="25%" // Automatically focus windows under the mouse pointer
     workspace-auto-back-and-forth // Enable workspace back & forth switching
     warp-mouse-to-focus
+
+    mouse
+
+    trackpoint
 }
 
 gestures {
     hot-corners {
-        off
+        top-left
     }
 }

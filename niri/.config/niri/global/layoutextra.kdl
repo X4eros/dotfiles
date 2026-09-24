@@ -1,16 +1,29 @@
 layout {
+    background-color "#000000"
     always-center-single-column
 
     border {
         on
         width 2
-        }
+    }
+
+    tab-indicator {
+        place-within-column
+        position "top"
+        gap 2
+    }
+    focus-ring
+    shadow {
+        on
+    }
 }
 
 window-rule {
+    draw-border-with-background false
     background-effect {
-    blur true
-}
+        blur true
+        xray true
+    }
 }
 
 window-rule {

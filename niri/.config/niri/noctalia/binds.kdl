@@ -8,22 +8,23 @@ binds {
     // ─── Noctalia Panels / Shell ────────────────────────────────
     Mod+Space hotkey-overlay-title="Application Launcher" { spawn-sh "noctalia msg panel-toggle launcher"; }
     Mod+Comma hotkey-overlay-title="Settings" { spawn-sh "noctalia msg settings-toggle"; }
-    //Mod+N hotkey-overlay-title="Notification Center" { spawn-sh "noctalia msg panel-toggle notification"; }
+    Mod+N hotkey-overlay-title="Notification Center" { spawn-sh "noctalia msg panel-toggle control-center notifications"; }
     Mod+Shift+N hotkey-overlay-title="Notepad" { spawn-sh "noctalia msg panel-toggle noctalia/notes:panel"; }
     Mod+V hotkey-overlay-title="Clipboard" { spawn-sh "noctalia msg panel-toggle clipboard"; }
     Mod+Y hotkey-overlay-title="Browse Wallpapers" { spawn-sh "noctalia msg panel-toggle wallpaper"; }
-    Super+S hotkey-overlay-title="Control Center: Toggle" { spawn-sh "noctalia msg panel-toggle control-center"; }
-    Super+X hotkey-overlay-title="Power Menu: Toggle" { spawn-sh "noctalia msg panel-toggle session"; }
+    Mod+S hotkey-overlay-title="Control Center: Toggle" { spawn-sh "noctalia msg panel-toggle control-center"; }
+    Mod+X hotkey-overlay-title="Power Menu: Toggle" { spawn-sh "noctalia msg panel-toggle session"; }
 
     // ─── Overview / Cheatsheet ──────────────────────────────────
-    Super+Tab hotkey-overlay-title="Overview: Toggle" { toggle-overview; }
-    Super+Escape hotkey-overlay-title="Keybinds Cheatsheet: Toggle" { show-hotkey-overlay; }
+    Mod+Tab hotkey-overlay-title="Overview: Toggle" { toggle-overview; }
+    Mod+Escape hotkey-overlay-title="Keybinds Cheatsheet: Toggle" { show-hotkey-overlay; }
 
     // ─── Screenshots ────────────────────────────────────────────
     Print hotkey-overlay-title="Copy Screen" { screenshot-screen; }
     CTRL+Shift+1 hotkey-overlay-title="Screenshot Screen" { screenshot-screen write-to-disk=true; }
     CTRL+Shift+2 hotkey-overlay-title="Screenshot Window" { screenshot-window write-to-disk=true; }
-    Super+R { spawn-sh "noctalia msg screenshot-annotate"; }
+    Mod+R hotkey-overlay-title="Screenshot Region" { spawn-sh "noctalia msg screenshot-region"; }
+    Mod+Shift+R hotkey-overlay-title="Screenshot With Annotate" { spawn-sh "noctalia msg screenshot-fullscreen"; }
 
     // ─── Media Keys ─────────────────────────────────────────────
     XF86AudioRaiseVolume { spawn-sh "noctalia msg volume-up"; }
@@ -35,7 +36,7 @@ binds {
     XF86AudioPause allow-when-locked=true { spawn-sh "noctalia msg media pause"; }
     XF86MonBrightnessUp { spawn-sh "noctalia msg brightness-up"; }
     XF86MonBrightnessDown { spawn-sh "noctalia msg brightness-down"; }
-    Super+M allow-when-locked=true { spawn-sh "noctalia msg mic-mute"; }
+    Mod+M allow-when-locked=true { spawn-sh "noctalia msg mic-mute"; }
     // Super+Shift+M hotkey-overlay-title="Audio Output: Cycle" { spawn-sh "noctalia msg plugin blackbartblues/audio-switcher:service all cycle-output"; }
 
     // ─── Workspaces: Focus ──────────────────────────────────────
@@ -101,5 +102,5 @@ binds {
     Mod+Q { close-window; }
 
     // ─── Power ───────────────────────────────────────────────────
-    Mod+Shift+P { power-off-monitors; }
+    Mod+P { power-off-monitors; }
 }
