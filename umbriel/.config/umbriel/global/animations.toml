@@ -1,0 +1,59 @@
+# ────────────────────────────── Animation ───────────────────────────────────
+# Parent values provide defaults for every event table. Nested values override
+# only that event. Disable one event to make just that transition instant.
+# Documentation: https://docs.noctalia.dev/umbriel/animation/
+# Every event accepts shader = "path/to/effect.glsl". Inline GLSL is not supported.
+# File paths are relative to this config, including configs loaded via include.
+# Bundled reveal.glsl and squash.glsl can be referenced by their installed absolute paths.
+# Shaders can use umbriel_sample_previous(uv) for target-local feedback.
+# umbriel_random_seed is a stable vec4 that changes for each transition.
+# Copy examples/shaders beside your config only if you want editable local versions.
+# ────────────────────────────────────────────────────────────────────────────
+
+[animation]
+enabled = true
+duration_ms = 250
+curve = "easeout"
+
+[animation.windows_in]
+enabled = true
+curve = "spring:1,900"
+style = "zoom"
+
+[animation.windows_out]
+enabled = true
+curve = "spring:1,1400"
+style = "zoom"
+scale = 0.8
+
+[animation.windows_move]
+enabled = true
+curve = "spring:1,800"
+
+[animation.workspaces]
+enabled = true
+curve = "spring:0.75,1000"
+
+[animation.overview]
+enabled = true
+curve = "spring:0.7,1000"
+workspace_curve = "spring:0.75,800"
+
+[animation.scratchpad]
+enabled = true
+curve = "spring:1,800"
+dim = 0.4
+blur = false
+scale = 0.0
+maximize = false
+fullscreen = false
+
+[animation.border]
+enabled = true
+curve = "spring:1,900"
+
+# Unfocused window opacity
+[animation.dim_unfocused]
+enabled = true
+curve = "spring:1,900"
+dim = 0.15                                       # 0 disables dimming; maximum is 1.0

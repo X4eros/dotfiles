@@ -1,0 +1,58 @@
+# ─────────────────────────────── General ────────────────────────────────────
+# Configure startup commands, session behavior, environment variables, and
+# hardware events.
+# Documentation: https://docs.noctalia.dev/umbriel/configuration/#general
+# ────────────────────────────────────────────────────────────────────────────
+
+[general]
+autostart = ["noctalia", "xhost +si:localuser:root"]                                  # Commands run once when the session starts
+mod_key = "Super"                             # Force Super instead of nested-session Alt
+xwayland = true                                 # Requires xwayland-satellite; restart to change
+show_cheatsheet = false                          # Show the keybind overlay on startup
+focus_on_activate = false                       # Do not let unsolicited requests steal focus
+honor_restored_maximize = false                 # Honor restored maximized state
+
+[environment]
+ELECTRON_OZONE_PLATFORM_HINT = "auto"
+SDL_VIDEODRIVER = "wayland"
+QT_QPA_PLATFORM = "wayland"
+QT_QPA_PLATFORMTHEME = "qt6ct"
+QT_QPA_PLATFORMTHEME_QT6 = "qt6ct"
+LIBVA_DRIVER_NAME = "nvidia"
+__GLX_VENDOR_LIBRARY_NAME = "nvidia"
+GB_BACKEND = "nvidia-drm"
+NVD_BACKEND = "direct"
+_JAVA_AWT_WM_NONREPARENTING = "1"
+
+# ────────────────────────────── Workspaces ──────────────────────────────────
+# Choose global workspace behavior. Each output uses dynamic workspaces unless
+# its output section defines a static count or list of names.
+# Documentation: https://docs.noctalia.dev/umbriel/workspaces/
+# ────────────────────────────────────────────────────────────────────────────
+
+[workspaces]
+# Each output supports at most 64 workspaces, including empty ones.
+back_and_forth = true                       # Re-select active workspace to switch back
+empty_above = false                           # Keep one empty workspace above active range
+
+# ─────────────────────── Overview and Hot Corners ───────────────────────────
+# Configure the all-workspaces overview and pointer-triggered corner actions.
+# Overview: https://docs.noctalia.dev/umbriel/workspaces-overview/
+# Hot corners: https://docs.noctalia.dev/umbriel/keybinds/#hot-corners
+# Corners pause only while the keyboard-focused window on their output is fullscreen.
+# ────────────────────────────────────────────────────────────────────────────
+
+[overview]
+zoom = 0.5                                      # Workspace scale in overview, 0.1-0.75
+scroll_factor_horizontal = 1.0                  # Overview gesture travel, left and right, 0.1-10.0
+scroll_factor_vertical = 1.0                    # Overview gesture travel, up and down, 0.1-10.0
+# Pinned windows stay hidden until overview closes; visible scratchpads are dismissed.
+# background_blur = true                        # Blur the wallpaper behind overview rows
+# workspace_wallpaper = true                    # Mirror wallpapers inside workspace previews
+# shortcuts = true                              # Show keyboard shortcut badges on windows
+# shortcut_keys = "1234567890"                  # Badge keys in preference order
+
+[hot_corners.top_left]
+enabled = true                                  # Open the overview after resting here
+delay_ms = 250                                  # 0 activates immediately; maximum is 10000
+action = "overview-open"                        # Any normal Umbriel action is accepted

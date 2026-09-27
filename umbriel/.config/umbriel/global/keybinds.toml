@@ -1,0 +1,146 @@
+# ─────────────────────────────── Keybinds ───────────────────────────────────
+# Bind chords to compositor actions. A configuration file replaces the built-in
+# keybind set, so define every chord that should remain available.
+# Syntax: https://docs.noctalia.dev/umbriel/keybinds/
+# Actions: https://docs.noctalia.dev/umbriel/actions/
+# ────────────────────────────────────────────────────────────────────────────
+
+[keybinds]
+
+# Applications and session
+"Mod+Return" = "spawn:ghostty"
+"Mod+Q" = "window-close"
+"Mod+E" = "spawn:thunar"
+"Mod+B" = "spawn:brave-origin"
+"Ctrl+Shift+Escape" = "spawn:missioncenter"
+
+"Mod+Escape" = "cheatsheet-toggle"
+"Print" = "spawn:grim - | wl-copy"
+
+# Focus navigation. In overview, Mod+Up/Down retain normal layout focus, so they
+# traverse stacks in the default horizontal layout. Bare Up/Down move between
+# workspace rows.
+"Mod+Left" = "window-focus-left"
+"Mod+Down" = "window-focus-down"
+"Mod+Up" = "window-focus-up"
+"Mod+Right" = "window-focus-right"
+"Mod+Ctrl+WheelUp" = "window-focus-left"
+"Mod+Ctrl+WheelDown" = "window-focus-right"
+"Mod+MouseMiddle" = "layout-scroll-drag"
+"Mod+C" = "column-center"
+
+# Window state and layout
+"Mod+T" = "window-toggle-floating"
+"Mod+Shift+T" = "window-focus-switch-floating"
+"Mod+P" = "window-toggle-pinned"
+#"Mod+M" = "window-toggle-maximize-to-edges"
+"Mod+F" = "window-toggle-maximize"
+"Mod+Shift+F" = "window-toggle-fullscreen"             # Exit restores the previous layout size immediately
+
+# Overview
+"Mod+Tab" = { action = "overview-toggle", repeat = false }
+
+# Common keybinds
+"Mod+Shift+Left" = "window-consume-or-expel-left"
+"Mod+Shift+Right" = "window-consume-or-expel-right"
+"Mod+Shift+Up" = "window-move-up"
+"Mod+Shift+Down" = "window-move-down"
+
+"Mod+Minus" = "window-modify-width-right:-0.1"
+"Mod+Equal" = "window-modify-width-right:0.1"
+"Mod+Shift+Minus" = "window-modify-height-down:-0.1"
+"Mod+Shift+Equal" = "window-modify-height-down:0.1"
+#"Mod+R" = "window-cycle-width"
+#"Mod+Shift+R" = "window-cycle-width-back"
+
+# Workspaces. Bare digits are positions on the output under the pointer.
+"Mod+WheelUp" = { action = "workspace-previous", cooldown_ms = 150 }
+"Mod+WheelDown" = { action = "workspace-next", cooldown_ms = 150 }
+"Mod+1" = "workspace-switch:1"
+"Mod+2" = "workspace-switch:2"
+"Mod+3" = "workspace-switch:3"
+"Mod+4" = "workspace-switch:4"
+"Mod+5" = "workspace-switch:5"
+"Mod+6" = "workspace-switch:6"
+"Mod+7" = "workspace-switch:7"
+"Mod+8" = "workspace-switch:8"
+"Mod+9" = "workspace-switch:9"
+"Mod+Shift+1" = "window-move-to-workspace:1"
+"Mod+Shift+2" = "window-move-to-workspace:2"
+"Mod+Shift+3" = "window-move-to-workspace:3"
+"Mod+Shift+4" = "window-move-to-workspace:4"
+"Mod+Shift+5" = "window-move-to-workspace:5"
+"Mod+Shift+6" = "window-move-to-workspace:6"
+"Mod+Shift+7" = "window-move-to-workspace:7"
+"Mod+Shift+8" = "window-move-to-workspace:8"
+"Mod+Shift+9" = "window-move-to-workspace:9"
+"Mod+Shift+WheelUp" = "window-move-to-workspace-previous"
+"Mod+Shift+WheelDown" = "window-move-to-workspace-next"
+# Quote an all-digit name to distinguish it from a position.
+# "Mod+Ctrl+2" = 'workspace-switch:"2"/DP-2'
+
+# Scratchpads
+# These bare actions use the implicit `default` scratchpad because no named
+# definitions are active above. A scratchpad is global: toggling it summons all
+# its windows to the output under the pointer. Only outputs with a visible
+# scratchpad receive its dim and blur backdrop.
+# Resize, maximize, fullscreen, and close actions target a scratchpad that owns
+# keyboard focus. Layout-relative window actions leave the workspace behind it
+# unchanged.
+# Documentation: https://docs.noctalia.dev/umbriel/scratchpads/
+"Mod+Shift+S" = "window-move-to-scratchpad"
+"Mod+S" = "scratchpad-toggle"
+"Mod+Ctrl+S" = "window-restore-from-scratchpad"
+#"Mod+Tab" = "scratchpad-focus-next"
+
+# Named mode recipe: uncomment the definitions above, then replace the four
+# action values with named forms such as these. Every scratchpad action needs a
+# configured name once named mode is active.
+# "Mod+Shift+Space" = "window-move-to-scratchpad:terminal"
+# "Mod+Space" = "scratchpad-toggle:terminal"
+# "Mod+Ctrl+Space" = "window-restore-from-scratchpad:terminal"
+# "Mod+Tab" = "scratchpad-focus-next:terminal"
+# "Mod+Ctrl+Shift+M" = "window-toggle-scratchpad:music"
+# "Mod+Ctrl+M" = "scratchpad-toggle:music"
+
+# Optional navigation and sizing recipes. These chords do not replace active
+# bindings above when uncommented.
+# "Mod+Home" = "column-focus-first"
+# "Mod+End" = "column-focus-last"
+# "Mod+Shift+Home" = "column-move-to-first"
+# "Mod+Shift+End" = "column-move-to-last""
+# "Mod+Alt+R" = "window-cycle-height"
+# "Mod+Alt+Shift+R" = "window-cycle-height-back"
+# "Mod+Grave" = "window-focus-last"
+# "Mod+BackSpace" = "window-consume-or-expel-left"
+# "Mod+Shift+C" = "window-center"
+# "Mod+Ctrl+T" = "workspace-set-layout:toggle"
+# "Mod+Alt+K" = "keyboard-layout-next"
+# "Mod+WheelUp" = { action = "workspace-previous", cooldown_ms = 150 }
+# "Mod+WheelDown" = { action = "workspace-next", cooldown_ms = 150 }
+
+# Submaps temporarily replace the active keybind layer and can nest. Entry
+# binds must not repeat. A table-form bind can run an action and then reset one
+# level, while a global reset provides an emergency exit from any layer.
+# Submaps: https://docs.noctalia.dev/umbriel/keybinds/#submaps
+# "Mod+S" = { action = "submap:resize", repeat = false }
+# "submap[resize],1" = { action = "window-set-width:0.5", submap = "reset" }
+# "submap[resize],N" = { action = "submap:nudge", repeat = false }
+# "submap[resize],Escape" = "submap:reset"
+# "submap[nudge],Left" = "window-modify-width:-0.1"
+# "submap[nudge],Right" = "window-modify-width:0.1"
+# "submap[nudge],Escape" = "submap:reset"
+# "Escape" = "submap:reset"
+
+# Media and brightness
+# Documentation: https://docs.noctalia.dev/umbriel/keybinds/#example-media-and-brightness-keys
+"XF86AudioRaiseVolume" = "spawn:wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+"
+"XF86AudioLowerVolume" = "spawn:wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
+"XF86AudioMute" = "spawn:wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+"Mod+M" = "spawn:wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"
+"XF86AudioPlay" = "spawn:playerctl play-pause"
+"XF86AudioNext" = "spawn:playerctl next"
+"XF86AudioPrev" = "spawn:playerctl previous"
+# Binds intended to work while locked use the table form.
+"XF86MonBrightnessDown" = { action = "spawn:noctalia msg brightness-down 10", allow_when_locked = true }
+"XF86MonBrightnessUp" = { action = "spawn:noctalia msg brightness-up 10", allow_when_locked = true }

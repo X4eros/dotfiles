@@ -172,7 +172,6 @@ wget
 wlsunset
 wqy-zenhei
 xarchiver
-xdg-desktop-portal-gnome
 xfsprogs
 xl2tpd
 xorg-xhost
