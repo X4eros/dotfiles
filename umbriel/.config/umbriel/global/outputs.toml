@@ -24,15 +24,3 @@ sdr_white = 203                               # SDR reference white in cd/m2 dur
 min_workspaces = 3
 workspace_axis = "vertical"                 # vertical or horizontal workspace arrangement
 bit_depth = 10
-
-# Replace the count with ["WEB", "CHAT", "MEDIA"] for named static workspaces,
-# or with "dynamic" to state the dynamic default explicitly. A dynamic output
-# can keep a minimum number of workspaces instead, so a bar always shows them:
-# [output.DP-1]
-# min_workspaces = 3                            # Dynamic floor; rejected with a static inventory
-
-# New scrolling columns on this output can use a different initial width. This
-# affects new columns only; existing columns keep their current size.
-# Documentation: https://docs.noctalia.dev/umbriel/outputs/#initial-scrolling-width
-# [output.DP-1.layout.scrolling]
-# default_width_fraction = 0.4

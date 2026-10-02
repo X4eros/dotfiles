@@ -175,6 +175,7 @@ xarchiver
 xfsprogs
 xl2tpd
 xorg-xhost
+xwayland-satellite
 zed
 zenpower3-dkms
 zip

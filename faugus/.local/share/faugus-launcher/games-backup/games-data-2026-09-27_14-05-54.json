@@ -33,8 +33,7 @@
         "post_launch": "",
         "steam_user": "",
         "disable_umu": "",
-        "runtime": "",
-        "last_played": ""
+        "runtime": ""
     },
     {
         "gameid": "berserker",
@@ -60,7 +59,7 @@
         "lossless_performance": false,
         "lossless_hdr": false,
         "lossless_present": false,
-        "playtime": 6446,
+        "playtime": 6290,
         "hidden": false,
         "no_sleep": false,
         "category": false,
@@ -71,6 +70,6 @@
         "steam_user": "",
         "disable_umu": "",
         "runtime": "",
-        "last_played": "2026-10-01T06:40:46.891060"
+        "last_played": "2026-09-27T14:04:37.498245"
     }
 ]

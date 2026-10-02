@@ -9,7 +9,7 @@ prefer_no_csd = true                            # Prefer Umbriel's border-only d
 border_width = 2                                # Inner border width, 0-100 logical pixels
 outer_border_width = 0                          # Optional outer ring, 0-100 logical pixels
 corner_radius = 8                             # Radius of the final decorated edge, 0-100
-drag_opacity = 0.75                             # Window opacity during a tiled or floating drag
+drag_opacity = 0.80                             # Window opacity during a tiled or floating drag
 
 [appearance.blur]
 # This is the global blur engine. A matching window or layer rule must still
@@ -42,24 +42,15 @@ mode = "scrolling"                              # scrolling, dwindle, or master
 gap = 2                                         # Logical pixels between tiles, 0-500
 extent_presets = [0.5, 1.0]             # Width and height cycling fractions
 
-[layout.struts]
-# Signed logical pixels reserved after panel exclusive zones. Negative values
-# expand the tiled area beyond that edge.
-left = 0                                        # -65535 to 65535
-right = 0
-top = 0
-bottom = 0
-
 [layout.scrolling]
 # The strip axis is perpendicular to the output's workspace_axis.
 default_extent_fraction = 0.5                    # Initial width for new columns, 0.1-1.0
 center_underfull_strip = true                   # Center a strip narrower than the viewport
 center_focused = "never"                        # never, always, or on_overflow
 
-[layout.dwindle]
-# preserve_split = false                        # Keep every split direction fixed after creation
-
-[layout.master]
-position = "left"                               # left or right master area
-default_width_fraction = 0.55                   # Initial master area fraction, 0.1-0.9
-new_on_top = true                               # Put new windows at the top of the stack
+[layout.tabs]
+default_display = "normal"
+new_tab_position = "end"
+wrap_focus = true
+scroll_switches_tabs = true
+middle_click_closes = true

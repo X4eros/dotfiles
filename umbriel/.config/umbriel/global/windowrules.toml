@@ -45,6 +45,9 @@ default_pinned = true
 match.title = "^(File Operation Progress|Rename.*|Confirm to replace files|Bulk Rename.*)$"
 default_floating = true
 
+[[window_rule]]
+match.content_type = "game"
+default_workspace = 2
 
 # ────────────────────────────── Layer Rules ─────────────────────────────────
 # Match layer-shell surfaces such as panels, launchers, notifications, and

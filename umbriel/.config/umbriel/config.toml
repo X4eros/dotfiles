@@ -24,3 +24,6 @@ files = [
     "noctalia/keybinds.toml",
     "noctalia.toml",
 ]                                      # Example: ["~/.config/umbriel/noctalia.toml"]
+
+[colors]
+backdrop = "#000000"

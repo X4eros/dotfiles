@@ -17,7 +17,7 @@ curve = "easeout"
 
 [animation.windows_in]
 enabled = true
-curve = "spring:1,900"
+curve = "spring:1,1000"
 style = "zoom"
 
 [animation.windows_out]
@@ -32,7 +32,7 @@ curve = "spring:1,800"
 
 [animation.workspaces]
 enabled = true
-curve = "spring:0.75,1000"
+curve = "spring:0.8,800"
 
 [animation.overview]
 enabled = true
@@ -42,7 +42,7 @@ workspace_curve = "spring:0.75,800"
 [animation.scratchpad]
 enabled = true
 curve = "spring:1,800"
-dim = 0.4
+dim = 0.6
 blur = false
 scale = 0.0
 maximize = false
@@ -55,5 +55,5 @@ curve = "spring:1,900"
 # Unfocused window opacity
 [animation.dim_unfocused]
 enabled = true
-curve = "spring:1,900"
-dim = 0.15                                       # 0 disables dimming; maximum is 1.0
+curve = "spring:1,1000"
+dim = 0.15
