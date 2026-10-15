@@ -17,11 +17,10 @@ drag_opacity = 0.80                             # Window opacity during a tiled 
 enabled = true                                  # Disable blur and release per-output effect buffers
 optimized = true                                # Reuse one cached background blur per output
 passes = 4                                      # Blur passes, 0-8
-radius = 4                                      # Blur radius, 0-100
+radius = 6                                      # Blur radius, 0-100
 noise = 0.02                                    # Noise overlay, 0.0-1.0
-brightness = 0.9                                # 0.0-2.0
-contrast = 0.9                                  # 0.0-2.0
-saturation = 1.1                                # 0.0-2.0
+brightness = 0.8                                # 0.0-2.0
+saturation = 1.5                                # 0.0-2.0
 
 [appearance.shadow]
 # Custom window shaders automatically shape the shadow from their output alpha.
@@ -40,7 +39,7 @@ offset_y = 2                                    # Vertical offset, -200 to 200
 [layout]
 mode = "scrolling"                              # scrolling, dwindle, or master
 gap = 2                                         # Logical pixels between tiles, 0-500
-extent_presets = [0.5, 1.0]             # Width and height cycling fractions
+extent_presets = [0.5, 0.75, 1.0]             # Width and height cycling fractions
 
 [layout.scrolling]
 # The strip axis is perpendicular to the output's workspace_axis.
@@ -49,8 +48,4 @@ center_underfull_strip = true                   # Center a strip narrower than t
 center_focused = "never"                        # never, always, or on_overflow
 
 [layout.tabs]
-default_display = "normal"
-new_tab_position = "end"
-wrap_focus = true
-scroll_switches_tabs = true
 middle_click_closes = true

@@ -148,8 +148,6 @@ shelly
 slurp
 smartmontools
 sof-firmware
-spicetify-cli
-spotify-launcher
 sshfs
 starship
 steam
@@ -162,6 +160,7 @@ translate-shell
 ttf-firacode-nerd
 tumbler
 ufw
+umbriel-git
 umu-launcher
 unrar
 usb_modeswitch
@@ -175,7 +174,6 @@ xarchiver
 xfsprogs
 xl2tpd
 xorg-xhost
-xwayland-satellite
 zed
 zenpower3-dkms
 zip

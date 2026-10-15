@@ -1,4 +1,6 @@
 choir-overlay-git
 davinci-resolve-studio
 kora-icon-theme
-umbriel-git
+pi-coding-agent-bin
+spotifast-bin
+zapfast-bin

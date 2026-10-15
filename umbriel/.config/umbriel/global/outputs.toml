@@ -11,16 +11,12 @@
 # name, for example [output."Some Make Some Model ABC123"].
 
 [output.DP-1]
-enabled = true                                # False removes the output but preserves its state
-mode = "2560x1440"                        # WIDTHxHEIGHT or WIDTHxHEIGHT@HZ
-position = [0, 0]                             # Logical top-left; omit for automatic placement
-scale = 1                                  # Logical size is mode size divided by scale
-transform = "normal"                          # normal, 90, 180, 270, or a flipped variant
-vrr = "always"                            # disabled, always, or fullscreen
-tearing = true                               # Permit eligible fullscreen asynchronous flips
-direct_scanout = true                         # False forces composition on this output
-hdr = "auto"                                  # off, on, auto, or fullscreen
-sdr_white = 203                               # SDR reference white in cd/m2 during HDR
-min_workspaces = 3
-workspace_axis = "vertical"                 # vertical or horizontal workspace arrangement
+mode = "2560x1440"
+scale = 1
+vrr = "fullscreen"
+tearing = true
+hdr = "auto"
+workspaces = 3
+workspace_axis = "vertical"
+cyclic_workspaces = true
 bit_depth = 10
