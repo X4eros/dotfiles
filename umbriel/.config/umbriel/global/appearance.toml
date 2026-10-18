@@ -9,7 +9,7 @@ prefer_no_csd = true                            # Prefer Umbriel's border-only d
 border_width = 2                                # Inner border width, 0-100 logical pixels
 outer_border_width = 0                          # Optional outer ring, 0-100 logical pixels
 corner_radius = 8                             # Radius of the final decorated edge, 0-100
-drag_opacity = 0.80                             # Window opacity during a tiled or floating drag
+drag_opacity = 0.85                             # Window opacity during a tiled or floating drag
 
 [appearance.blur]
 # This is the global blur engine. A matching window or layer rule must still

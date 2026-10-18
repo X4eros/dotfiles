@@ -18,7 +18,7 @@
     "show-hidden": "True",
     "show-donate": "False",
     "donate-last": "2026-03",
-    "playtime": "235708",
+    "playtime": "243641",
     "gamepad-navigation": "False",
     "backup-auto-enabled": "False",
     "backup-frequency": "daily",
@@ -62,5 +62,13 @@
     "grid-orientation": "Vertical",
     "grid-max-children-enabled": "False",
     "grid-max-children-per-line": "20",
-    "overview-enabled": "True"
+    "overview-enabled": "True",
+    "widget-color-mode": "default",
+    "interface-sounds-enabled": "False",
+    "interface-sounds-theme": "cloud",
+    "interface-sounds-volume": "50",
+    "interface-sounds-custom-navigate": "",
+    "interface-sounds-custom-confirm": "",
+    "interface-sounds-custom-cancel": "",
+    "interface-sounds-custom-warning": ""
 }

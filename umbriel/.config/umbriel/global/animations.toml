@@ -12,23 +12,19 @@
 
 [animation]
 enabled = true
-duration_ms = 250
-curve = "easeout"
+curve = "spring:1,1000"
 
 [animation.windows_in]
 enabled = true
 curve = "spring:1,1000"
 style = "zoom"
+scale = 0.1
 
 [animation.windows_out]
 enabled = true
 curve = "spring:1,1400"
 style = "zoom"
-scale = 0.8
-
-[animation.windows_move]
-enabled = true
-curve = "spring:1,800"
+scale = 0.1
 
 [animation.workspaces]
 enabled = true
@@ -37,22 +33,17 @@ curve = "spring:0.8,800"
 [animation.overview]
 enabled = true
 curve = "spring:0.7,1000"
-workspace_curve = "spring:0.75,800"
+workspace_curve = "spring:0.8,800"
 
 [animation.scratchpad]
 enabled = true
-curve = "spring:1,800"
-dim = 0.6
+curve = "spring:1,1000"
+dim = 0.75
 blur = false
 scale = 0.0
 maximize = false
 fullscreen = false
 
-[animation.border]
-enabled = true
-curve = "spring:1,900"
-
-# Unfocused window opacity
 [animation.dim_unfocused]
 enabled = true
 curve = "spring:1,1000"

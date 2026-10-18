@@ -19,6 +19,16 @@ background_tint = "#15121a88"
 badge = "#d1bcffFF"
 workspace_background = "#15121aFF"
 
+[colors.tab_bar]
+background = "#211e26FF"
+text = "#cbc3d5FF"
+active = "#d1bcffFF"
+active_text = "#3d008fFF"
+active_unfocused = "#4a4453FF"
+active_unfocused_text = "#e7e0ebFF"
+urgent = "#ffb4abFF"
+urgent_text = "#690005FF"
+
 [[window_rule]]
 match.is_scratchpad = true
 border_color_focused = "#ffade3FF"

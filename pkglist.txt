@@ -143,6 +143,7 @@ rust
 s-nail
 sbctl
 scdoc
+scrcpy
 sg3_utils
 shelly
 slurp
