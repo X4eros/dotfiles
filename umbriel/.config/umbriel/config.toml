@@ -21,6 +21,7 @@ files = [
 
 [include.optional]
 files = [
+    #"dms/keybinds.toml",
     "noctalia/keybinds.toml",
     "noctalia.toml",
 ]                                      # Example: ["~/.config/umbriel/noctalia.toml"]

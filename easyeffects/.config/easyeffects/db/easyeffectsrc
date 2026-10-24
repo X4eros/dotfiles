@@ -11,7 +11,7 @@ visiblePlugin=rnnoise#0
 mostUsedPresets=Perfect EQ,Flat
 outputDevice=alsa_output.pci-0000_07_00.4.analog-stereo
 plugins=equalizer#0
-usedPresets=Perfect EQ:295,Flat:16
+usedPresets=Perfect EQ:325,Flat:31
 visiblePage=pluginsPage
 visiblePlugin=equalizer#0
 
@@ -28,4 +28,4 @@ height=1432
 visiblePage=inputPage
 visiblePipeWirePage=testSignalsPage
 visiblePresetSheetPage=autoloadingPage
-width=1255
+width=1884

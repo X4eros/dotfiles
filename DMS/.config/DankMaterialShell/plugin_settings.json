@@ -18,7 +18,8 @@
     "autoPasteOnRightClick": true,
     "autoPasteDelay": 300,
     "maxPinnedImageMb": 5,
-    "maxPinnedTextMb": 1
+    "maxPinnedTextMb": 1,
+    "showBarWidget": false
   },
   "emojiLauncher": {
     "enabled": true,

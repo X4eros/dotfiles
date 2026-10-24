@@ -1,0 +1,11 @@
+{
+  "palettes": [
+    {
+      "enabled": true,
+      "namespace": "palette1",
+      "command": "",
+      "args": [],
+      "output_file": ""
+    }
+  ]
+}

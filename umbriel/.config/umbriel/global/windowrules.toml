@@ -20,6 +20,11 @@ match.app_id = "^dev.noctalia.Noctalia$"
 default_floating = true
 default_floating_size_px = { width = 1020, height = 900 }
 
+[[window_rule]]
+match.app_id = "^dev.duxlabs.shell$"
+default_floating = true
+#default_floating_size_px = { width = 1020, height = 900 }
+
 # Noctalia share picker
 [[window_rule]]
 match.app_id = "^dev.noctalia.UmbrielSharePicker$"
@@ -58,6 +63,13 @@ tearing = true
 
 [[layer_rule]]
 match.namespace = "^noctalia-(bar-[^\"]+|notification|dock|panel|attached-panel|osd|desktop-widget-[^\"]*)$"
+blur = true
+blur_ignore_alpha = 0.5
+blur_popups = true
+blur_optimized = true
+
+[[layer_rule]]
+match.namespace = "^dms:(polkit|notification-center-modal|workspace-overview|color-picker|clipboard|spotlight|settings|process-list-modal|bar|dock|tooltip|toast|dock-context-menu|tray-menu-window|control-center|notification-center-popout|dash|system-update|process-list-popout|battery|popout|notification-popup|app-launcher)$"
 blur = true
 blur_ignore_alpha = 0.5
 blur_popups = true

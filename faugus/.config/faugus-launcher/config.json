@@ -18,7 +18,7 @@
     "show-hidden": "True",
     "show-donate": "False",
     "donate-last": "2026-03",
-    "playtime": "243641",
+    "playtime": "251782",
     "gamepad-navigation": "False",
     "backup-auto-enabled": "False",
     "backup-frequency": "daily",
@@ -70,5 +70,6 @@
     "interface-sounds-custom-navigate": "",
     "interface-sounds-custom-confirm": "",
     "interface-sounds-custom-cancel": "",
-    "interface-sounds-custom-warning": ""
+    "interface-sounds-custom-warning": "",
+    "gpu": ""
 }

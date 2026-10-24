@@ -16,7 +16,6 @@ bluez-hid2hci
 bluez-obex
 bluez-utils
 bpftune-git
-brave-origin-bin
 btop
 btrfs-assistant
 cachyos-fish-config
@@ -72,6 +71,7 @@ gvfs-mtp
 gvfs-smb
 handbrake
 hdparm
+helium-browser-bin
 hwdetect
 inetutils
 inter-font

@@ -16,3 +16,4 @@
 # Binds intended to work while locked use the table form.
 "XF86MonBrightnessDown" = { action = "spawn:noctalia msg brightness-down 10", allow_when_locked = true }
 "XF86MonBrightnessUp" = { action = "spawn:noctalia msg brightness-up 10", allow_when_locked = true }
+"Mod+Shift+M" = "spawn:cycle-audio"

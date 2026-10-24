@@ -17,13 +17,13 @@ curve = "spring:1,1000"
 [animation.windows_in]
 enabled = true
 curve = "spring:1,1000"
-style = "zoom"
+style = "popin"
 scale = 0.1
 
 [animation.windows_out]
 enabled = true
 curve = "spring:1,1400"
-style = "zoom"
+style = "popin"
 scale = 0.1
 
 [animation.workspaces]
@@ -40,9 +40,6 @@ enabled = true
 curve = "spring:1,1000"
 dim = 0.75
 blur = false
-scale = 0.0
-maximize = false
-fullscreen = false
 
 [animation.dim_unfocused]
 enabled = true
