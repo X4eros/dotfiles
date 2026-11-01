@@ -53,6 +53,7 @@ f2fs-tools
 faugus-launcher
 ffmpegthumbnailer
 filelight
+flatpak
 fsarchiver
 fuse2
 gamescope
@@ -126,7 +127,6 @@ pinta
 pipewire-alsa
 plocate
 power-profiles-daemon
-profile-sync-daemon
 protonplus
 protontricks
 punktfunk-gamescope
@@ -146,6 +146,7 @@ scdoc
 scrcpy
 sg3_utils
 shelly
+shelly-flatpak-backend
 slurp
 smartmontools
 sof-firmware
@@ -161,7 +162,7 @@ translate-shell
 ttf-firacode-nerd
 tumbler
 ufw
-umbriel-git
+umbriel
 umu-launcher
 unrar
 usb_modeswitch
@@ -172,9 +173,11 @@ wget
 wlsunset
 wqy-zenhei
 xarchiver
+xdg-desktop-portal-umbriel
 xfsprogs
 xl2tpd
 xorg-xhost
+zapfast
 zed
 zenpower3-dkms
 zip

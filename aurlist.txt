@@ -3,4 +3,3 @@ davinci-resolve-studio
 kora-icon-theme
 pi-coding-agent-bin
 spotifast-bin
-zapfast-bin

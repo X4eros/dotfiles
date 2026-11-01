@@ -8,14 +8,14 @@
 [keybinds]
 
 # Applications and session
-"Mod+Return" = "spawn:ghostty"
+"Mod+Return" = "spawn ghostty"
 "Mod+Q" = "window-close"
-"Mod+E" = "spawn:thunar"
-"Mod+B" = "spawn:helium-browser"
-"Ctrl+Shift+Escape" = "spawn:missioncenter"
+"Mod+E" = "spawn thunar"
+"Mod+B" = "spawn helium-browser"
+"Ctrl+Shift+Escape" = "spawn missioncenter"
 
 "Mod+Escape" = "cheatsheet-toggle"
-"Print" = "spawn:grim - | wl-copy"
+"Print" = "spawn grim - | wl-copy"
 
 # Focus navigation. In overview, Mod+Up/Down retain normal layout focus, so they
 # traverse stacks in the default horizontal layout. Bare Up/Down move between
@@ -47,57 +47,57 @@
 "Mod+Shift+Up" = "window-move-up"
 "Mod+Shift+Down" = "window-move-down"
 
-"Mod+Minus" = "window-modify-width-right:-0.1"
-"Mod+Equal" = "window-modify-width-right:0.1"
-"Mod+Shift+Minus" = "window-modify-height-down:-0.1"
-"Mod+Shift+Equal" = "window-modify-height-down:0.1"
+"Mod+Minus" = "window-modify-width-right -0.1"
+"Mod+Equal" = "window-modify-width-right 0.1"
+"Mod+Shift+Minus" = "window-modify-height-down -0.1"
+"Mod+Shift+Equal" = "window-modify-height-down 0.1"
 #"Mod+R" = "window-cycle-width"
 #"Mod+Shift+R" = "window-cycle-width-back"
 
 # Workspaces. Bare digits are positions on the output under the pointer.
 "Mod+WheelUp" = { action = "workspace-previous", cooldown_ms = 150 }
 "Mod+WheelDown" = { action = "workspace-next", cooldown_ms = 150 }
-"Mod+1" = "workspace-switch:1"
-"Mod+2" = "workspace-switch:2"
-"Mod+3" = "workspace-switch:3"
-"Mod+4" = "workspace-switch:4"
-"Mod+5" = "workspace-switch:5"
-"Mod+6" = "workspace-switch:6"
-"Mod+7" = "workspace-switch:7"
-"Mod+8" = "workspace-switch:8"
-"Mod+9" = "workspace-switch:9"
-"Mod+Shift+1" = "window-move-to-workspace:1"
-"Mod+Shift+2" = "window-move-to-workspace:2"
-"Mod+Shift+3" = "window-move-to-workspace:3"
-"Mod+Shift+4" = "window-move-to-workspace:4"
-"Mod+Shift+5" = "window-move-to-workspace:5"
-"Mod+Shift+6" = "window-move-to-workspace:6"
-"Mod+Shift+7" = "window-move-to-workspace:7"
-"Mod+Shift+8" = "window-move-to-workspace:8"
-"Mod+Shift+9" = "window-move-to-workspace:9"
+"Mod+1" = "workspace-switch 1"
+"Mod+2" = "workspace-switch 2"
+"Mod+3" = "workspace-switch 3"
+"Mod+4" = "workspace-switch 4"
+"Mod+5" = "workspace-switch 5"
+"Mod+6" = "workspace-switch 6"
+"Mod+7" = "workspace-switch 7"
+"Mod+8" = "workspace-switch 8"
+"Mod+9" = "workspace-switch 9"
+"Mod+Shift+1" = "window-move-to-workspace 1"
+"Mod+Shift+2" = "window-move-to-workspace 2"
+"Mod+Shift+3" = "window-move-to-workspace 3"
+"Mod+Shift+4" = "window-move-to-workspace 4"
+"Mod+Shift+5" = "window-move-to-workspace 5"
+"Mod+Shift+6" = "window-move-to-workspace 6"
+"Mod+Shift+7" = "window-move-to-workspace 7"
+"Mod+Shift+8" = "window-move-to-workspace 8"
+"Mod+Shift+9" = "window-move-to-workspace 9"
 "Mod+Shift+WheelUp" = "window-move-to-workspace-previous"
 "Mod+Shift+WheelDown" = "window-move-to-workspace-next"
 
 # Scratchpads
 # These bare actions use the implicit `default` scratchpad because no named
-# definitions are active above. A scratchpad is global: toggling it summons all
+# definitions are active above. A scratchpad is global  toggling it summons all
 # its windows to the output under the pointer. Only outputs with a visible
 # scratchpad receive its dim and blur backdrop.
 # Resize, maximize, fullscreen, and close actions target a scratchpad that owns
 # keyboard focus. Layout-relative window actions leave the workspace behind it
 # unchanged.
-# Documentation: https://docs.noctalia.dev/umbriel/scratchpads/
+# Documentation  https //docs.noctalia.dev/umbriel/scratchpads/
 "Mod+Shift+S" = "window-move-to-scratchpad"
 "Mod+S" = "scratchpad-toggle"
 "Mod+Ctrl+S" = "window-restore-from-scratchpad"
 #"Mod+Tab" = "scratchpad-focus-next"
 
 # Media and brightness
-# Documentation: https://docs.noctalia.dev/umbriel/keybinds/#example-media-and-brightness-keys
-"XF86AudioRaiseVolume" = "spawn:wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+"
-"XF86AudioLowerVolume" = "spawn:wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
-"XF86AudioMute" = "spawn:wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
-"Mod+M" = "spawn:wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"
-"XF86AudioPlay" = "spawn:playerctl play-pause"
-"XF86AudioNext" = "spawn:playerctl next"
-"XF86AudioPrev" = "spawn:playerctl previous"
+# Documentation  https //docs.noctalia.dev/umbriel/keybinds/#example-media-and-brightness-keys
+"XF86AudioRaiseVolume" = "spawn wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+"
+"XF86AudioLowerVolume" = "spawn wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-"
+"XF86AudioMute" = "spawn wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+"Mod+M" = "spawn wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"
+"XF86AudioPlay" = "spawn playerctl play-pause"
+"XF86AudioNext" = "spawn playerctl next"
+"XF86AudioPrev" = "spawn playerctl previous"

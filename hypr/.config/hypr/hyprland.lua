@@ -11,11 +11,11 @@
 -- ==================
 
 hl.monitor({
-    output   = "",
-    mode     = "preferred",
-    position = "auto",
-    scale    = "auto",
-    bitdepth = 10,
+	output = "",
+	mode = "preferred",
+	position = "auto",
+	scale = "auto",
+	bitdepth = 10,
 })
 
 -- ==================
@@ -25,9 +25,10 @@ hl.monitor({
 -- ==================
 
 hl.on("hyprland.start", function()
-    hl.exec_cmd("dms run")
-    hl.exec_cmd("dex -a")
-    hl.exec_cmd("xhost +si:localuser:root")
+	--    hl.exec_cmd("dms run")
+	hl.exec_cmd("noctalia")
+	hl.exec_cmd("dex -a")
+	hl.exec_cmd("xhost +si:localuser:root")
 end)
 
 -- ==================
@@ -59,16 +60,16 @@ hl.env("NVD_BACKEND", "direct")
 -- ==================
 
 hl.config({
-    input = {
-        kb_layout = "tr",
-        numlock_by_default = true,
-    },
+	input = {
+		kb_layout = "us",
+		numlock_by_default = true,
+	},
 })
 
 hl.config({
-    binds = {
-        scroll_event_delay = 0,
-    },
+	binds = {
+		scroll_event_delay = 0,
+	},
 })
 
 -- ==================
@@ -78,19 +79,19 @@ hl.config({
 -- ==================
 
 hl.config({
-    general = {
-        gaps_in = 5,
-        gaps_out = 5,
-        border_size = 2,
-        layout = "scrolling",
-        allow_tearing = true,
-    },
+	general = {
+		gaps_in = 5,
+		gaps_out = 5,
+		border_size = 2,
+		layout = "scrolling",
+		allow_tearing = true,
+	},
 })
 
 hl.config({
-    render = {
-        direct_scanout = 0,
-    },
+	render = {
+		direct_scanout = 0,
+	},
 })
 
 -- ==================
@@ -100,31 +101,31 @@ hl.config({
 -- ==================
 
 hl.config({
-    decoration = {
-        rounding = 12,
-        active_opacity = 1,
-        inactive_opacity = 0.9,
-        blur = {
-            enabled = true,
-            size = 10,
-            passes = 4,
-            xray = true,
-            noise = 0.02,
-            contrast = 1.1,
-            vibrancy = 0.2,
-            vibrancy_darkness = 0.3,
-        },
-        shadow = {
-            enabled = true,
-            range = 30,
-            render_power = 5,
-            offset = "0 5",
-            color = "rgba(00000070)",
-        },
-        motion_blur = {
-            enabled = true,
-        },
-    },
+	decoration = {
+		rounding = 12,
+		active_opacity = 1,
+		inactive_opacity = 0.9,
+		blur = {
+			enabled = true,
+			size = 10,
+			passes = 4,
+			xray = true,
+			noise = 0.02,
+			contrast = 1.1,
+			vibrancy = 0.2,
+			vibrancy_darkness = 0.3,
+		},
+		shadow = {
+			enabled = true,
+			range = 30,
+			render_power = 4,
+			offset = "0 5",
+			color = "rgba(00000070)",
+		},
+		motion_blur = {
+			enabled = true,
+		},
+	},
 })
 
 -- ==================
@@ -134,9 +135,9 @@ hl.config({
 -- ==================
 
 hl.config({
-    animations = {
-        enabled = true,
-    },
+	animations = {
+		enabled = true,
+	},
 })
 
 hl.curve("rubber", { type = "spring", mass = 1, stiffness = 400, dampening = 33 })
@@ -154,22 +155,22 @@ hl.animation({ leaf = "fade", enabled = true, speed = 10, spring = "rubber" })
 -- ==================
 
 hl.config({
-    dwindle = {
-        preserve_split = true,
-    },
+	dwindle = {
+		preserve_split = true,
+	},
 })
 
 hl.config({
-    master = {
-        mfact = 0.5,
-    },
+	master = {
+		mfact = 0.5,
+	},
 })
 
 hl.config({
-    scrolling = {
-        fullscreen_on_one_column = false,
-        explicit_column_widths = "0.5, 1.0",
-    },
+	scrolling = {
+		fullscreen_on_one_column = false,
+		explicit_column_widths = "0.5, 1.0",
+	},
 })
 
 -- ==================
@@ -179,11 +180,11 @@ hl.config({
 -- ==================
 
 hl.config({
-    misc = {
-        disable_hyprland_logo = true,
-        disable_splash_rendering = true,
-        vrr = 1,
-    },
+	misc = {
+		disable_hyprland_logo = true,
+		disable_splash_rendering = true,
+		vrr = 1,
+	},
 })
 
 -- GNOME apps

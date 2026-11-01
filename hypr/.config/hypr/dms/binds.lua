@@ -148,7 +148,7 @@ hl.bind("SUPER" .. " + " .. "down", hl.dsp.focus({ direction = "down" }))
 
 hl.bind("SUPER" .. " + " .. "left", hl.dsp.focus({ direction = "left" }))
 
-hl.bind("SUPER" .. " + " .. "mouse:272", hl.dsp.window.drag(nil), { mouse = true })
+hl.bind("SUPER" .. " + " .. "mouse:272", hl.dsp.window.drag(), { mouse = true })
 
 hl.bind("SUPER" .. " + " .. "mouse:273", hl.dsp.window.resize(nil), { mouse = true })
 
