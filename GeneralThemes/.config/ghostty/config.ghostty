@@ -2,3 +2,6 @@ theme = noctalia
 font-family = "Firacode Nerd Font"
 background-opacity = 0.75
 custom-shader = shaders/cursor_warp.glsl
+
+window-width = 100
+window-height = 32

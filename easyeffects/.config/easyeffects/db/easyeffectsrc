@@ -9,9 +9,9 @@ visiblePlugin=rnnoise#0
 
 [StreamOutputs]
 mostUsedPresets=Perfect EQ,Flat
-outputDevice=alsa_output.pci-0000_07_00.4.analog-stereo
+outputDevice=punktfunk-speaker-iso-ff2c4bfb
 plugins=equalizer#0
-usedPresets=Perfect EQ:337,Flat:31
+usedPresets=Perfect EQ:356,Flat:31
 visiblePage=pluginsPage
 visiblePlugin=equalizer#0
 

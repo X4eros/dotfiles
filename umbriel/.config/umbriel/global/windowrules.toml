@@ -14,6 +14,10 @@ blur_optimized = true
 match.is_alone = true
 default_scrolling_extent = 0.75
 
+[[window_rule]]
+match.is_floating = true
+title_bar = "forced"
+
 # Noctalia settings
 [[window_rule]]
 match.app_id = "^dev.noctalia.Noctalia$"

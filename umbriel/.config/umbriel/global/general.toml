@@ -35,6 +35,10 @@ _JAVA_AWT_WM_NONREPARENTING = "1"
 back_and_forth = true                       # Re-select active workspace to switch back
 empty_above = false                         # Keep one empty workspace above active range
 
+[[workspace]]
+index = 4
+layout.mode = "stacking"
+
 # ─────────────────────── Overview and Hot Corners ───────────────────────────
 # Configure the all-workspaces overview and pointer-triggered corner actions.
 # Overview: https://docs.noctalia.dev/umbriel/workspaces-overview/

@@ -16,10 +16,10 @@ drag_opacity = 0.85                             # Window opacity during a tiled 
 # opt a surface into blur.
 enabled = true                                  # Disable blur and release per-output effect buffers
 optimized = true                                # Reuse one cached background blur per output
-passes = 4                                      # Blur passes, 0-8
+passes = 3                                      # Blur passes, 0-8
 radius = 6                                      # Blur radius, 0-100
 noise = 0.02                                    # Noise overlay, 0.0-1.0
-brightness = 0.8                                # 0.0-2.0
+brightness = 1.0                                # 0.0-2.0
 saturation = 1.5                                # 0.0-2.0
 
 [appearance.shadow]

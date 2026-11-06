@@ -6,7 +6,7 @@
 "Mod+V" = "spawn noctalia msg panel-toggle clipboard"
 "Mod+Y" = "spawn noctalia msg panel-toggle wallpaper"
 "Mod+N" = "spawn noctalia msg panel-toggle control-center notifications"
-"Mod+Shift+N" = "spawn noctalia msg panel-toggle noctalia/notes panel"
+"Mod+Shift+N" = "spawn noctalia msg panel-toggle noctalia/notes:panel"
 "Mod+R" = "spawn noctalia msg screenshot-region"
 "Mod+Shift+R" = "spawn noctalia msg screenshot-fullscreen"
 "Mod+X" = "spawn noctalia msg panel-toggle session"

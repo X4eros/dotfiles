@@ -46,7 +46,6 @@ dnsmasq
 duf
 easyeffects
 efitools
-equibop
 ethtool
 exfatprogs
 f2fs-tools
@@ -61,6 +60,7 @@ ghostty
 glances
 gnome-keyring
 godot
+goofcord-bin
 gparted
 gpu-screen-recorder-ui
 grim
@@ -111,7 +111,7 @@ netctl
 networkmanager
 nfs-utils
 nilfs-utils
-noctalia-git
+noctalia
 noctalia-greeter
 noto-fonts-emoji
 nss-mdns
