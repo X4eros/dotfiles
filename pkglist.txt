@@ -18,6 +18,7 @@ bluez-utils
 bpftune-git
 btop
 btrfs-assistant
+cachyos-eac-signing-key
 cachyos-fish-config
 cachyos-hello
 cachyos-hooks
@@ -51,7 +52,6 @@ exfatprogs
 f2fs-tools
 faugus-launcher
 ffmpegthumbnailer
-filelight
 flatpak
 fsarchiver
 fuse2
@@ -70,7 +70,6 @@ gst-plugins-bad
 gst-plugins-good
 gvfs-mtp
 gvfs-smb
-handbrake
 hdparm
 helium-browser-bin
 hwdetect
@@ -89,8 +88,11 @@ libopenraw
 libva-nvidia-driver
 limine-mkinitcpio-hook
 limine-snapper-sync
+linux-cachyos-eac
+linux-cachyos-eac-nvidia-open
 linux-cachyos-headers
 linux-cachyos-nvidia-open
+linux-cachyos-rc
 linux-cachyos-rc-headers
 linux-cachyos-rc-nvidia-open
 linux-firmware
@@ -142,8 +144,8 @@ reflector
 rust
 s-nail
 sbctl
+sbsigntools
 scdoc
-scrcpy
 sg3_utils
 shelly
 shelly-flatpak-backend
@@ -154,10 +156,12 @@ sshfs
 starship
 steam
 stow
+systemd-boot-cachyos-signed
 tailscale
 thunar
 thunar-archive-plugin
 thunar-volman
+tpm2-tools
 translate-shell
 ttf-firacode-nerd
 tumbler
