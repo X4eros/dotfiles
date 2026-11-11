@@ -70,6 +70,7 @@ gst-plugins-bad
 gst-plugins-good
 gvfs-mtp
 gvfs-smb
+handbrake
 hdparm
 helium-browser-bin
 hwdetect
@@ -118,6 +119,7 @@ noctalia-greeter
 noto-fonts-emoji
 nss-mdns
 ntfsprogs-plus
+nuvio-desktop-bin
 nvidia-settings
 nwg-look
 onlyoffice-bin
@@ -171,7 +173,6 @@ umu-launcher
 unrar
 usb_modeswitch
 ventoy-bin
-webkit2gtk-4.1
 wf-recorder
 wget
 wlsunset

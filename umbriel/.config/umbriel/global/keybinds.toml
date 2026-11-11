@@ -15,7 +15,7 @@
 "Ctrl+Shift+Escape" = "spawn missioncenter"
 
 "Mod+Escape" = "cheatsheet-toggle"
-"Print" = "spawn grim - | wl-copy"
+"Print" = 'spawn grim - | wl-copy && notify-send "Screenshot Taken" "Copied to clipboard" '
 
 # Focus navigation. In overview, Mod+Up/Down retain normal layout focus, so they
 # traverse stacks in the default horizontal layout. Bare Up/Down move between

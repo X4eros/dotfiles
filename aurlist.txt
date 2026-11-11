@@ -1,3 +1,4 @@
+cheatengine-bin
 choir-overlay-git
 davinci-resolve-studio
 kora-icon-theme
